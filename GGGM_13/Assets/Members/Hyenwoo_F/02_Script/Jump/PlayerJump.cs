@@ -82,4 +82,9 @@ public class PlayerJump : MonoBehaviour
         Collider2D collider = Physics2D.OverlapBox(_groundCheckerTrm.position, _groundCheckerSize, 0, _groundLayer);
         return collider;
     }
+
+    public float GetTimeNormalize()
+    {
+        return _timer / jumpGaugeChargeTime;
+    }
 }

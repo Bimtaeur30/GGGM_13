@@ -5,14 +5,15 @@ using UnityEngine.InputSystem;
 public class JumpGaugeUI : MonoBehaviour
 {
     [SerializeField] private GameObject jumpGaugeBoxPre;
+    [SerializeField] private GameObject jumpGaugeBarPre;
     private List<GameObject> jumpGaugeBoxPool;
+    private GameObject jumpGaugeBar;
     private PlayerJump _playerjump;
 
     private void Start()
     {
         _playerjump = YHWGameManager.Instance.Player.GetComponent<PlayerJump>();
-        JumpGaugeBoxPool();
-        jumpGaugeBoxPool[0].SetActive(true);
+        StartJumpGauge();
         _playerjump._onChargeJumpGauge += JumpGaugeCharge;
         _playerjump._onDeleteJumpGauge += JumpGaugeDelete;
     }
@@ -37,6 +38,7 @@ public class JumpGaugeUI : MonoBehaviour
                 break;
             }
         }
+        JumpGaugeBarOnOff();
     }
 
     void JumpGaugeDelete()
@@ -48,6 +50,35 @@ public class JumpGaugeUI : MonoBehaviour
                 jumpGaugeBoxPool[i].SetActive(false);
                 break;
             }
+        }
+        JumpGaugeBarOnOff();
+    }
+
+    void StartJumpGauge()
+    {
+        JumpGaugeBoxPool();
+        jumpGaugeBoxPool[0].SetActive(true);
+        jumpGaugeBar = Instantiate(jumpGaugeBarPre, gameObject.transform);
+    }
+
+    void JumpGaugeBarOnOff()
+    {
+        int temp = 0;
+        for (int i = 0; i < jumpGaugeBoxPool.Count; i++)
+        {
+            if (jumpGaugeBoxPool[i].activeSelf)
+            {
+                temp += 1;
+            }
+        }
+
+        if (temp == jumpGaugeBoxPool.Count)
+        {
+            jumpGaugeBar.SetActive(false);
+        }
+        else
+        {
+            jumpGaugeBar.SetActive(true);
         }
     }
 }
