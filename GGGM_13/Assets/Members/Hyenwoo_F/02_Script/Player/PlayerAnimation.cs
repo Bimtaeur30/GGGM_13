@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    public Animator AnimCompo { get; private set; }
+    public Animator AnimCompo { get; set; }
     private PlayerJump playerJump;
 
     private readonly int _isGround = Animator.StringToHash("IsGround");
