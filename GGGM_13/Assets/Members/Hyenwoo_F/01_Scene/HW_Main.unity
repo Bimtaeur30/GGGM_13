@@ -5765,6 +5765,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealParticle
       objectReference: {fileID: 0}
+    - target: {fileID: 5119420232236384104, guid: b3702be17c98bbd40a1dfcf5617d8004, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6962321129010583687, guid: b3702be17c98bbd40a1dfcf5617d8004, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.04
@@ -6027,7 +6031,7 @@ MonoBehaviour:
   _targetCheckerTrm: {fileID: 1781731264}
   _targetCheckerSize: 4
   _gun: {fileID: 1385814757}
-  _fireTime: 3
+  _fireTime: 10
   _firePos: {fileID: 729968578}
 --- !u!1 &1175762613
 GameObject:
@@ -6147,8 +6151,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fade5349e53813944bcdb32ff8e1bca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <BodyCollider>k__BackingField: {fileID: 0}
-  <HeadCollider>k__BackingField: {fileID: 0}
+  <BodyCollider>k__BackingField: {fileID: 308327068}
+  <HeadCollider>k__BackingField: {fileID: 1553900264}
 --- !u!61 &1175762620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6907,6 +6911,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8311356133007414205, guid: 3535bab724450c949bee12d9c24197a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686486153400731959, guid: 3535bab724450c949bee12d9c24197a2, type: 3}
+      propertyPath: playOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
