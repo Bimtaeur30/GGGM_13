@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: a9e6e8ff6c4230e4eb9d08331e8eeff5
+guid: cb4976ae79bb2c24ba4d19b8791a7f78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2474208454182098169
-    second: ManJump_Jump_001_0
+      213: 8639639919360051404
+    second: Card_Apear_0
   - first:
-      213: -7648052541739563381
-    second: ManJump_Jump_001_1
+      213: -1552222260840945901
+    second: Card_Apear_1
   - first:
-      213: -1568177002774842140
-    second: ManJump_Jump_001_2
+      213: -1209010802297148113
+    second: Card_Apear_2
   - first:
-      213: -3574764748076059219
-    second: ManJump_Jump_001_3
+      213: 2398222701644425156
+    second: Card_Apear_3
   - first:
-      213: 1395781979781442138
-    second: ManJump_Jump_001_4
+      213: 2447387265225064339
+    second: Card_Apear_4
   - first:
-      213: 6036798605772653697
-    second: ManJump_Jump_001_5
+      213: -2950068915652283529
+    second: Card_Apear_5
   - first:
-      213: 7126238706414509630
-    second: ManJump_Jump_001_6
+      213: -2595149603170950396
+    second: Card_Apear_6
   - first:
-      213: 7284740365311490884
-    second: ManJump_Jump_001_7
+      213: 262448069416826957
+    second: Card_Apear_7
   - first:
-      213: -1059886363594281924
-    second: ManJump_Jump_001_8
+      213: 6151156805299906146
+    second: Card_Apear_8
   - first:
-      213: 3367603092918077214
-    second: ManJump_Jump_001_9
+      213: 6344988393963857163
+    second: Card_Apear_9
   - first:
-      213: -2039914031462827771
-    second: ManJump_Jump_001_10
+      213: -163556995137494305
+    second: Card_Apear_10
   - first:
-      213: -6524708792041271653
-    second: ManJump_Jump_001_11
+      213: -7947804292997142195
+    second: Card_Apear_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,10 +105,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -133,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ManJump_Jump_001_0
+      name: Card_Apear_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 119
-        width: 32
-        height: 39
+        y: 190
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f4dacbea77265220800000000000000
-      internalID: 2474208454182098169
+      spriteID: cc88dbc5bba26e770800000000000000
+      internalID: 8639639919360051404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_1
+      name: Card_Apear_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 119
-        width: 33
-        height: 39
+        x: 85
+        y: 190
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8607120cb8acd590800000000000000
-      internalID: -7648052541739563381
+      spriteID: 3172f1ae316657ae0800000000000000
+      internalID: -1552222260840945901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_2
+      name: Card_Apear_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 119
-        width: 34
-        height: 48
+        x: 170
+        y: 190
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e43ba41357bc3ae0800000000000000
-      internalID: -1568177002774842140
+      spriteID: f2de777b41bb83fe0800000000000000
+      internalID: -1209010802297148113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_3
+      name: Card_Apear_3
       rect:
         serializedVersion: 2
-        x: 108
-        y: 123
-        width: 34
-        height: 47
+        x: 255
+        y: 190
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da5765bc662e36ec0800000000000000
-      internalID: -3574764748076059219
+      spriteID: 4c72bcf37d2384120800000000000000
+      internalID: 2398222701644425156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_4
+      name: Card_Apear_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 66
-        width: 31
-        height: 53
+        y: 96
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5aa3c0c050de5310800000000000000
-      internalID: 1395781979781442138
+      spriteID: 39ffd8b30cdd6f120800000000000000
+      internalID: 2447387265225064339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_5
+      name: Card_Apear_5
       rect:
         serializedVersion: 2
-        x: 35
-        y: 66
-        width: 33
-        height: 52
+        x: 85
+        y: 96
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18407adf85407c350800000000000000
-      internalID: 6036798605772653697
+      spriteID: 773bf9b83ff3f07d0800000000000000
+      internalID: -2950068915652283529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_6
+      name: Card_Apear_6
       rect:
         serializedVersion: 2
-        x: 72
-        y: 65
-        width: 32
-        height: 49
+        x: 170
+        y: 96
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3ed978d85c75e260800000000000000
-      internalID: 7126238706414509630
+      spriteID: 403eff38f2d2cfbd0800000000000000
+      internalID: -2595149603170950396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_7
+      name: Card_Apear_7
       rect:
         serializedVersion: 2
-        x: 109
-        y: 61
-        width: 33
-        height: 46
+        x: 255
+        y: 96
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44b375b14c8981560800000000000000
-      internalID: 7284740365311490884
+      spriteID: d48b39de02764a300800000000000000
+      internalID: 262448069416826957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_8
+      name: Card_Apear_8
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 29
-        height: 39
+        x: 0
+        y: 2
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3caea3c7f68a41f0800000000000000
-      internalID: -1059886363594281924
+      spriteID: 266a0a1368c4d5550800000000000000
+      internalID: 6151156805299906146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_9
+      name: Card_Apear_9
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1
-        width: 33
-        height: 37
+        x: 85
+        y: 2
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1783e1bb212cbe20800000000000000
-      internalID: 3367603092918077214
+      spriteID: b05213eb35ded0850800000000000000
+      internalID: 6344988393963857163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_10
+      name: Card_Apear_10
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1
-        width: 28
-        height: 40
+        x: 170
+        y: 2
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 509b25e0ff4c0b3e0800000000000000
-      internalID: -2039914031462827771
+      spriteID: fd2ac4c87cdeabdf0800000000000000
+      internalID: -163556995137494305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_11
+      name: Card_Apear_11
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1
-        width: 31
-        height: 41
+        x: 255
+        y: 2
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9e038b4ce39375a0800000000000000
-      internalID: -6524708792041271653
+      spriteID: d49a493da1ab3b190800000000000000
+      internalID: -7947804292997142195
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f2545339847fb2a4e907fdf9d518a6f5
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ManJump_Jump_001_0: 2474208454182098169
-      ManJump_Jump_001_1: -7648052541739563381
-      ManJump_Jump_001_10: -2039914031462827771
-      ManJump_Jump_001_11: -6524708792041271653
-      ManJump_Jump_001_2: -1568177002774842140
-      ManJump_Jump_001_3: -3574764748076059219
-      ManJump_Jump_001_4: 1395781979781442138
-      ManJump_Jump_001_5: 6036798605772653697
-      ManJump_Jump_001_6: 7126238706414509630
-      ManJump_Jump_001_7: 7284740365311490884
-      ManJump_Jump_001_8: -1059886363594281924
-      ManJump_Jump_001_9: 3367603092918077214
+      Card_Apear_0: 8639639919360051404
+      Card_Apear_1: -1552222260840945901
+      Card_Apear_10: -163556995137494305
+      Card_Apear_11: -7947804292997142195
+      Card_Apear_2: -1209010802297148113
+      Card_Apear_3: 2398222701644425156
+      Card_Apear_4: 2447387265225064339
+      Card_Apear_5: -2950068915652283529
+      Card_Apear_6: -2595149603170950396
+      Card_Apear_7: 262448069416826957
+      Card_Apear_8: 6151156805299906146
+      Card_Apear_9: 6344988393963857163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
