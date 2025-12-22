@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerAnimation : MonoBehaviour
+public class GunAnimation : MonoBehaviour
 {
     private Animator _anim;
     private PlayerJump playerJump;
@@ -10,7 +10,11 @@ public class PlayerAnimation : MonoBehaviour
     private void Awake()
     {
         _anim = GetComponent<Animator>();
-        playerJump = GetComponentInParent<PlayerJump>();
+    }
+
+    private void Start()
+    {
+        playerJump = YHWGameManager.Instance.Player.GetComponent<PlayerJump>();
     }
 
     private void Update()

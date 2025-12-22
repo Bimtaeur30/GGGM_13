@@ -19,7 +19,7 @@ public class JumpGaugeBar : MonoBehaviour
     void UpdateBar()
     {
         float bScale = playerJump.GetTimeNormalize();
-        if (bScale >= 0.1)
+        if (bScale >= 0.195)
         {
             _jumpGaugeBar.GetComponent<Image>().fillAmount = bScale;
         }
