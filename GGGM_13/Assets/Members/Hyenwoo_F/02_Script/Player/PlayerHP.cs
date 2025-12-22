@@ -15,14 +15,14 @@ public class PlayerHP : MonoBehaviour
         Hp = MaxHp;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.layer == 7)
-        {
-            collision.gameObject.SetActive(false);
-            GetDamage(1);
-        }
-    }
+    // private void OnCollisionEnter2D(Collision2D collision)
+    // {
+    //     if (collision.gameObject.layer == 7)
+    //     {
+    //         collision.gameObject.SetActive(false);
+    //         GetDamage(1);
+    //     }
+    // }
 
     public void GetDamage(int value)
     {
