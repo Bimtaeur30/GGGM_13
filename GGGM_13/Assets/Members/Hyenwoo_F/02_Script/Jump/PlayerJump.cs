@@ -34,6 +34,7 @@ public class PlayerJump : MonoBehaviour
     private void Start()
     {
         _currentJumpGauge = 1;
+        _runParticle.Play();
     }
 
     private void Update()
@@ -83,6 +84,7 @@ public class PlayerJump : MonoBehaviour
             _onDeleteJumpGauge?.Invoke();
             _currentJumpGauge -= 1;
             _timer = 0;
+            _runParticle.Stop();
             StartCoroutine(OnIsJumping());
         }
     }
@@ -104,6 +106,7 @@ public class PlayerJump : MonoBehaviour
         IsJumping = false;
         isFastLanding = false;
         _landingParticle.Play();
+        _runParticle.Play();
     }
 
     private void OnDrawGizmos()
