@@ -231,20 +231,23 @@ MonoBehaviour:
   cardPref: {fileID: 5966700372406148780, guid: aee43c6ed6125284594f86593a2efcf6, type: 3}
   sellCards:
   - ItemName: "\uD5EC\uBA67\uB760"
-    ItemPrice: 234
+    CardEnum: 1
     ItemDescriptions:
     - "\uB9E4\uC6B0 \uC88B\uC740 \uC131\uB2A5\uD5A5\uC0C1"
     - "\uB300\uAC08\uBE61 \uAE68\uC9C8\uD655\uB960 -30%"
+    animator: {fileID: 0}
   - ItemName: "\uB760\uB760\uB760"
-    ItemPrice: 543
+    CardEnum: 0
     ItemDescriptions:
     - "10% \uD30C\uACA9\uC138\uC77C"
     - "\uBAA8\uB450\uAC00 \uC6D0\uD55C\uB2E4 \uBB34\uB824"
+    animator: {fileID: 0}
   - ItemName: "\uD5C8\uAC70\uB369"
-    ItemPrice: 432
+    CardEnum: 1
     ItemDescriptions:
     - "10% \uD30C\uACA9\uC138\uC77C"
     - "\uB9E4\uC6B0 \uD5C8\uAC70\uB369\uC774\uB2E4;;"
+    animator: {fileID: 0}
 --- !u!4 &690611390
 Transform:
   m_ObjectHideFlags: 0

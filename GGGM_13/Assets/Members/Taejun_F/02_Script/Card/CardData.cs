@@ -1,5 +1,10 @@
 using UnityEngine;
 
+public enum CardEnum
+{
+    스킬, 보호구
+}
+
 [System.Serializable]
 public class CardData
 {
@@ -8,14 +13,16 @@ public class CardData
 
     [Header("Setting")]
     public string ItemName;
-    public int ItemPrice;
+    public CardEnum CardEnum;
     [TextArea]
     public string[] ItemDescriptions;
 
-    public CardData(string itemName, int itemPrice, string[] itemDesc)
+    [Header("Animation")]
+    public Animator animator;
+
+    public CardData(string itemName, CardEnum itemEnum, string[] itemDesc)
     {
         ItemName = itemName;
-        ItemPrice = itemPrice;
         ItemDescriptions = itemDesc;
     }
 }

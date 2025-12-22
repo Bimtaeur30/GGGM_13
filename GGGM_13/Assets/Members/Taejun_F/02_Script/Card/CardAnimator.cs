@@ -72,7 +72,6 @@ public class CardAnimator : MonoBehaviour
         }
     }
 
-
     private void ResetTextPos()
     {
         for (int i = 0; i < _textRects.Length; i++)
