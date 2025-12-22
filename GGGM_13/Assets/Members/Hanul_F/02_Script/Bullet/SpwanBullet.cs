@@ -1,18 +1,31 @@
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class SpwanBullet : MonoBehaviour
 {
+    public static SpwanBullet Instance { get; private set; }
 
-    [SerializeField] private GameObject bulletPreFab = null;
-    [SerializeField] private Transform firePos = null;
-    [SerializeField] private GameObject cneter = null;
-    void Update()
+    [SerializeField] private GameObject BulletPreFab;
+    [SerializeField] private GameObject center;
+    private List<IBullet> bulletList;
+
+    private void Awake()
     {
-        if (Keyboard.current.qKey.wasPressedThisFrame)
-        {
-            GameObject bullet =  Instantiate(bulletPreFab, firePos.position, Quaternion.identity);
-            bullet.GetComponent<BulletTrajectory>().CenterSet(cneter);
-        }
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
+
+    private void Start()
+    {
+        bulletList = new List<IBullet>();
+    }
+
+    public void Ctrate(Vector3 firePos)
+    {
+        IBullet bullet = Instantiate(BulletPreFab, firePos, Quaternion.identity, gameObject.transform).GetComponent<IBullet>();
+        bullet.SetCenter(center);
+        bulletList.Add(bullet);
     }
 }

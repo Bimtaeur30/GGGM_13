@@ -15,11 +15,13 @@ public class PlayerJump : MonoBehaviour
     [field:SerializeField] public int MaxJumpGauge { get; private set; }
     [Header("Particle")]
     [SerializeField] private ParticleSystem _landingParticle;
+    [SerializeField] private ParticleSystem _runParticle;
     private int _currentJumpGauge;
     private Rigidbody2D _rigid;
     private float _timer = 0;
-    private bool isGround;
-    private bool isJumping;
+    public bool IsGround { get; private set; }
+    public bool IsJumping { get; private set; }
+    private bool isFastLanding = false;
 
     public event Action _onChargeJumpGauge;
     public event Action _onDeleteJumpGauge;
@@ -32,11 +34,12 @@ public class PlayerJump : MonoBehaviour
     private void Start()
     {
         _currentJumpGauge = 1;
+        _runParticle.Play();
     }
 
     private void Update()
     {
-        if (isGround == true)
+        if (IsGround == true)
         {
             _timer += Time.deltaTime;
         }
@@ -47,18 +50,23 @@ public class PlayerJump : MonoBehaviour
             _timer = 0;
         }
 
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Keyboard.current.wKey.wasPressedThisFrame)
         {
             Jump();
         }
 
-        if (isGround == true && isJumping == true)
+        if (Keyboard.current.sKey.wasPressedThisFrame)
+        {
+            FastLanding();
+        }
+
+        if (IsGround == true && IsJumping == true)
             Landing();
     }
 
     private void FixedUpdate()
     {
-        isGround = GroundCheck();
+        IsGround = GroundCheck();
     }
 
     private void JumpGaugeCharge()
@@ -70,20 +78,35 @@ public class PlayerJump : MonoBehaviour
 
     private void Jump()
     {
-        if (_currentJumpGauge > 0 && isGround == true)
+        if (_currentJumpGauge > 0 && IsGround == true)
         {
             _rigid.AddForceY(jumpPower, ForceMode2D.Impulse);
             _onDeleteJumpGauge?.Invoke();
             _currentJumpGauge -= 1;
             _timer = 0;
+            _runParticle.Stop();
             StartCoroutine(OnIsJumping());
+        }
+    }
+
+    private void FastLanding()
+    {
+        if (_currentJumpGauge > 0 && IsGround == false && isFastLanding == false)
+        {
+            _rigid.AddForceY(-10, ForceMode2D.Impulse);
+            _onDeleteJumpGauge?.Invoke();
+            isFastLanding = true;
+            _currentJumpGauge -= 1;
+            _timer = 0;
         }
     }
 
     private void Landing()
     {
-        isJumping = false;
+        IsJumping = false;
+        isFastLanding = false;
         _landingParticle.Play();
+        _runParticle.Play();
     }
 
     private void OnDrawGizmos()
@@ -106,6 +129,6 @@ public class PlayerJump : MonoBehaviour
     private IEnumerator OnIsJumping()
     {
         yield return new WaitForSeconds(0.2f);
-        isJumping = true;
+        IsJumping = true;
     }
 }

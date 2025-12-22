@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 7c5ba61851aa100438c8659ed3690627
+guid: cb4976ae79bb2c24ba4d19b8791a7f78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1697105948823342496
-    second: GunWalk_Move_0
+      213: 8639639919360051404
+    second: Card_Apear_0
   - first:
-      213: 2010209270003786960
-    second: GunWalk_Move_1
+      213: -1552222260840945901
+    second: Card_Apear_1
   - first:
-      213: 6020125397960130866
-    second: GunWalk_Move_2
+      213: -1209010802297148113
+    second: Card_Apear_2
   - first:
-      213: -4446282476696149745
-    second: GunWalk_Move_3
+      213: 2398222701644425156
+    second: Card_Apear_3
   - first:
-      213: -2503687701763247804
-    second: GunWalk_Move_4
+      213: 2447387265225064339
+    second: Card_Apear_4
   - first:
-      213: -3375594858241935303
-    second: GunWalk_Move_5
+      213: -2950068915652283529
+    second: Card_Apear_5
   - first:
-      213: 4790220248054968028
-    second: GunWalk_Move_6
+      213: -2595149603170950396
+    second: Card_Apear_6
   - first:
-      213: -5338641637110917421
-    second: GunWalk_Move_7
+      213: 262448069416826957
+    second: Card_Apear_7
   - first:
-      213: -3736461846299641976
-    second: GunWalk_Move_8
+      213: 6151156805299906146
+    second: Card_Apear_8
   - first:
-      213: -8617625653365926269
-    second: GunWalk_Move_9
+      213: 6344988393963857163
+    second: Card_Apear_9
   - first:
-      213: 8196105175676178946
-    second: GunWalk_Move_10
+      213: -163556995137494305
+    second: Card_Apear_10
   - first:
-      213: -5008175946424399812
-    second: GunWalk_Move_11
+      213: -7947804292997142195
+    second: Card_Apear_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,7 +105,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -133,265 +133,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GunWalk_Move_0
+      name: Card_Apear_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 88
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        y: 190
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 062be26912ba278e0800000000000000
-      internalID: -1697105948823342496
+      spriteID: cc88dbc5bba26e770800000000000000
+      internalID: 8639639919360051404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_1
+      name: Card_Apear_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 88
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 85
+        y: 190
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d4e5c63ea2b5eb10800000000000000
-      internalID: 2010209270003786960
+      spriteID: 3172f1ae316657ae0800000000000000
+      internalID: -1552222260840945901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_2
+      name: Card_Apear_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 88
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 170
+        y: 190
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23188b84728cb8350800000000000000
-      internalID: 6020125397960130866
+      spriteID: f2de777b41bb83fe0800000000000000
+      internalID: -1209010802297148113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_3
+      name: Card_Apear_3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 88
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 255
+        y: 190
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f016b7515a1ab42c0800000000000000
-      internalID: -4446282476696149745
+      spriteID: 4c72bcf37d2384120800000000000000
+      internalID: 2398222701644425156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44133e3ec4d114dd0800000000000000
-      internalID: -2503687701763247804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_5
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 938bad07c5a7721d0800000000000000
-      internalID: -3375594858241935303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_6
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cde23399fe74a7240800000000000000
-      internalID: 4790220248054968028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_7
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d6d4e467b559e5b0800000000000000
-      internalID: -5338641637110917421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_8
+      name: Card_Apear_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        y: 96
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88772865fbb652cc0800000000000000
-      internalID: -3736461846299641976
+      spriteID: 39ffd8b30cdd6f120800000000000000
+      internalID: 2447387265225064339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_9
+      name: Card_Apear_5
       rect:
         serializedVersion: 2
-        x: 37
-        y: 2
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 85
+        y: 96
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38694db502b086880800000000000000
-      internalID: -8617625653365926269
+      spriteID: 773bf9b83ff3f07d0800000000000000
+      internalID: -2950068915652283529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_10
+      name: Card_Apear_6
       rect:
         serializedVersion: 2
-        x: 74
-        y: 2
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 170
+        y: 96
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2025be18b3a6eb170800000000000000
-      internalID: 8196105175676178946
+      spriteID: 403eff38f2d2cfbd0800000000000000
+      internalID: -2595149603170950396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_11
+      name: Card_Apear_7
       rect:
         serializedVersion: 2
-        x: 111
-        y: 2
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 255
+        y: 96
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38c7bcd2826f7ab0800000000000000
-      internalID: -5008175946424399812
+      spriteID: d48b39de02764a300800000000000000
+      internalID: 262448069416826957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card_Apear_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266a0a1368c4d5550800000000000000
+      internalID: 6151156805299906146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card_Apear_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05213eb35ded0850800000000000000
+      internalID: 6344988393963857163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card_Apear_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2ac4c87cdeabdf0800000000000000
+      internalID: -163556995137494305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Card_Apear_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49a493da1ab3b190800000000000000
+      internalID: -7947804292997142195
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 76fbd0d649d482346b8cf229359a0a94
+    spriteID: f2545339847fb2a4e907fdf9d518a6f5
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GunWalk_Move_0: -1697105948823342496
-      GunWalk_Move_1: 2010209270003786960
-      GunWalk_Move_10: 8196105175676178946
-      GunWalk_Move_11: -5008175946424399812
-      GunWalk_Move_2: 6020125397960130866
-      GunWalk_Move_3: -4446282476696149745
-      GunWalk_Move_4: -2503687701763247804
-      GunWalk_Move_5: -3375594858241935303
-      GunWalk_Move_6: 4790220248054968028
-      GunWalk_Move_7: -5338641637110917421
-      GunWalk_Move_8: -3736461846299641976
-      GunWalk_Move_9: -8617625653365926269
+      Card_Apear_0: 8639639919360051404
+      Card_Apear_1: -1552222260840945901
+      Card_Apear_10: -163556995137494305
+      Card_Apear_11: -7947804292997142195
+      Card_Apear_2: -1209010802297148113
+      Card_Apear_3: 2398222701644425156
+      Card_Apear_4: 2447387265225064339
+      Card_Apear_5: -2950068915652283529
+      Card_Apear_6: -2595149603170950396
+      Card_Apear_7: 262448069416826957
+      Card_Apear_8: 6151156805299906146
+      Card_Apear_9: 6344988393963857163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

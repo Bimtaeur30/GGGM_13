@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 7c5ba61851aa100438c8659ed3690627
+guid: 6807284cc2b65a140b5c0560940d60ae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1697105948823342496
-    second: GunWalk_Move_0
+      213: 2149346407827975471
+    second: CardUnClicked_0
   - first:
-      213: 2010209270003786960
-    second: GunWalk_Move_1
+      213: 620699868536006659
+    second: CardUnClicked_1
   - first:
-      213: 6020125397960130866
-    second: GunWalk_Move_2
+      213: -7959837351592719209
+    second: CardUnClicked_2
   - first:
-      213: -4446282476696149745
-    second: GunWalk_Move_3
+      213: 2156553497336067542
+    second: CardUnClicked_3
   - first:
-      213: -2503687701763247804
-    second: GunWalk_Move_4
+      213: 6538119577502941161
+    second: CardUnClicked_4
   - first:
-      213: -3375594858241935303
-    second: GunWalk_Move_5
+      213: -7340606547001929439
+    second: CardUnClicked_5
   - first:
-      213: 4790220248054968028
-    second: GunWalk_Move_6
+      213: -3693793227673563379
+    second: CardUnClicked_6
   - first:
-      213: -5338641637110917421
-    second: GunWalk_Move_7
+      213: -3288466000219271430
+    second: CardUnClicked_7
   - first:
-      213: -3736461846299641976
-    second: GunWalk_Move_8
+      213: 6185739624070670435
+    second: CardUnClicked_8
   - first:
-      213: -8617625653365926269
-    second: GunWalk_Move_9
+      213: 7749951427578793153
+    second: CardUnClicked_9
   - first:
-      213: 8196105175676178946
-    second: GunWalk_Move_10
+      213: 4850857719411189764
+    second: CardUnClicked_10
   - first:
-      213: -5008175946424399812
-    second: GunWalk_Move_11
+      213: 8486708185410189055
+    second: CardUnClicked_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,7 +105,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -133,265 +133,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GunWalk_Move_0
+      name: CardUnClicked_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 88
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        y: 166
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 062be26912ba278e0800000000000000
-      internalID: -1697105948823342496
+      spriteID: f2d29d19b2304dd10800000000000000
+      internalID: 2149346407827975471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_1
+      name: CardUnClicked_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 88
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 82
+        y: 166
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d4e5c63ea2b5eb10800000000000000
-      internalID: 2010209270003786960
+      spriteID: 3086838ed3b2d9800800000000000000
+      internalID: 620699868536006659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_2
+      name: CardUnClicked_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 88
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 164
+        y: 166
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23188b84728cb8350800000000000000
-      internalID: 6020125397960130866
+      spriteID: 79c0e6c0a1af88190800000000000000
+      internalID: -7959837351592719209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_3
+      name: CardUnClicked_3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 88
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 246
+        y: 166
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f016b7515a1ab42c0800000000000000
-      internalID: -4446282476696149745
+      spriteID: 6d5b7dbdafd9ded10800000000000000
+      internalID: 2156553497336067542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44133e3ec4d114dd0800000000000000
-      internalID: -2503687701763247804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_5
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 938bad07c5a7721d0800000000000000
-      internalID: -3375594858241935303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_6
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cde23399fe74a7240800000000000000
-      internalID: 4790220248054968028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_7
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d6d4e467b559e5b0800000000000000
-      internalID: -5338641637110917421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_8
+      name: CardUnClicked_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88772865fbb652cc0800000000000000
-      internalID: -3736461846299641976
+      spriteID: 9eff6148d111cba50800000000000000
+      internalID: 6538119577502941161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_9
+      name: CardUnClicked_5
       rect:
         serializedVersion: 2
-        x: 37
-        y: 2
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 82
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38694db502b086880800000000000000
-      internalID: -8617625653365926269
+      spriteID: 1211b0adc3de02a90800000000000000
+      internalID: -7340606547001929439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_10
+      name: CardUnClicked_6
       rect:
         serializedVersion: 2
-        x: 74
-        y: 2
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 164
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2025be18b3a6eb170800000000000000
-      internalID: 8196105175676178946
+      spriteID: d0f06c641a20dbcc0800000000000000
+      internalID: -3693793227673563379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_11
+      name: CardUnClicked_7
       rect:
         serializedVersion: 2
-        x: 111
-        y: 2
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+        x: 246
+        y: 84
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38c7bcd2826f7ab0800000000000000
-      internalID: -5008175946424399812
+      spriteID: afe0bf888950d52d0800000000000000
+      internalID: -3288466000219271430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardUnClicked_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3686ac52a6928d550800000000000000
+      internalID: 6185739624070670435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardUnClicked_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc8d5b23cb5d8b60800000000000000
+      internalID: 7749951427578793153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardUnClicked_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40827751565b15340800000000000000
+      internalID: 4850857719411189764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardUnClicked_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff636cf4128d6c570800000000000000
+      internalID: 8486708185410189055
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 76fbd0d649d482346b8cf229359a0a94
+    spriteID: 4369e6607a0c6f24c9221c58fbbf5e23
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GunWalk_Move_0: -1697105948823342496
-      GunWalk_Move_1: 2010209270003786960
-      GunWalk_Move_10: 8196105175676178946
-      GunWalk_Move_11: -5008175946424399812
-      GunWalk_Move_2: 6020125397960130866
-      GunWalk_Move_3: -4446282476696149745
-      GunWalk_Move_4: -2503687701763247804
-      GunWalk_Move_5: -3375594858241935303
-      GunWalk_Move_6: 4790220248054968028
-      GunWalk_Move_7: -5338641637110917421
-      GunWalk_Move_8: -3736461846299641976
-      GunWalk_Move_9: -8617625653365926269
+      CardUnClicked_0: 2149346407827975471
+      CardUnClicked_1: 620699868536006659
+      CardUnClicked_10: 4850857719411189764
+      CardUnClicked_11: 8486708185410189055
+      CardUnClicked_2: -7959837351592719209
+      CardUnClicked_3: 2156553497336067542
+      CardUnClicked_4: 6538119577502941161
+      CardUnClicked_5: -7340606547001929439
+      CardUnClicked_6: -3693793227673563379
+      CardUnClicked_7: -3288466000219271430
+      CardUnClicked_8: 6185739624070670435
+      CardUnClicked_9: 7749951427578793153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
