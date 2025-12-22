@@ -23,6 +23,7 @@ public class PlayerJump : MonoBehaviour
     public bool IsJumping { get; private set; }
     private bool isFastLanding = false;
     private PlayerHP playerHP;
+    private YHWPlayer player;
 
     public event Action _onChargeJumpGauge;
     public event Action _onDeleteJumpGauge;
@@ -31,6 +32,7 @@ public class PlayerJump : MonoBehaviour
     {
         RigidCompo = GetComponent<Rigidbody2D>();
         playerHP = GetComponent<PlayerHP>();
+        player = GetComponent<YHWPlayer>();
     }
 
     private void Start()
@@ -42,7 +44,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Update()
     {
-        if (IsGround == true)
+        if (IsGround == true && !player.AnimCompo.AnimCompo.GetBool("IsDie"))
         {
             _timer += Time.deltaTime;
         }
@@ -81,7 +83,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Jump()
     {
-        if (_currentJumpGauge > 0 && IsGround == true)
+        if (_currentJumpGauge > 0 && IsGround == true && !player.AnimCompo.AnimCompo.GetBool("IsDie"))
         {
             RigidCompo.AddForceY(jumpPower, ForceMode2D.Impulse);
             _onDeleteJumpGauge?.Invoke();

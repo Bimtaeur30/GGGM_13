@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    public Animator AnimCompo { get; private set; }
+    public Animator AnimCompo { get; set; }
     private PlayerJump playerJump;
 
     private readonly int _isGround = Animator.StringToHash("IsGround");
@@ -23,6 +23,10 @@ public class PlayerAnimation : MonoBehaviour
         _gunAnimation = _gunFiring.GetComponentInChildren<GunAnimation>();
         _player = GetComponentInParent<YHWPlayer>();
         _gunFiring._onAttack += StartAttackAnimation;
+    }
+
+    private void Start()
+    {
         _gunAnimation._onAttackEnd += EndAttackAnimation;
         _player.HPCompo._onDamage += StartHitAnimation;
         _player.HPCompo._onDie += DeadAnimation;
