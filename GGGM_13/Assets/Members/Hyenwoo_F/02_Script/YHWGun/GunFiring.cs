@@ -1,4 +1,5 @@
 
+using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -12,23 +13,29 @@ public class GunFiring : MonoBehaviour
     [SerializeField] private float _targetCheckerSize;
     [Header("Gun")]
     [SerializeField] private Transform _gun;
+    [SerializeField] private float _fireTime;
+    [SerializeField] private Transform _firePos;
     private float _desireAngle;
     private GameObject target;
     private GameObject currentTarget;
-    private bool isTargeting;
+    private float timer = 0;
+    public event Action _onAttack;
 
     private void Update()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        timer += Time.deltaTime;
+
+        if (timer >= _fireTime)
         {
-            currentTarget = LockForTarget();
-            isTargeting = true;
+            Fire();
+            timer = 0;
         }
 
-        if (isTargeting == true)
-        {
+        currentTarget = LockForTarget();
+        if (currentTarget == null)
+            ShotAnim(Vector2.zero);
+        else
             ShotAnim(currentTarget.transform.position);
-        }
     }
 
     private void ShotAnim(Vector2 pos)
@@ -64,6 +71,12 @@ public class GunFiring : MonoBehaviour
             return null;
         else
             return target;
+    }
+
+    private void Fire()
+    {
+        _onAttack?.Invoke();
+        SpwanBullet.Instance.Ctrate(_firePos);
     }
 
     private void OnDrawGizmos()

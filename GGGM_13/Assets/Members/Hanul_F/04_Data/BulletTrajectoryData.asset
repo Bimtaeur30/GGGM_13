@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BulletTrajectoryData
   m_EditorClassIdentifier: 
   bulletSpeed: 4
-  radius: 1.5
+  radius: 3
   CircleMoveAngle: 0.8
   Decrease: 1
   MinSpeed: 1
