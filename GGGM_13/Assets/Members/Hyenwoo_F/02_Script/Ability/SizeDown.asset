@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf1ba24b0953e7a448cee80a74e3943e, type: 3}
   m_Name: SizeDown
   m_EditorClassIdentifier: 
-  downSize: 0
-  applicationTime: 0
+  downSize: 0.5
+  applicationTime: 5
