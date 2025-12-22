@@ -13,4 +13,7 @@ public class BulletTrajectoryDataSO : ScriptableObject
 
     [Range(0,1f)]
     public float CircleMoveAngle = 0.8f;
+
+    [Range(1f, 10f)]
+    public float Decrease = 3f;
 }
