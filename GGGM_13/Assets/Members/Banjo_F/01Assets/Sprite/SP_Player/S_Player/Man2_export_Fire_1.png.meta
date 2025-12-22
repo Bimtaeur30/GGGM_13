@@ -5,6 +5,39 @@ TextureImporter:
   - first:
       213: -4195790786573097001
     second: Man2_export_Fire_1_0
+  - first:
+      213: -3289335661759613248
+    second: Man2_export_Fire_1_1
+  - first:
+      213: 3134140612831638109
+    second: Man2_export_Fire_1_2
+  - first:
+      213: -4906089912988844337
+    second: Man2_export_Fire_1_3
+  - first:
+      213: 5034340165408221999
+    second: Man2_export_Fire_1_4
+  - first:
+      213: -322973429959501847
+    second: Man2_export_Fire_1_5
+  - first:
+      213: -1435434505769441490
+    second: Man2_export_Fire_1_6
+  - first:
+      213: -1483811750492983825
+    second: Man2_export_Fire_1_7
+  - first:
+      213: 1140756567950600987
+    second: Man2_export_Fire_1_8
+  - first:
+      213: 386879909346437264
+    second: Man2_export_Fire_1_9
+  - first:
+      213: -7115763484868169857
+    second: Man2_export_Fire_1_10
+  - first:
+      213: -1847543545459793080
+    second: Man2_export_Fire_1_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +105,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 64
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -104,11 +137,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 102
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +154,253 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 102
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c63bcda4aee952d0800000000000000
+      internalID: -3289335661759613248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 102
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5274ff2844be7b20800000000000000
+      internalID: 3134140612831638109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 102
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce3c2cb7311aebb0800000000000000
+      internalID: -4906089912988844337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b63a515b19dd540800000000000000
+      internalID: 5034340165408221999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 52
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7df5b6061948bf0800000000000000
+      internalID: -322973429959501847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 52
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2726491cef441ce0800000000000000
+      internalID: -1435434505769441490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 52
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feda0521311786be0800000000000000
+      internalID: -1483811750492983825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ba3e7fd08c4df00800000000000000
+      internalID: 1140756567950600987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098645f4a397e5500800000000000000
+      internalID: 386879909346437264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7facbabfcabf3d90800000000000000
+      internalID: -7115763484868169857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2_export_Fire_1_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.25, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843adc12fe43c56e0800000000000000
+      internalID: -1847543545459793080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d5345c3627ee4464fa988eed7df87fde
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +411,17 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Man2_export_Fire_1_0: -4195790786573097001
+      Man2_export_Fire_1_1: -3289335661759613248
+      Man2_export_Fire_1_10: -7115763484868169857
+      Man2_export_Fire_1_11: -1847543545459793080
+      Man2_export_Fire_1_2: 3134140612831638109
+      Man2_export_Fire_1_3: -4906089912988844337
+      Man2_export_Fire_1_4: 5034340165408221999
+      Man2_export_Fire_1_5: -322973429959501847
+      Man2_export_Fire_1_6: -1435434505769441490
+      Man2_export_Fire_1_7: -1483811750492983825
+      Man2_export_Fire_1_8: 1140756567950600987
+      Man2_export_Fire_1_9: 386879909346437264
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

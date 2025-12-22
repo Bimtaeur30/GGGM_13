@@ -7,7 +7,7 @@ public class HealthSystem : MonoBehaviour, IDamageable
     [field:SerializeField] public int Hp { get; private set; }
 
     private event Action _onDamage;
-    private event Action _onDie;
+    public event Action _onDie;
 
     private void Start()
     {
@@ -20,7 +20,7 @@ public class HealthSystem : MonoBehaviour, IDamageable
         _onDamage?.Invoke();
         if (Hp <= 0)
         {
-            gameObject.SetActive(false);
+            // gameObject.SetActive(false);
             _onDie?.Invoke();
         }
     }
