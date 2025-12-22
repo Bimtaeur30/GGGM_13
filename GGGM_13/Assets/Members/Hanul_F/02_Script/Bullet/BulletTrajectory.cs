@@ -12,7 +12,10 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 {
     public BulletTrajectoryDataSO BulletTrajectoryData = null;
 
+    
     public GameObject Center = null;
+    
+    [SerializeField] private float lerpFollow = 12f;
     [SerializeField] private float bulletSpeed;
     private float bulletMaxSpeed;
     private float decrease;
@@ -23,23 +26,15 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
     private float minSpeed;
 
-    private float lerpTime = 1f;
+    private float lerpTime = 3f;
+    private float firstLerpTiem = 0.2f;
+
+    private float timer = 0f;
 
     private state nowState;
 
     private Vector3 straightMove;
 
-    void Awake()
-    {
-        bulletMaxSpeed = BulletTrajectoryData.bulletSpeed;
-        bulletSpeed = bulletMaxSpeed;
-        radius = BulletTrajectoryData.radius;
-        decrease = BulletTrajectoryData.Decrease;
-        minSpeed = BulletTrajectoryData.MinSpeed;
-        maxCircleMove = Mathf.PI * 2f;
-        nowState = state.Start;
-
-    }
 
 
     void Update()
@@ -48,7 +43,11 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         {
             case state.Start:
                 FristCircleMove();
-                nowState = state.Circle;
+                timer += Time.deltaTime;
+                if (timer >= firstLerpTiem)
+                {
+                    nowState = state.Circle;
+                }
                 break;
 
             case state.Circle:
@@ -101,7 +100,8 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
 
         Vector2 nextPos = new Vector2(x, y);
-        transform.position = (Vector3)nextPos;
+        float t = 1f - Mathf.Exp(-lerpFollow * Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, t);
         SlowSpeed();
         LookTangent();
     }
@@ -116,7 +116,9 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
 
         Vector2 nextPos = new Vector2(x, y);
-        transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, lerpTime * Time.deltaTime);
+
+        float t = Mathf.Clamp01(lerpTime * Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, t);
         SlowSpeed();
         LookTangent();
     }
@@ -145,5 +147,17 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
         float rotZ = Mathf.Atan2(tangent.y, tangent.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
+    }
+
+    public void SetSpeed(float min, float max, BulletTrajectoryDataSO data)
+    {
+        BulletTrajectoryData = data;
+        radius = BulletTrajectoryData.radius;
+        decrease = BulletTrajectoryData.Decrease;
+        maxCircleMove = Mathf.PI * 2f* BulletTrajectoryData.CircleMoveAngle;
+        nowState = state.Start;
+        minSpeed = min;
+        bulletMaxSpeed = max;
+        bulletSpeed = bulletMaxSpeed;
     }
 }
