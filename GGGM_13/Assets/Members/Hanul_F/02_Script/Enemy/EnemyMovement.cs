@@ -9,7 +9,7 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float radius = 2.25f;
     [SerializeField] private float speed = 0.3f;
 
-    [SerializeField] private float angle;
+    private float angle;
     private float rotated = 0f;
 
     private float size = 0.2f;

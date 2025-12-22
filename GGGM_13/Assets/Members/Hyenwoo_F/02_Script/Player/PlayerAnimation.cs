@@ -2,51 +2,73 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
-    private Animator _anim;
+    public Animator AnimCompo { get; private set; }
     private PlayerJump playerJump;
 
     private readonly int _isGround = Animator.StringToHash("IsGround");
     private readonly int _velocityY = Animator.StringToHash("VelocityY");
     private readonly int _attackIndex = Animator.StringToHash("AttackIndex");
     private readonly int _isAttack = Animator.StringToHash("IsAttacking");
+    private readonly int _isHit = Animator.StringToHash("IsHit");
+    private readonly int _isDie = Animator.StringToHash("IsDie");
     private GunFiring _gunFiring;
     private GunAnimation _gunAnimation;
+    private YHWPlayer _player;
 
     private void Awake()
     {
-        _anim = GetComponent<Animator>();
+        AnimCompo = GetComponent<Animator>();
         playerJump = GetComponentInParent<PlayerJump>();
         _gunFiring = playerJump.GetComponentInChildren<GunFiring>();
         _gunAnimation = _gunFiring.GetComponentInChildren<GunAnimation>();
+        _player = GetComponentInParent<YHWPlayer>();
         _gunFiring._onAttack += StartAttackAnimation;
         _gunAnimation._onAttackEnd += EndAttackAnimation;
+        _player.HPCompo._onDamage += StartHitAnimation;
+        _player.HPCompo._onDie += DeadAnimation;
     }
 
     private void Update()
     {
-        _anim.SetBool(_isGround, playerJump.IsGround);
-        _anim.SetFloat(_velocityY, playerJump.RigidCompo.linearVelocityY);
+        AnimCompo.SetBool(_isGround, playerJump.IsGround);
+        AnimCompo.SetFloat(_velocityY, playerJump.RigidCompo.linearVelocityY);
     }
 
     private void StartAttackAnimation()
     {
-        _anim.SetBool(_isAttack, true);
-        _anim.SetInteger(_attackIndex, Random.Range(0, 3));
+        AnimCompo.SetBool(_isAttack, true);
+        AnimCompo.SetInteger(_attackIndex, Random.Range(0, 2));
     }
 
     private void EndAttackAnimation()
     {
-        _anim.SetBool(_isAttack, false);
-        _anim.SetInteger(_attackIndex, 3);
+        AnimCompo.SetBool(_isAttack, false);
+        AnimCompo.SetInteger(_attackIndex, 3);
+    }
+
+    private void StartHitAnimation()
+    {
+        AnimCompo.SetBool(_isHit, true);
+    }
+
+    public void EndHitAnimation()
+    {
+        AnimCompo.SetBool(_isHit, false);
+    }
+
+    public void DeadAnimation()
+    {
+        AnimCompo.SetBool(_isDie, true);
+        AnimCompo.SetBool(_isHit, false);
     }
 
     public void AnimationSpeedUp(int speedValue)
     {
-        _anim.speed += speedValue;
+        AnimCompo.speed += speedValue;
     }
 
     public void AnimationSpeedDown(int speedValue)
     {
-        _anim.speed -= speedValue;
+        AnimCompo.speed -= speedValue;
     }
 }
