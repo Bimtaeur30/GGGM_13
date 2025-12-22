@@ -1,5 +1,6 @@
 
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.GraphicsBuffer;
@@ -9,17 +10,24 @@ public class GunFiring : MonoBehaviour
     [Header("TargetChecker")]
     [SerializeField] private Transform _targetCheckerTrm;
     [SerializeField] private float _targetCheckerSize;
-    [SerializeField] private LayerMask _targetLayer;
     [Header("Gun")]
     [SerializeField] private Transform _gun;
     private float _desireAngle;
-    private Transform target;
+    private GameObject target;
+    private GameObject currentTarget;
+    private bool isTargeting;
 
     private void Update()
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            ShotAnim(LockForTarget());
+            currentTarget = LockForTarget();
+            isTargeting = true;
+        }
+
+        if (isTargeting == true)
+        {
+            ShotAnim(currentTarget.transform.position);
         }
     }
 
@@ -30,7 +38,7 @@ public class GunFiring : MonoBehaviour
         _gun.rotation = Quaternion.Euler(0, 0, _desireAngle);
     }
 
-    private Vector2 LockForTarget()
+    private GameObject LockForTarget()
     {
         target = null;
 
@@ -42,22 +50,25 @@ public class GunFiring : MonoBehaviour
             {
                 if (target == null)
                 {
-                    target = tg.transform;
+                    target = tg.gameObject;
                 }
                 else if (Vector3.Distance(transform.position, target.transform.position)
                     > Vector3.Distance(transform.position, tg.transform.position))
                 {
-                    target = tg.transform;
+                    target = tg.gameObject;
                 }
 
             }
         }
-        return target.position;
+        if (target == null)
+            return null;
+        else
+            return target;
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        Gizmos.DrawSphere(_targetCheckerTrm.position, _targetCheckerSize);
+        Gizmos.DrawWireSphere(_targetCheckerTrm.position, _targetCheckerSize);
     }
 }
