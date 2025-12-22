@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using UnityEngine;
 
 public class CardShop : MonoBehaviour
@@ -17,7 +18,7 @@ public class CardShop : MonoBehaviour
         {
             CardData card = sellCards[i];
             CardView cardView = Instantiate(cardPref, cardSpawnPos).GetComponent<CardView>();
-            cardView.SetUI(sellCards[Random.Range(0, sellCards.Length - 1)]);
+            cardView.SetUI(sellCards[Random.Range(0, sellCards.Length)]);
         }
     }
 }

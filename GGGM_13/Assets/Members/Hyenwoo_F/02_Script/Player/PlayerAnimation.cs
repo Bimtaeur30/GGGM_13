@@ -6,6 +6,7 @@ public class PlayerAnimation : MonoBehaviour
     private PlayerJump playerJump;
 
     private int _isGround = Animator.StringToHash("IsGround");
+    private int _velocityY = Animator.StringToHash("VelocityY");
 
     private void Awake()
     {
@@ -16,6 +17,7 @@ public class PlayerAnimation : MonoBehaviour
     private void Update()
     {
         _anim.SetBool(_isGround, playerJump.IsGround);
+        _anim.SetFloat(_velocityY, playerJump.RigidCompo.linearVelocityY);
     }
 
     public void AnimationSpeedUp(int speedValue)

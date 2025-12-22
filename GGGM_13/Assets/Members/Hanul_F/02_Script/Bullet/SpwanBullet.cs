@@ -5,9 +5,25 @@ public class SpwanBullet : MonoBehaviour
 {
     public static SpwanBullet Instance { get; private set; }
 
+    [SerializeField] private List<BulletTrajectoryDataSO> bulletTrajectoryDataSOs = new List<BulletTrajectoryDataSO>();
+
     [SerializeField] private GameObject BulletPreFab;
     [SerializeField] private GameObject center;
-    private List<IBullet> bulletList;
+    private float addSpeed = 0f;
+
+    public float AddSpeed
+    {
+        get
+        {
+            return addSpeed;
+        }
+
+        set
+        {
+            addSpeed += value;
+            addSpeed = Mathf.Clamp(addSpeed,0,100f);
+        }
+    } 
 
     private void Awake()
     {
@@ -17,15 +33,12 @@ public class SpwanBullet : MonoBehaviour
             Destroy(gameObject);
     }
 
-    private void Start()
-    {
-        bulletList = new List<IBullet>();
-    }
 
     public void Ctrate(Vector3 firePos)
     {
+        BulletTrajectoryDataSO ran = bulletTrajectoryDataSOs[Random.Range(0,bulletTrajectoryDataSOs.Count)];
         IBullet bullet = Instantiate(BulletPreFab, firePos, Quaternion.identity, gameObject.transform).GetComponent<IBullet>();
         bullet.SetCenter(center);
-        bulletList.Add(bullet);
+        bullet.SetSpeed(ran.MinSpeed,ran.bulletSpeed + addSpeed,ran);
     }
 }

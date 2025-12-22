@@ -19,7 +19,7 @@ public class CardView : MonoBehaviour
     public void SetUI(CardData data)
     {
         itemNameTxt.text = data.ItemName;
-        itemPriceTxt.text = $"{data.ItemPrice} 코인";
+        itemPriceTxt.text = "분류:" + $"{data.CardEnum}";
 
         var sb = new StringBuilder();
         foreach (var desc in data.ItemDescriptions)
