@@ -50,7 +50,7 @@ MonoBehaviour:
   _targetCheckerSize: 4
   _gun: {fileID: 9145539822135432233}
   _fireTime: 10
-  _firePos: {fileID: 973456863339258632}
+  _firePos: {fileID: 7319228682019417634}
 --- !u!1 &514107951563535641
 GameObject:
   m_ObjectHideFlags: 0
@@ -81,6 +81,37 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9145539822135432233}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1151556786348877139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7319228682019417634}
+  m_Layer: 0
+  m_Name: realFirePos
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7319228682019417634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151556786348877139}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.08, y: 0.31999993, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5212745737497983168}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1974126258598064663
 GameObject:
@@ -179,6 +210,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7319228682019417634}
   - {fileID: 1569781852890931622}
   - {fileID: 112400176425215195}
   - {fileID: 4173485792661580635}
@@ -262,9 +294,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <HeadCollider>k__BackingField: {fileID: 5044827300626243019}
-  AnimControllers:
-  - {fileID: 9100000, guid: beb373feefef02e469474a2db2ccd54f, type: 2}
-  - {fileID: 0}
+  basicController: {fileID: 0}
+  helmetController: []
 --- !u!61 &9153108641059118924
 BoxCollider2D:
   m_ObjectHideFlags: 0
