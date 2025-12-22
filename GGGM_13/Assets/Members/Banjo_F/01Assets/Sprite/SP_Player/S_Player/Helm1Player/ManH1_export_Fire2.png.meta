@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: b14cf70b50b5f0b46a1eabc3d02f4637
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7895296008022227283
+    second: ManH1_export_Fire2_0
+  - first:
+      213: -6250978104450321455
+    second: ManH1_export_Fire2_1
+  - first:
+      213: 5439171634621942085
+    second: ManH1_export_Fire2_2
+  - first:
+      213: 3039821361851547660
+    second: ManH1_export_Fire2_3
+  - first:
+      213: -8495218317490597751
+    second: ManH1_export_Fire2_4
+  - first:
+      213: -4456182701915164348
+    second: ManH1_export_Fire2_5
+  - first:
+      213: 8136364602086537934
+    second: ManH1_export_Fire2_6
+  - first:
+      213: 3307315973554087518
+    second: ManH1_export_Fire2_7
+  - first:
+      213: -4648018889647602682
+    second: ManH1_export_Fire2_8
+  - first:
+      213: -8260251171386521760
+    second: ManH1_export_Fire2_9
+  - first:
+      213: -7601945612098118496
+    second: ManH1_export_Fire2_10
+  - first:
+      213: 718842426276924076
+    second: ManH1_export_Fire2_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6864d9c164e6290800000000000000
+      internalID: -7895296008022227283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 140
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d37e7978801049a0800000000000000
+      internalID: -6250978104450321455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 140
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5498502a8c1db7b40800000000000000
+      internalID: 5439171634621942085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 140
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c004ec54c6d9f2a20800000000000000
+      internalID: 3039821361851547660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980d49823fbea1a80800000000000000
+      internalID: -8495218317490597751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 71
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4413b1641757822c0800000000000000
+      internalID: -4456182701915164348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 71
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca3e6e4f7c2ae070800000000000000
+      internalID: 8136364602086537934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 71
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56aaa3ea52f5ed20800000000000000
+      internalID: 3307315973554087518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604cf35327bee7fb0800000000000000
+      internalID: -4648018889647602682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06780060351bd5d80800000000000000
+      internalID: -8260251171386521760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac5d0d1eb6708690800000000000000
+      internalID: -7601945612098118496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH1_export_Fire2_11
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.28, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa47bbc067d9f900800000000000000
+      internalID: 718842426276924076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e48c164f13a678b47a1fcb0c428a83fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ManH1_export_Fire2_0: -7895296008022227283
+      ManH1_export_Fire2_1: -6250978104450321455
+      ManH1_export_Fire2_10: -7601945612098118496
+      ManH1_export_Fire2_11: 718842426276924076
+      ManH1_export_Fire2_2: 5439171634621942085
+      ManH1_export_Fire2_3: 3039821361851547660
+      ManH1_export_Fire2_4: -8495218317490597751
+      ManH1_export_Fire2_5: -4456182701915164348
+      ManH1_export_Fire2_6: 8136364602086537934
+      ManH1_export_Fire2_7: 3307315973554087518
+      ManH1_export_Fire2_8: -4648018889647602682
+      ManH1_export_Fire2_9: -8260251171386521760
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
