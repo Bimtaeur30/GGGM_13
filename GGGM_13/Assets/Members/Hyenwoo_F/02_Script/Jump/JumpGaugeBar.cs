@@ -22,12 +22,10 @@ public class JumpGaugeBar : MonoBehaviour
         if (bScale >= 0.1)
         {
             _jumpGaugeBar.GetComponent<Image>().fillAmount = bScale;
-            //_jumpGaugeBar.GetComponent<Image>().color = new Color(bScale, bScale, bScale);
         }
         else
         {
             _jumpGaugeBar.GetComponent<Image>().fillAmount = 0;
-            //_jumpGaugeBar.GetComponent<Image>().color = new Color(0, 0, 0);
         }
     }
 }
