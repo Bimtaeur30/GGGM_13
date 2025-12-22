@@ -34,10 +34,10 @@ public class SpwanBullet : MonoBehaviour
     }
 
 
-    public void Ctrate(Vector3 firePos)
+    public void Ctrate(Transform firePos)
     {
         BulletTrajectoryDataSO ran = bulletTrajectoryDataSOs[Random.Range(0,bulletTrajectoryDataSOs.Count)];
-        IBullet bullet = Instantiate(BulletPreFab, firePos, Quaternion.identity, gameObject.transform).GetComponent<IBullet>();
+        IBullet bullet = Instantiate(BulletPreFab, firePos.position,firePos.rotation , gameObject.transform).GetComponent<IBullet>();
         bullet.SetCenter(center);
         bullet.SetSpeed(ran.MinSpeed,ran.bulletSpeed + addSpeed,ran);
     }
