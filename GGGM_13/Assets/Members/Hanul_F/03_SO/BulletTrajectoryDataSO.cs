@@ -16,4 +16,7 @@ public class BulletTrajectoryDataSO : ScriptableObject
 
     [Range(1f, 10f)]
     public float Decrease = 3f;
+
+    [Range(1f,5f)]
+    public float MinSpeed = 1f;
 }

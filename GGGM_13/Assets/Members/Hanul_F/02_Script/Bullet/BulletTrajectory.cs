@@ -1,10 +1,9 @@
-using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public enum state
 {
+    Start,
     Circle,
     straight
 }
@@ -22,6 +21,8 @@ public class BulletTrajectory : MonoBehaviour, IBullet
     private float rotated = 0f;
     private float angle;
 
+    private float minSpeed;
+
     private float lerpTime = 1f;
 
     private state nowState;
@@ -34,8 +35,9 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         bulletSpeed = bulletMaxSpeed;
         radius = BulletTrajectoryData.radius;
         decrease = BulletTrajectoryData.Decrease;
+        minSpeed = BulletTrajectoryData.MinSpeed;
         maxCircleMove = Mathf.PI * 2f;
-        nowState = state.Circle;
+        nowState = state.Start;
 
     }
 
@@ -44,6 +46,11 @@ public class BulletTrajectory : MonoBehaviour, IBullet
     {
         switch (nowState)
         {
+            case state.Start:
+                FristCircleMove();
+                nowState = state.Circle;
+                break;
+
             case state.Circle:
                 if (rotated <= maxCircleMove)
                 {
@@ -65,18 +72,16 @@ public class BulletTrajectory : MonoBehaviour, IBullet
     private void StartStraight()
     {
         straightMove =
-        new Vector3
+        new Vector2
         (
         Mathf.Sin(angle),
-        -Mathf.Cos(angle),
-
-        transform.position.z
+        -Mathf.Cos(angle)
         );
     }
 
     private void StraightMoving()
     {
-        transform.position += straightMove * bulletSpeed * Time.deltaTime;
+        transform.position += transform.right * bulletSpeed;
     }
 
     private IEnumerator DeathCoroutine()
@@ -96,20 +101,49 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
 
         Vector2 nextPos = new Vector2(x, y);
-        transform.position = Vector2.Lerp(transform.position, nextPos, lerpTime * Time.deltaTime);
+        transform.position = (Vector3)nextPos;
         SlowSpeed();
+        LookTangent();
     }
+
+    private void FristCircleMove()
+    {
+        float rotat = bulletSpeed * Time.deltaTime;
+        angle -= rotat;
+        rotated += rotat;
+
+        float x = Center.transform.position.x + Mathf.Cos(angle) * radius;
+        float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
+
+        Vector2 nextPos = new Vector2(x, y);
+        transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, lerpTime * Time.deltaTime);
+        SlowSpeed();
+        LookTangent();
+    }
+
 
     private void SlowSpeed()
     {
         bulletSpeed -= Time.deltaTime * decrease;
-        bulletSpeed = Mathf.Clamp(bulletSpeed, 0.5f, bulletMaxSpeed);
+        bulletSpeed = Mathf.Clamp(bulletSpeed, minSpeed, bulletMaxSpeed);
     }
 
     public void SetCenter(GameObject center)
     {
         this.Center = center;
         Vector2 dir = (Vector2)transform.position - (Vector2)Center.transform.position;
+        radius = dir.magnitude;
         angle = Mathf.Atan2(dir.y, dir.x);
+    }
+
+    private void LookTangent()
+    {
+        Vector2 tangent = new Vector2(
+            Mathf.Sin(angle),
+            -Mathf.Cos(angle)
+        );
+
+        float rotZ = Mathf.Atan2(tangent.y, tangent.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, rotZ);
     }
 }
