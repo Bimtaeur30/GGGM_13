@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: e979943aae5452940aeb457c2cd088a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3906852145350252768
+    second: CardONEHelm_Appear_0
+  - first:
+      213: 9160269661395702740
+    second: CardONEHelm_Appear_1
+  - first:
+      213: 787834092435625723
+    second: CardONEHelm_Appear_2
+  - first:
+      213: -1163602051145872531
+    second: CardONEHelm_Appear_3
+  - first:
+      213: -7151464268663586102
+    second: CardONEHelm_Appear_4
+  - first:
+      213: 3788680571813108525
+    second: CardONEHelm_Appear_5
+  - first:
+      213: -3812670861687929185
+    second: CardONEHelm_Appear_6
+  - first:
+      213: -8110202522127942697
+    second: CardONEHelm_Appear_7
+  - first:
+      213: 3443508686275473649
+    second: CardONEHelm_Appear_8
+  - first:
+      213: -499141781331807525
+    second: CardONEHelm_Appear_9
+  - first:
+      213: -3509531837717534935
+    second: CardONEHelm_Appear_10
+  - first:
+      213: 2766313695347927439
+    second: CardONEHelm_Appear_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027ec665ca218c9c0800000000000000
+      internalID: -3906852145350252768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 182
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3574e49b0df1f70800000000000000
+      internalID: 9160269661395702740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 182
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf65195dee2feea00800000000000000
+      internalID: 787834092435625723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 182
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bc889791e0adfe0800000000000000
+      internalID: -1163602051145872531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac288624325e0cc90800000000000000
+      internalID: -7151464268663586102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 92
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b185228e8149430800000000000000
+      internalID: 3788680571813108525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 92
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96cb9b3d0ca61bc0800000000000000
+      internalID: -3812670861687929185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 92
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db361c96c5c27f80800000000000000
+      internalID: -8110202522127942697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0fb6ad7ecc9cf20800000000000000
+      internalID: 3443508686275473649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd27927c131b219f0800000000000000
+      internalID: -499141781331807525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9272cec4363ab4fc0800000000000000
+      internalID: -3509531837717534935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardONEHelm_Appear_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2
+        width: 82
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89e28c36abe36620800000000000000
+      internalID: 2766313695347927439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a6b3674bce799e54e8702f68d721d8ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CardONEHelm_Appear_0: -3906852145350252768
+      CardONEHelm_Appear_1: 9160269661395702740
+      CardONEHelm_Appear_10: -3509531837717534935
+      CardONEHelm_Appear_11: 2766313695347927439
+      CardONEHelm_Appear_2: 787834092435625723
+      CardONEHelm_Appear_3: -1163602051145872531
+      CardONEHelm_Appear_4: -7151464268663586102
+      CardONEHelm_Appear_5: 3788680571813108525
+      CardONEHelm_Appear_6: -3812670861687929185
+      CardONEHelm_Appear_7: -8110202522127942697
+      CardONEHelm_Appear_8: 3443508686275473649
+      CardONEHelm_Appear_9: -499141781331807525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
