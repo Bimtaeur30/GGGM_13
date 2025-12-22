@@ -45,7 +45,7 @@ public class BulletTrajectory : MonoBehaviour, IBullet
             case state.Start:
                 // FristCircleMove();
                 timer += Time.deltaTime;
-                StraightMoving();
+                StartMove();
                 if (timer >= firstLerpTiem)
                 {
                     timer = 0f;
@@ -55,8 +55,8 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
                     angle = Mathf.Atan2(dir.y, dir.x);
 
-                    radius = dir.magnitude;   // ⭐ 현재 위치 기준 반지름으로!
-                    rotated = 0f;             // (풀링이면 특히 필수)
+                    radius = dir.magnitude;
+                    rotated = 0f;
 
                     nowState = state.Circle;
                 }
@@ -88,6 +88,12 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         Mathf.Sin(angle),
         -Mathf.Cos(angle)
         );
+    }
+
+    private void StartMove()
+    {
+        transform.position += new Vector3(1,-1,0)* bulletSpeed * Time.deltaTime;
+        LookTangent();
     }
 
     private void StraightMoving()
@@ -123,7 +129,7 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         Vector2 nextPos = (Vector2)Center.transform.position
                           + new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * radius;
 
-        float t = 1f - Mathf.Exp(-lerpFollow * Time.deltaTime); // ✅ 올바른 t
+        float t = 1f - Mathf.Exp(-lerpFollow * Time.deltaTime);
         transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, t);
         radius = Mathf.MoveTowards(radius, targetRadius, radiusAdjustSpeed * Time.deltaTime);
         SlowSpeed();
