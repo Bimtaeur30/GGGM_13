@@ -17,5 +17,4 @@ public class CardData
     [TextArea]
     public string[] ItemDescriptions;
 
-    public bool IsUsed = false;
 }
