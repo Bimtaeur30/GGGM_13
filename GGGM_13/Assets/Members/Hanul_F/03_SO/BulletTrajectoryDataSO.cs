@@ -12,7 +12,7 @@ public class BulletTrajectoryDataSO : ScriptableObject
     public float radius = 2f;
 
     [Range(0,1f)]
-    public float CircleMoveAngle = 0.8f;
+    public float CircleMoveAngle = 1f;
 
     [Range(1f, 10f)]
     public float Decrease = 3f;
