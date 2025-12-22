@@ -5,16 +5,12 @@ public class PlayerAbility : MonoBehaviour
 {
     private YHWPlayer player;
     private SizeDown sizeDown;
-    private EquipLeatherArmor leatherArmor;
-    private EquipIronArmor ironArmor;
     private EquipNormalHelmet normalHelmet;
     private EquipIronHelmet ironHelmet;
 
     private void Start()
     {
         sizeDown._onSizeDown += PlayerSizeDown;
-        leatherArmor._onLeatherArmor += () => player.BodyCollider.GetComponent<PlayerHitBox>().SetLeather();
-        ironArmor._onIronArmor += () => player.BodyCollider.GetComponent<PlayerHitBox>().SetIron();
         normalHelmet._onEquipHelmet += () => player.HeadCollider.GetComponent<PlayerHitBox>().SetLeather();
         ironHelmet._onEquipIronHelmet += () => player.HeadCollider.GetComponent<PlayerHitBox>().SetIron();
     }
