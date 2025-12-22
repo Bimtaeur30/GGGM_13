@@ -17,7 +17,7 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] private ParticleSystem _landingParticle;
     [SerializeField] private ParticleSystem _runParticle;
     private int _currentJumpGauge;
-    private Rigidbody2D _rigid;
+    public Rigidbody2D RigidCompo { get; private set; }
     private float _timer = 0;
     public bool IsGround { get; private set; }
     public bool IsJumping { get; private set; }
@@ -28,7 +28,7 @@ public class PlayerJump : MonoBehaviour
 
     private void Awake()
     {
-        _rigid = GetComponent<Rigidbody2D>();
+        RigidCompo = GetComponent<Rigidbody2D>();
     }
 
     private void Start()
@@ -80,7 +80,7 @@ public class PlayerJump : MonoBehaviour
     {
         if (_currentJumpGauge > 0 && IsGround == true)
         {
-            _rigid.AddForceY(jumpPower, ForceMode2D.Impulse);
+            RigidCompo.AddForceY(jumpPower, ForceMode2D.Impulse);
             _onDeleteJumpGauge?.Invoke();
             _currentJumpGauge -= 1;
             _timer = 0;
@@ -93,7 +93,7 @@ public class PlayerJump : MonoBehaviour
     {
         if (_currentJumpGauge > 0 && IsGround == false && isFastLanding == false)
         {
-            _rigid.AddForceY(-10, ForceMode2D.Impulse);
+            RigidCompo.AddForceY(-10, ForceMode2D.Impulse);
             _onDeleteJumpGauge?.Invoke();
             isFastLanding = true;
             _currentJumpGauge -= 1;
