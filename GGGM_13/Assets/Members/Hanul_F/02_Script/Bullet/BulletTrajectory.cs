@@ -147,7 +147,6 @@ public class BulletTrajectory : MonoBehaviour, IBullet
     {
         this.Center = center;
         Vector2 dir = (Vector2)transform.position - (Vector2)Center.transform.position;
-        radius = dir.magnitude;
         angle = Mathf.Atan2(dir.y, dir.x);
     }
 

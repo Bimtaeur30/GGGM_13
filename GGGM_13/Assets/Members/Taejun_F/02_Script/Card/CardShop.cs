@@ -25,7 +25,6 @@ public class CardShop : MonoBehaviour
     private void PurchaseItem(CardData data, CardView view)
     {
         CardData card = sellCards.FirstOrDefault(c => c == data);
-        card.IsUsed = true;
 
         view.animator.SetTrigger("OnClicked");
         spawnedCards.ForEach((x) =>
@@ -60,11 +59,6 @@ public class CardShop : MonoBehaviour
             });
 
             spawnedCards.Add(cardView.gameObject);
-
-            if (card.IsUsed == true)
-            {
-
-            }
         }
 
         cardShopAnim.CardPopsUp(spawnedCards.ToArray());

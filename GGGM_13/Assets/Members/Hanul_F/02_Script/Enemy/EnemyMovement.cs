@@ -1,17 +1,16 @@
 using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+    public float Speed {get {return speed;} set {speed = value;}}
+
     [SerializeField] private GameObject center;
-    [SerializeField] private float radius = 2f;
-    [SerializeField] private float speed = 2f;
+    [SerializeField] private float radius = 2.25f;
+    [SerializeField] private float speed = 0.3f;
 
     [SerializeField] private float angle;
     private float rotated = 0f;
-
-    private float timer = 0f;
 
     private float size = 0.2f;
 
@@ -24,26 +23,33 @@ public class EnemyMovement : MonoBehaviour
 
     void Start()
     {
-        angle = math.PI;
+        Vector2 dir = (Vector2)transform.position - (Vector2)center.transform.position;
+        angle = Mathf.Atan2(dir.y, dir.x);
 
-        transform.localScale = new Vector3(size,size,size);
+        transform.localScale = new Vector3(size, size, size);
         spriteRenderer.sortingOrder = -1;
     }
 
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer >= 10)
+        size = Mathf.Clamp(size + 0.3f * Time.deltaTime, 0.2f, 1f);
+        if (size <= 0.9f)
         {
-            size += 0.1f;
-            size = Mathf.Clamp(size,0.2f, 1f);
-            transform.localScale = new Vector3(size,size,size);
+            radius += 0.00001f;
+        }
+
+        Vector3 target = Vector3.one * size;
+        transform.localScale = Vector3.Lerp(transform.localScale, target, 6f * Time.deltaTime);
+
+        if (size >= 0.5f)
+        {
+            spriteRenderer.sortingOrder = 2;
         }
 
         MoveMent();
     }
 
-    
+
 
 
     public void MoveMent()

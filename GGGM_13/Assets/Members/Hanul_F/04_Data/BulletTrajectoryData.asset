@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 4
   radius: 2.8
-  CircleMoveAngle: 0.9
-  Decrease: 1
+  CircleMoveAngle: 0.925
+  Decrease: 1.5
   MinSpeed: 1
