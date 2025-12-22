@@ -19,6 +19,8 @@ public class CardShopAnimation : MonoBehaviour
 
     public void CardCloseDown()
     {
+        cardPopParent.interactable = false;
+
         float startY = -screenHeight / 2f - cardParent.rect.height / 2f;
         cardParent.DOAnchorPosY(startY, 1f)
           .SetEase(Ease.InBack).OnComplete(() =>
@@ -28,6 +30,8 @@ public class CardShopAnimation : MonoBehaviour
     }
     public void CardPopsUp(GameObject[] cards)
     {
+        cardPopParent.interactable = true;
+
         Debug.Log(screenHeight);
         Debug.Log(cardParent.rect.height);
         float startY = -screenHeight / 2f - cardParent.rect.height / 2f;
