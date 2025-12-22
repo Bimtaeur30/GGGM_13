@@ -20,7 +20,7 @@ public class HealthSystem : MonoBehaviour, IDamageable
         _onDamage?.Invoke();
         if (Hp <= 0)
         {
-            gameObject.SetActive(false);
+            // gameObject.SetActive(false);
             _onDie?.Invoke();
         }
     }
