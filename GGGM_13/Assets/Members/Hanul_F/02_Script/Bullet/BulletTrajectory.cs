@@ -1,66 +1,79 @@
-using System;
 using UnityEngine;
 
-public class BulletTrajectory : MonoBehaviour
+public class BulletTrajectory : MonoBehaviour, IBullet
 {
-    public BulletTrajectoryDataSO BulletTrajectoryData = null;
+    [SerializeField] private BulletTrajectoryDataSO data;
 
-    public GameObject Center = null;
-    [SerializeField]private float bulletSpeed;
-    private float bulletMaxSpeed;
-    private float decrease;
-    private float bulletWiatTiem;
-    private float radius;
-    private float maxCircleMove;
-    private float rotated = 0f;
+    [Header("Train Settings")]
+    [SerializeField] private float angleSpacing = 0.25f; // 탄 간 각도 간격
+
+    [Header("Smooth Settings")]
+    [SerializeField] private float positionSmooth = 10f;
+
+    private GameObject center;
+    private BulletTrajectory frontBullet;
+
     private float angle;
+    private float radius;
+    private float speed;
 
-    void Awake()
+    private bool initialized;
+
+    private void Awake()
     {
-        bulletMaxSpeed = BulletTrajectoryData.bulletSpeed;
-        bulletSpeed = bulletMaxSpeed;
-        bulletWiatTiem = BulletTrajectoryData.bulletWiatTiem;
-        radius = BulletTrajectoryData.radius;
-        decrease = BulletTrajectoryData.Decrease;
-        maxCircleMove = Mathf.PI * 2f * BulletTrajectoryData.CircleMoveAngle;
+        speed = data.bulletSpeed;
+        radius = data.radius;
     }
 
-
-    void Start()
+    public void SetCenter(GameObject center)
     {
-        Vector2 dir = (Vector2)transform.position - (Vector2)Center.transform.position;
+        this.center = center;
+
+        Vector2 dir = (Vector2)transform.position - (Vector2)center.transform.position;
         angle = Mathf.Atan2(dir.y, dir.x);
+
+        initialized = true;
     }
 
-    void Update()
+    public void SetFrontBullet(IBullet front)
     {
-        if (rotated <= maxCircleMove)
-        {
-            CircleMove();
-        }
+        frontBullet = front as BulletTrajectory;
+    }
+
+    private void Update()
+    {
+        if (!initialized || center == null)
+            return;
+
+        CircleMove();
     }
 
     private void CircleMove()
     {
-        float rotat = bulletSpeed * Time.deltaTime;
-        angle -= rotat;
-        rotated += rotat;
+        float rot = speed * Time.deltaTime;
+        float nextAngle = angle - rot;
 
-        float x = Center.transform.position.x + Mathf.Cos(angle) * radius;
-        float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
+        // 🚆 기차 핵심 로직 (앞 탄보다 더 못 가게 제한)
+        if (frontBullet != null)
+        {
+            float limitAngle = frontBullet.angle + angleSpacing;
+            angle = Mathf.Max(nextAngle, limitAngle);
+        }
+        else
+        {
+            angle = nextAngle;
+        }
 
-        transform.position = new Vector2(x, y);
-        SlowSpeed();
-    }
+        // 목표 위치 계산
+        Vector2 desiredPos =
+            (Vector2)center.transform.position +
+            new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * radius;
 
-    private void SlowSpeed()
-    {
-        bulletSpeed -= Time.deltaTime * decrease;
-        bulletSpeed = Mathf.Clamp(bulletSpeed,0.5f,bulletMaxSpeed);
-    }
-
-    public void CenterSet(GameObject center)
-    {
-        this.Center = center;
+        // ⭐ 위치 스무딩 (순간이동 방지)
+        transform.position = Vector2.Lerp(
+            transform.position,
+            desiredPos,
+            Time.deltaTime * positionSmooth
+        );
     }
 }
