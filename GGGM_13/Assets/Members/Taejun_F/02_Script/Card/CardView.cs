@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using System.Text;
+using UnityEngine.UI;
 
 public class CardView : MonoBehaviour
 {
@@ -8,12 +9,16 @@ public class CardView : MonoBehaviour
     [SerializeField] private TextMeshProUGUI itemNameTxt;
     [SerializeField] private TextMeshProUGUI itemPriceTxt;
     [SerializeField] private TextMeshProUGUI itemDescTxt;
-    [SerializeField] private CardAnimator animator;
+    [SerializeField] private CardAnimator cardAnimatorCs;
+
+    [field:SerializeField] public Animator animator { get; private set; }
+    [field: SerializeField] public Button button { get; private set; }
+
 
     private void Start()
     {
         RectTransform[] aaa = new RectTransform[3] {itemPriceTxt.rectTransform, itemNameTxt.rectTransform, itemDescTxt.rectTransform };
-        animator.Init(aaa);
+        cardAnimatorCs.Init(aaa);
     }
 
     public void SetUI(CardData data)

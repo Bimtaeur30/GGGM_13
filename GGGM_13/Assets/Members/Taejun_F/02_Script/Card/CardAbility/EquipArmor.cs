@@ -1,0 +1,10 @@
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "EquipArmor", menuName = "Scriptable Objects/EquipArmor")]
+public class EquipArmor : CardAbilitySO
+{
+    public override void Excute()
+    {
+        Debug.Log("¹æ¾î±¸ Âø¿ë");
+    }
+}

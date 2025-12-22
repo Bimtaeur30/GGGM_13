@@ -11,10 +11,19 @@ public class CardInput : MonoBehaviour,
     [SerializeField] private CardAnimator animator;
     [SerializeField] private RectTransform BaseSize;
 
+    private LayoutElement le;
+
     private bool _isPlaying = false;
+    public bool canSelect = true;
+
+    private void Awake()
+    {
+        le = BaseSize.GetComponent<LayoutElement>();
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (canSelect == false) return;
         if (_isPlaying) return;
 
         _isPlaying = true;
@@ -23,13 +32,12 @@ public class CardInput : MonoBehaviour,
         onMouseImage.SetActive(true);
         animator.PlayHover(onPlayComplete);
 
-        var layoutElement = BaseSize.GetComponent<LayoutElement>();
 
-        DOTween.Kill(layoutElement); // 중복 Tween 방지
+        DOTween.Kill(le); // 중복 Tween 방지
 
-        layoutElement
+        le
             .DOPreferredSize(
-                new Vector2(700f, layoutElement.preferredHeight),
+                new Vector2(700f, le.preferredHeight),
                 0.5f
             )
             .SetEase(Ease.OutBounce);
@@ -37,19 +45,23 @@ public class CardInput : MonoBehaviour,
 
     public void OnPointerExit(PointerEventData eventData)
     {
+        HandleExit();
+    }
+
+    public void HandleExit()
+    {
+        if (canSelect == false) return;
         //_isPlaying = true;
         //Action onPlayComplete = () => _isPlaying = false;
 
         onMouseImage.SetActive(false);
         animator.StopHover();
 
-        var layoutElement = BaseSize.GetComponent<LayoutElement>();
+        DOTween.Kill(le); // 중복 Tween 방지
 
-        DOTween.Kill(layoutElement); // 중복 Tween 방지
-
-        layoutElement
+        le
             .DOPreferredSize(
-                new Vector2(250f, layoutElement.preferredHeight),
+                new Vector2(250f, le.preferredHeight),
                 0.2f
             )
             .SetEase(Ease.OutQuad);

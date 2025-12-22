@@ -9,7 +9,7 @@ public enum CardEnum
 public class CardData
 {
     [Header("Ability")]
-    public ICardAbillity Abillity;
+    public CardAbilitySO AbilitySO;
 
     [Header("Setting")]
     public string ItemName;
@@ -17,12 +17,5 @@ public class CardData
     [TextArea]
     public string[] ItemDescriptions;
 
-    [Header("Animation")]
-    public Animator animator;
-
-    public CardData(string itemName, CardEnum itemEnum, string[] itemDesc)
-    {
-        ItemName = itemName;
-        ItemDescriptions = itemDesc;
-    }
+    public bool IsUsed = false;
 }

@@ -14,6 +14,7 @@ public class GunFiring : MonoBehaviour
     [Header("Gun")]
     [SerializeField] private Transform _gun;
     [SerializeField] private float _fireTime;
+    [SerializeField] private Transform _firePos;
     private float _desireAngle;
     private GameObject target;
     private GameObject currentTarget;
@@ -75,7 +76,7 @@ public class GunFiring : MonoBehaviour
     private void Fire()
     {
         _onAttack?.Invoke();
-        Debug.Log("ÃÑ¾Ë¹ß»ç");
+        SpwanBullet.Instance.Ctrate(_firePos);
     }
 
     private void OnDrawGizmos()
