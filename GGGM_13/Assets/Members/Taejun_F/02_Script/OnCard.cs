@@ -2,12 +2,16 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class OnCard : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPointerClickHandler
+public class OnCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     [Header("TextSetting")]
     [SerializeField] private TextMeshProUGUI ItemNameTxt;
     [SerializeField] private TextMeshProUGUI ItemPriceTxt;
     [SerializeField] private TextMeshProUGUI ItemDescTxt;
+
+    [Header("OnMouseUI")]
+    [SerializeField] private GameObject OnMouseImage;
+    [SerializeField] private CanvasGroup ItemInfoGroup;
 
     private void Start()
     {
@@ -31,13 +35,13 @@ public class OnCard : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, IPo
         Debug.Log("해당 아이템 구매했습니다.");
     }
 
-    public void OnPointerDown(PointerEventData eventData)
+    public void OnPointerEnter(PointerEventData eventData)
     {
-        Debug.Log("마우스 내림");
+        OnMouseImage.SetActive(true);
     }
 
-    public void OnPointerUp(PointerEventData eventData)
+    public void OnPointerExit(PointerEventData eventData)
     {
-        Debug.Log("마우스 올림");
+        OnMouseImage.SetActive(false);
     }
 }

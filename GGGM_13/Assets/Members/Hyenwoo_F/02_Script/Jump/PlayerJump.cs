@@ -20,6 +20,7 @@ public class PlayerJump : MonoBehaviour
     private float _timer = 0;
     private bool isGround;
     private bool isJumping;
+    private bool isFastLanding = false;
 
     public event Action _onChargeJumpGauge;
     public event Action _onDeleteJumpGauge;
@@ -47,9 +48,14 @@ public class PlayerJump : MonoBehaviour
             _timer = 0;
         }
 
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
+        if (Keyboard.current.wKey.wasPressedThisFrame)
         {
             Jump();
+        }
+
+        if (Keyboard.current.sKey.wasPressedThisFrame)
+        {
+            FastLanding();
         }
 
         if (isGround == true && isJumping == true)
@@ -80,9 +86,22 @@ public class PlayerJump : MonoBehaviour
         }
     }
 
+    private void FastLanding()
+    {
+        if (_currentJumpGauge > 0 && isGround == false && isFastLanding == false)
+        {
+            _rigid.AddForceY(-10, ForceMode2D.Impulse);
+            _onDeleteJumpGauge?.Invoke();
+            isFastLanding = true;
+            _currentJumpGauge -= 1;
+            _timer = 0;
+        }
+    }
+
     private void Landing()
     {
         isJumping = false;
+        isFastLanding = false;
         _landingParticle.Play();
     }
 
