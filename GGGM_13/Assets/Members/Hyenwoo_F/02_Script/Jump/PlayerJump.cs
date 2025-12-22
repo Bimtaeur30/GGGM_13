@@ -68,6 +68,7 @@ public class PlayerJump : MonoBehaviour
             _rigid.AddForceY(jumpPower, ForceMode2D.Impulse);
             _onDeleteJumpGauge?.Invoke();
             _currentJumpGauge -= 1;
+            _timer = 0;
         }
     }
 
