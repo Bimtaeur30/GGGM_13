@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 7c5ba61851aa100438c8659ed3690627
+guid: a9e6e8ff6c4230e4eb9d08331e8eeff5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1697105948823342496
-    second: GunWalk_Move_0
+      213: 2474208454182098169
+    second: ManJump_Jump_001_0
   - first:
-      213: 2010209270003786960
-    second: GunWalk_Move_1
+      213: -7648052541739563381
+    second: ManJump_Jump_001_1
   - first:
-      213: 6020125397960130866
-    second: GunWalk_Move_2
+      213: -1568177002774842140
+    second: ManJump_Jump_001_2
   - first:
-      213: -4446282476696149745
-    second: GunWalk_Move_3
+      213: -3574764748076059219
+    second: ManJump_Jump_001_3
   - first:
-      213: -2503687701763247804
-    second: GunWalk_Move_4
+      213: 1395781979781442138
+    second: ManJump_Jump_001_4
   - first:
-      213: -3375594858241935303
-    second: GunWalk_Move_5
+      213: 6036798605772653697
+    second: ManJump_Jump_001_5
   - first:
-      213: 4790220248054968028
-    second: GunWalk_Move_6
+      213: 7126238706414509630
+    second: ManJump_Jump_001_6
   - first:
-      213: -5338641637110917421
-    second: GunWalk_Move_7
+      213: 7284740365311490884
+    second: ManJump_Jump_001_7
   - first:
-      213: -3736461846299641976
-    second: GunWalk_Move_8
+      213: -1059886363594281924
+    second: ManJump_Jump_001_8
   - first:
-      213: -8617625653365926269
-    second: GunWalk_Move_9
+      213: 3367603092918077214
+    second: ManJump_Jump_001_9
   - first:
-      213: 8196105175676178946
-    second: GunWalk_Move_10
+      213: -2039914031462827771
+    second: ManJump_Jump_001_10
   - first:
-      213: -5008175946424399812
-    second: GunWalk_Move_11
+      213: -6524708792041271653
+    second: ManJump_Jump_001_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,265 +133,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GunWalk_Move_0
+      name: ManJump_Jump_001_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 88
-        width: 35
-        height: 41
+        y: 120
+        width: 34
+        height: 57
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.53, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 062be26912ba278e0800000000000000
-      internalID: -1697105948823342496
+      spriteID: 9f4dacbea77265220800000000000000
+      internalID: 2474208454182098169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_1
+      name: ManJump_Jump_001_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 88
-        width: 35
-        height: 41
+        x: 36
+        y: 120
+        width: 34
+        height: 57
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.53, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d4e5c63ea2b5eb10800000000000000
-      internalID: 2010209270003786960
+      spriteID: b8607120cb8acd590800000000000000
+      internalID: -7648052541739563381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_2
+      name: ManJump_Jump_001_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 88
-        width: 35
-        height: 41
+        x: 72
+        y: 120
+        width: 34
+        height: 57
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.53, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23188b84728cb8350800000000000000
-      internalID: 6020125397960130866
+      spriteID: 4e43ba41357bc3ae0800000000000000
+      internalID: -1568177002774842140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_3
+      name: ManJump_Jump_001_3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 88
-        width: 35
-        height: 41
+        x: 108
+        y: 120
+        width: 34
+        height: 57
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.53, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f016b7515a1ab42c0800000000000000
-      internalID: -4446282476696149745
+      spriteID: da5765bc662e36ec0800000000000000
+      internalID: -3574764748076059219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44133e3ec4d114dd0800000000000000
-      internalID: -2503687701763247804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_5
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 938bad07c5a7721d0800000000000000
-      internalID: -3375594858241935303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_6
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cde23399fe74a7240800000000000000
-      internalID: 4790220248054968028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_7
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d6d4e467b559e5b0800000000000000
-      internalID: -5338641637110917421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_8
+      name: ManJump_Jump_001_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 35
-        height: 41
+        y: 61
+        width: 34
+        height: 57
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.53, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88772865fbb652cc0800000000000000
-      internalID: -3736461846299641976
+      spriteID: a5aa3c0c050de5310800000000000000
+      internalID: 1395781979781442138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_9
+      name: ManJump_Jump_001_5
       rect:
         serializedVersion: 2
-        x: 37
-        y: 2
-        width: 35
-        height: 41
+        x: 36
+        y: 61
+        width: 34
+        height: 57
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.53, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38694db502b086880800000000000000
-      internalID: -8617625653365926269
+      spriteID: 18407adf85407c350800000000000000
+      internalID: 6036798605772653697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_10
+      name: ManJump_Jump_001_6
       rect:
         serializedVersion: 2
-        x: 74
-        y: 2
-        width: 35
-        height: 41
+        x: 72
+        y: 61
+        width: 34
+        height: 57
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.53, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2025be18b3a6eb170800000000000000
-      internalID: 8196105175676178946
+      spriteID: e3ed978d85c75e260800000000000000
+      internalID: 7126238706414509630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_11
+      name: ManJump_Jump_001_7
       rect:
         serializedVersion: 2
-        x: 111
-        y: 2
-        width: 35
-        height: 41
+        x: 108
+        y: 61
+        width: 34
+        height: 57
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.53, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38c7bcd2826f7ab0800000000000000
-      internalID: -5008175946424399812
+      spriteID: 44b375b14c8981560800000000000000
+      internalID: 7284740365311490884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManJump_Jump_001_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 34
+        height: 57
+      alignment: 9
+      pivot: {x: 0.53, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3caea3c7f68a41f0800000000000000
+      internalID: -1059886363594281924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManJump_Jump_001_9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2
+        width: 34
+        height: 57
+      alignment: 9
+      pivot: {x: 0.53, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1783e1bb212cbe20800000000000000
+      internalID: 3367603092918077214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManJump_Jump_001_10
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2
+        width: 34
+        height: 57
+      alignment: 9
+      pivot: {x: 0.53, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509b25e0ff4c0b3e0800000000000000
+      internalID: -2039914031462827771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManJump_Jump_001_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2
+        width: 34
+        height: 57
+      alignment: 9
+      pivot: {x: 0.53, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e038b4ce39375a0800000000000000
+      internalID: -6524708792041271653
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 76fbd0d649d482346b8cf229359a0a94
+    spriteID: e6070f959fe024445a0346349588d825
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GunWalk_Move_0: -1697105948823342496
-      GunWalk_Move_1: 2010209270003786960
-      GunWalk_Move_10: 8196105175676178946
-      GunWalk_Move_11: -5008175946424399812
-      GunWalk_Move_2: 6020125397960130866
-      GunWalk_Move_3: -4446282476696149745
-      GunWalk_Move_4: -2503687701763247804
-      GunWalk_Move_5: -3375594858241935303
-      GunWalk_Move_6: 4790220248054968028
-      GunWalk_Move_7: -5338641637110917421
-      GunWalk_Move_8: -3736461846299641976
-      GunWalk_Move_9: -8617625653365926269
+      ManJump_Jump_001_0: 2474208454182098169
+      ManJump_Jump_001_1: -7648052541739563381
+      ManJump_Jump_001_10: -2039914031462827771
+      ManJump_Jump_001_11: -6524708792041271653
+      ManJump_Jump_001_2: -1568177002774842140
+      ManJump_Jump_001_3: -3574764748076059219
+      ManJump_Jump_001_4: 1395781979781442138
+      ManJump_Jump_001_5: 6036798605772653697
+      ManJump_Jump_001_6: 7126238706414509630
+      ManJump_Jump_001_7: 7284740365311490884
+      ManJump_Jump_001_8: -1059886363594281924
+      ManJump_Jump_001_9: 3367603092918077214
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
