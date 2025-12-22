@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class JumpGaugeBar : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class JumpGaugeBar : MonoBehaviour
     void UpdateBar()
     {
         float bScale = playerJump.GetTimeNormalize();
-        _jumpGaugeBar.localScale = new Vector3(bScale, _jumpGaugeBar.localScale.y, _jumpGaugeBar.localScale.z);
+        if (bScale >= 0.1)
+            _jumpGaugeBar.GetComponent<Image>().fillAmount = bScale;
+        else
+            _jumpGaugeBar.GetComponent<Image>().fillAmount = 0;
     }
 }
