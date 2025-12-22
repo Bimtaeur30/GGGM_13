@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Hhedgehog : MonoBehaviour
+public class Hedgehog : MonoBehaviour
 {
     private HealthSystem health = null;
     private EnemyMovement enemyMovement = null;
@@ -19,7 +19,7 @@ public class Hhedgehog : MonoBehaviour
     private void Death()
     {
         //스프라이트 또는 애니메이션 변환
-        enemyMovement.Speed += 3f;
+        enemyMovement.Speed += 2f;
         StartCoroutine(Remove());
     }
 
