@@ -35,6 +35,14 @@ public class JumpGaugeUI : MonoBehaviour
             if (!jumpGaugeBoxPool[i].activeSelf)
             {
                 jumpGaugeBoxPool[i].SetActive(true);
+                Canvas.ForceUpdateCanvases();
+                RectTransform rect = jumpGaugeBoxPool[i].GetComponent<RectTransform>();
+                Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(null, rect.position);
+                Camera cam = YHWGameManager.Instance.MainCamera;
+                float z = Mathf.Abs(cam.transform.position.z);
+                Vector3 worldPos = cam.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, z));
+                JumpGaugeEffectManager.Instance.ShowJumpGaugeEffect(worldPos);
+
                 break;
             }
         }
@@ -43,11 +51,11 @@ public class JumpGaugeUI : MonoBehaviour
 
     void JumpGaugeDelete()
     {
-        for (int i = 0; i < jumpGaugeBoxPool.Count; i++)
+        for (int i = jumpGaugeBoxPool.Count; i > 0; i--)
         {
-            if (jumpGaugeBoxPool[i].activeSelf)
+            if (jumpGaugeBoxPool[i-1].activeSelf)
             {
-                jumpGaugeBoxPool[i].SetActive(false);
+                jumpGaugeBoxPool[i-1].SetActive(false);
                 break;
             }
         }

@@ -15,6 +15,7 @@ public class PlayerJump : MonoBehaviour
     [field:SerializeField] public int MaxJumpGauge { get; private set; }
     [Header("Particle")]
     [SerializeField] private ParticleSystem _landingParticle;
+    [SerializeField] private ParticleSystem _runParticle;
     private int _currentJumpGauge;
     private Rigidbody2D _rigid;
     private float _timer = 0;
