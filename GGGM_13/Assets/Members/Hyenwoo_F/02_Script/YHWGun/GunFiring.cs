@@ -22,7 +22,7 @@ public class GunFiring : MonoBehaviour
     public event Action _onAttack;
     private YHWPlayer player;
 
-    private void Awake()
+    private void Start()
     {
         player = YHWGameManager.Instance.Player.GetComponent<YHWPlayer>();
     }

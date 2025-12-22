@@ -349,8 +349,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Player>k__BackingField: {fileID: 1175762613}
   <MainCamera>k__BackingField: {fileID: 1382674106}
-  healParticle: {fileID: 0}
-  sizeDownParticle: {fileID: 0}
+  healParticle: {fileID: 1762427760}
+  sizeDownParticle: {fileID: 675709148}
 --- !u!4 &120246828
 Transform:
   m_ObjectHideFlags: 0
@@ -969,6 +969,11 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.21133338}
   m_Radius: 0.5000001
+--- !u!198 &675709148 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8686486153400731959, guid: 3535bab724450c949bee12d9c24197a2, type: 3}
+  m_PrefabInstance: {fileID: 1645941747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1175762613 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3111559092999285557, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
@@ -1699,6 +1704,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!198 &1762427760 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5119420232236384104, guid: b3702be17c98bbd40a1dfcf5617d8004, type: 3}
+  m_PrefabInstance: {fileID: 428108017}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1905739292
 GameObject:
   m_ObjectHideFlags: 0
@@ -6889,6 +6899,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1621362733585756199, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: beb373feefef02e469474a2db2ccd54f, type: 2}
     - target: {fileID: 3111559092999285557, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
       propertyPath: m_Name
       value: Player
