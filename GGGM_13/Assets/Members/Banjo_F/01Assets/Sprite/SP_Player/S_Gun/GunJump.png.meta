@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 7c5ba61851aa100438c8659ed3690627
+guid: 9f7d7926ef0a28b49b19c4a15a26b1ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1697105948823342496
-    second: GunWalk_Move_0
+      213: -7958725959674047081
+    second: GunJump_0
   - first:
-      213: 2010209270003786960
-    second: GunWalk_Move_1
+      213: 563165330235730043
+    second: GunJump_1
   - first:
-      213: 6020125397960130866
-    second: GunWalk_Move_2
+      213: 8120886018107730463
+    second: GunJump_2
   - first:
-      213: -4446282476696149745
-    second: GunWalk_Move_3
+      213: -5720019479552768934
+    second: GunJump_3
   - first:
-      213: -2503687701763247804
-    second: GunWalk_Move_4
+      213: -1248942914178239875
+    second: GunJump_4
   - first:
-      213: -3375594858241935303
-    second: GunWalk_Move_5
+      213: -4611330298293034035
+    second: GunJump_5
   - first:
-      213: 4790220248054968028
-    second: GunWalk_Move_6
+      213: 6533049349100190266
+    second: GunJump_6
   - first:
-      213: -5338641637110917421
-    second: GunWalk_Move_7
+      213: -6503584096364466726
+    second: GunJump_7
   - first:
-      213: -3736461846299641976
-    second: GunWalk_Move_8
+      213: 7039552883089954973
+    second: GunJump_8
   - first:
-      213: -8617625653365926269
-    second: GunWalk_Move_9
+      213: -5266438557384497198
+    second: GunJump_9
   - first:
-      213: 8196105175676178946
-    second: GunWalk_Move_10
+      213: -7596798687796024349
+    second: GunJump_10
   - first:
-      213: -5008175946424399812
-    second: GunWalk_Move_11
+      213: 7893096245541081366
+    second: GunJump_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,265 +133,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GunWalk_Move_0
+      name: GunJump_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 88
-        width: 35
-        height: 41
+        y: 126
+        width: 44
+        height: 63
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.2554971, y: 0.2433428}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 062be26912ba278e0800000000000000
-      internalID: -1697105948823342496
+      spriteID: 795d2f428ecec8190800000000000000
+      internalID: -7958725959674047081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_1
+      name: GunJump_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 88
-        width: 35
-        height: 41
+        x: 44
+        y: 126
+        width: 44
+        height: 63
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.2554971, y: 0.2433428}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d4e5c63ea2b5eb10800000000000000
-      internalID: 2010209270003786960
+      spriteID: b78248252e3c0d700800000000000000
+      internalID: 563165330235730043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_2
+      name: GunJump_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 88
-        width: 35
-        height: 41
+        x: 88
+        y: 126
+        width: 44
+        height: 63
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.2554971, y: 0.2433428}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23188b84728cb8350800000000000000
-      internalID: 6020125397960130866
+      spriteID: f1a6fb2aece23b070800000000000000
+      internalID: 8120886018107730463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_3
+      name: GunJump_3
       rect:
         serializedVersion: 2
-        x: 111
-        y: 88
-        width: 35
-        height: 41
+        x: 132
+        y: 126
+        width: 44
+        height: 63
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.2554971, y: 0.2433428}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f016b7515a1ab42c0800000000000000
-      internalID: -4446282476696149745
+      spriteID: a5441fcd6986e90b0800000000000000
+      internalID: -5720019479552768934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44133e3ec4d114dd0800000000000000
-      internalID: -2503687701763247804
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_5
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 938bad07c5a7721d0800000000000000
-      internalID: -3375594858241935303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_6
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cde23399fe74a7240800000000000000
-      internalID: 4790220248054968028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_7
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 45
-        width: 35
-        height: 41
-      alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d6d4e467b559e5b0800000000000000
-      internalID: -5338641637110917421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GunWalk_Move_8
+      name: GunJump_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 35
-        height: 41
+        y: 63
+        width: 44
+        height: 63
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.2554971, y: 0.2433428}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 88772865fbb652cc0800000000000000
-      internalID: -3736461846299641976
+      spriteID: d723aa7690ddaaee0800000000000000
+      internalID: -1248942914178239875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_9
+      name: GunJump_5
       rect:
         serializedVersion: 2
-        x: 37
-        y: 2
-        width: 35
-        height: 41
+        x: 44
+        y: 63
+        width: 44
+        height: 63
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.2554971, y: 0.2433428}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38694db502b086880800000000000000
-      internalID: -8617625653365926269
+      spriteID: dc36f3c86834100c0800000000000000
+      internalID: -4611330298293034035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_10
+      name: GunJump_6
       rect:
         serializedVersion: 2
-        x: 74
-        y: 2
-        width: 35
-        height: 41
+        x: 88
+        y: 63
+        width: 44
+        height: 63
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.2554971, y: 0.2433428}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2025be18b3a6eb170800000000000000
-      internalID: 8196105175676178946
+      spriteID: a3ab639f4cd0aaa50800000000000000
+      internalID: 6533049349100190266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GunWalk_Move_11
+      name: GunJump_7
       rect:
         serializedVersion: 2
-        x: 111
-        y: 2
-        width: 35
-        height: 41
+        x: 132
+        y: 63
+        width: 44
+        height: 63
       alignment: 9
-      pivot: {x: 0.3664766, y: 0.4447207}
+      pivot: {x: 0.2554971, y: 0.2433428}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38c7bcd2826f7ab0800000000000000
-      internalID: -5008175946424399812
+      spriteID: adde059c8b0aeb5a0800000000000000
+      internalID: -6503584096364466726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunJump_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: 0.2554971, y: 0.2433428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98572ecc0481b160800000000000000
+      internalID: 7039552883089954973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunJump_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 0
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: 0.2554971, y: 0.2433428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d72dabe80ad9e6b0800000000000000
+      internalID: -5266438557384497198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunJump_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: 0.2554971, y: 0.2433428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eba3cfc7dfb29690800000000000000
+      internalID: -7596798687796024349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunJump_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: 0.2554971, y: 0.2433428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61112754739e98d60800000000000000
+      internalID: 7893096245541081366
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 76fbd0d649d482346b8cf229359a0a94
+    spriteID: 1c7e6f4e8b9b5b24fa9e0da5c54dbe37
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GunWalk_Move_0: -1697105948823342496
-      GunWalk_Move_1: 2010209270003786960
-      GunWalk_Move_10: 8196105175676178946
-      GunWalk_Move_11: -5008175946424399812
-      GunWalk_Move_2: 6020125397960130866
-      GunWalk_Move_3: -4446282476696149745
-      GunWalk_Move_4: -2503687701763247804
-      GunWalk_Move_5: -3375594858241935303
-      GunWalk_Move_6: 4790220248054968028
-      GunWalk_Move_7: -5338641637110917421
-      GunWalk_Move_8: -3736461846299641976
-      GunWalk_Move_9: -8617625653365926269
+      GunJump_0: -7958725959674047081
+      GunJump_1: 563165330235730043
+      GunJump_10: -7596798687796024349
+      GunJump_11: 7893096245541081366
+      GunJump_2: 8120886018107730463
+      GunJump_3: -5720019479552768934
+      GunJump_4: -1248942914178239875
+      GunJump_5: -4611330298293034035
+      GunJump_6: 6533049349100190266
+      GunJump_7: -6503584096364466726
+      GunJump_8: 7039552883089954973
+      GunJump_9: -5266438557384497198
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
