@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Hhedgehog : MonoBehaviour
@@ -17,7 +18,15 @@ public class Hhedgehog : MonoBehaviour
 
     private void Death()
     {
-        
+        //스프라이트 또는 애니메이션 변환
+        enemyMovement.Speed += 3f;
+        StartCoroutine(Remove());
+    }
+
+    private IEnumerator Remove()
+    {
+        yield return new WaitForSeconds(2f);
+        Destroy(gameObject);
     }
 
     

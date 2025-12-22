@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class YHWPlayer : MonoBehaviour
 {
+    [field: SerializeField] public GameObject BodyCollider { get; private set; }
+    [field: SerializeField] public GameObject HeadCollider { get; private set; }
     public PlayerJump JumpCompo { get; private set; }
     public PlayerHP HPCompo { get; private set; }
     public PlayerAnimation AnimCompo { get; private set; }

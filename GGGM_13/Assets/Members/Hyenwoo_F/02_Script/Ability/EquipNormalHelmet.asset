@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f4b0b1c7f8ce5c41b3a43b88e303400, type: 3}
-  m_Name: Heal
+  m_Script: {fileID: 11500000, guid: 8f9d17955d0359b41bab93ad7d145a2f, type: 3}
+  m_Name: EquipNormalHelmet
   m_EditorClassIdentifier: 
-  healValue: 1
