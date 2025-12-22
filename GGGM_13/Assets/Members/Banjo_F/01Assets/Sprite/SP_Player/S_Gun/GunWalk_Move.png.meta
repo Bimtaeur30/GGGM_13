@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 7c5ba61851aa100438c8659ed3690627
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1697105948823342496
+    second: GunWalk_Move_0
+  - first:
+      213: 2010209270003786960
+    second: GunWalk_Move_1
+  - first:
+      213: 6020125397960130866
+    second: GunWalk_Move_2
+  - first:
+      213: -4446282476696149745
+    second: GunWalk_Move_3
+  - first:
+      213: -2503687701763247804
+    second: GunWalk_Move_4
+  - first:
+      213: -3375594858241935303
+    second: GunWalk_Move_5
+  - first:
+      213: 4790220248054968028
+    second: GunWalk_Move_6
+  - first:
+      213: -5338641637110917421
+    second: GunWalk_Move_7
+  - first:
+      213: -3736461846299641976
+    second: GunWalk_Move_8
+  - first:
+      213: -8617625653365926269
+    second: GunWalk_Move_9
+  - first:
+      213: 8196105175676178946
+    second: GunWalk_Move_10
+  - first:
+      213: -5008175946424399812
+    second: GunWalk_Move_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GunWalk_Move_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062be26912ba278e0800000000000000
+      internalID: -1697105948823342496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 86
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4e5c63ea2b5eb10800000000000000
+      internalID: 2010209270003786960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 86
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23188b84728cb8350800000000000000
+      internalID: 6020125397960130866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 86
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f016b7515a1ab42c0800000000000000
+      internalID: -4446282476696149745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44133e3ec4d114dd0800000000000000
+      internalID: -2503687701763247804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 44
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938bad07c5a7721d0800000000000000
+      internalID: -3375594858241935303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 44
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde23399fe74a7240800000000000000
+      internalID: 4790220248054968028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_7
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 44
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6d4e467b559e5b0800000000000000
+      internalID: -5338641637110917421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88772865fbb652cc0800000000000000
+      internalID: -3736461846299641976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 2
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38694db502b086880800000000000000
+      internalID: -8617625653365926269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2025be18b3a6eb170800000000000000
+      internalID: 8196105175676178946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunWalk_Move_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2
+        width: 35
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4012346, y: 0.5279595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38c7bcd2826f7ab0800000000000000
+      internalID: -5008175946424399812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 01de8f096467aac48bb0555d0ea1832b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GunWalk_Move_0: -1697105948823342496
+      GunWalk_Move_1: 2010209270003786960
+      GunWalk_Move_10: 8196105175676178946
+      GunWalk_Move_11: -5008175946424399812
+      GunWalk_Move_2: 6020125397960130866
+      GunWalk_Move_3: -4446282476696149745
+      GunWalk_Move_4: -2503687701763247804
+      GunWalk_Move_5: -3375594858241935303
+      GunWalk_Move_6: 4790220248054968028
+      GunWalk_Move_7: -5338641637110917421
+      GunWalk_Move_8: -3736461846299641976
+      GunWalk_Move_9: -8617625653365926269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

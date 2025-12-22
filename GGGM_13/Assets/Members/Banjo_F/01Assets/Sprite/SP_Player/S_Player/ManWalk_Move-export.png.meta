@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: bcc082bbd47281b4cadb98890a7b517a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5690638915892644954
+    second: ManWalk_Move-export_0
+  - first:
+      213: -7512922936738622721
+    second: ManWalk_Move-export_1
+  - first:
+      213: 8759042177384054987
+    second: ManWalk_Move-export_2
+  - first:
+      213: 1310794479608174895
+    second: ManWalk_Move-export_3
+  - first:
+      213: 1964697744744991085
+    second: ManWalk_Move-export_4
+  - first:
+      213: 7182910481207031476
+    second: ManWalk_Move-export_5
+  - first:
+      213: -3337032790146355709
+    second: ManWalk_Move-export_6
+  - first:
+      213: 2963748174762204812
+    second: ManWalk_Move-export_7
+  - first:
+      213: -5279803735189971813
+    second: ManWalk_Move-export_8
+  - first:
+      213: -2758082306853757995
+    second: ManWalk_Move-export_9
+  - first:
+      213: 2529531000548762317
+    second: ManWalk_Move-export_10
+  - first:
+      213: 1077966261194814474
+    second: ManWalk_Move-export_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ManWalk_Move-export_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c8bc691f539fe40800000000000000
+      internalID: 5690638915892644954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 98
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff25fcae46cbcb790800000000000000
+      internalID: -7512922936738622721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 98
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc004a3f37e5e8970800000000000000
+      internalID: 8759042177384054987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 98
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29969262a0e03210800000000000000
+      internalID: 1310794479608174895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69498e7032044b10800000000000000
+      internalID: 1964697744744991085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 50
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b676c5a603dea360800000000000000
+      internalID: 7182910481207031476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 50
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eee739b5a70b1d0800000000000000
+      internalID: -3337032790146355709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 50
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ed9682349512920800000000000000
+      internalID: 2963748174762204812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c9838f97e5ab6b0800000000000000
+      internalID: -5279803735189971813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db11be31c259b9d0800000000000000
+      internalID: -2758082306853757995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc22c000b03ba1320800000000000000
+      internalID: 2529531000548762317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManWalk_Move-export_11
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5727488, y: 0.3810186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a047f5e6a94b5fe00800000000000000
+      internalID: 1077966261194814474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dc0be533337588045b4b6c96de41489c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ManWalk_Move-export_0: 5690638915892644954
+      ManWalk_Move-export_1: -7512922936738622721
+      ManWalk_Move-export_10: 2529531000548762317
+      ManWalk_Move-export_11: 1077966261194814474
+      ManWalk_Move-export_2: 8759042177384054987
+      ManWalk_Move-export_3: 1310794479608174895
+      ManWalk_Move-export_4: 1964697744744991085
+      ManWalk_Move-export_5: 7182910481207031476
+      ManWalk_Move-export_6: -3337032790146355709
+      ManWalk_Move-export_7: 2963748174762204812
+      ManWalk_Move-export_8: -5279803735189971813
+      ManWalk_Move-export_9: -2758082306853757995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
