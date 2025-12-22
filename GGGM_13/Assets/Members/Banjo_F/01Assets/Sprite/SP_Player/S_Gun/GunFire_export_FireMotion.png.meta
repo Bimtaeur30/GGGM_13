@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 8b2a0034f6ebfb94ca21a511508cb25e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4733200785622962781
+    second: GunFire_export_FireMotion_0
+  - first:
+      213: 3544258077917947212
+    second: GunFire_export_FireMotion_1
+  - first:
+      213: -8781995125093253565
+    second: GunFire_export_FireMotion_2
+  - first:
+      213: 2064744236879422437
+    second: GunFire_export_FireMotion_3
+  - first:
+      213: -1786405362390079979
+    second: GunFire_export_FireMotion_4
+  - first:
+      213: -1247939191341925336
+    second: GunFire_export_FireMotion_5
+  - first:
+      213: -4750586623762731431
+    second: GunFire_export_FireMotion_6
+  - first:
+      213: -4879870858224644462
+    second: GunFire_export_FireMotion_7
+  - first:
+      213: -1449036629166617050
+    second: GunFire_export_FireMotion_8
+  - first:
+      213: 2738023058455729446
+    second: GunFire_export_FireMotion_9
+  - first:
+      213: -7885833370950496435
+    second: GunFire_export_FireMotion_10
+  - first:
+      213: 5123850588794656337
+    second: GunFire_export_FireMotion_11
+  - first:
+      213: 329578305503362796
+    second: GunFire_export_FireMotion_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5218a57905bfa140800000000000000
+      internalID: 4733200785622962781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 54
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45ab9e81fbbf2130800000000000000
+      internalID: 3544258077917947212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 54
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34eba9576f5102680800000000000000
+      internalID: -8781995125093253565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 54
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3ab37a1f177ac10800000000000000
+      internalID: 2064744236879422437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516e2e5a9c96537e0800000000000000
+      internalID: -1786405362390079979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 28
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cb6c6daed6eaee0800000000000000
+      internalID: -1247939191341925336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 28
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e66e7a2a6821eb0800000000000000
+      internalID: -4750586623762731431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 28
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e4db12f47374cb0800000000000000
+      internalID: -4879870858224644462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e8ef3fcdcf3ebe0800000000000000
+      internalID: -1449036629166617050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625151a07796ff520800000000000000
+      internalID: 2738023058455729446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f039e7454ef8290800000000000000
+      internalID: -7885833370950496435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_export_FireMotion_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2
+        width: 67
+        height: 24
+      alignment: 9
+      pivot: {x: 0.29, y: 0.285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156184396f29b1740800000000000000
+      internalID: 5123850588794656337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c484ebc1d720a8d4d8e6b808f4c12a48
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GunFire_export_FireMotion_0: 4733200785622962781
+      GunFire_export_FireMotion_1: 3544258077917947212
+      GunFire_export_FireMotion_10: -7885833370950496435
+      GunFire_export_FireMotion_11: 5123850588794656337
+      GunFire_export_FireMotion_2: -8781995125093253565
+      GunFire_export_FireMotion_3: 2064744236879422437
+      GunFire_export_FireMotion_4: -1786405362390079979
+      GunFire_export_FireMotion_5: -1247939191341925336
+      GunFire_export_FireMotion_6: -4750586623762731431
+      GunFire_export_FireMotion_7: -4879870858224644462
+      GunFire_export_FireMotion_8: -1449036629166617050
+      GunFire_export_FireMotion_9: 2738023058455729446
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
