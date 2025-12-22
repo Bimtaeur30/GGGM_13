@@ -1,43 +1,34 @@
 fileFormatVersion: 2
-guid: f9387a9cb96129544b086190f05dc71e
+guid: 0f6dc018d1bf74a42a6514cd6d488df6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5966621866309598838
-    second: Fall_0
+      213: -3269382724468447873
+    second: Man2new_Hurt_0
   - first:
-      213: -2069157278089061004
-    second: Fall_1
+      213: 9142168282765596961
+    second: Man2new_Hurt_1
   - first:
-      213: 6596617931644657277
-    second: Fall_2
+      213: 1093303113077982868
+    second: Man2new_Hurt_2
   - first:
-      213: 7514022213351704123
-    second: Fall_3
+      213: -7572786845919246113
+    second: Man2new_Hurt_3
   - first:
-      213: 4554010780549788214
-    second: Fall_4
+      213: -9097062376005237532
+    second: Man2new_Hurt_4
   - first:
-      213: -7552172474170666178
-    second: Fall_5
+      213: -5592812050694758928
+    second: Man2new_Hurt_5
   - first:
-      213: -2761696545112888762
-    second: Fall_6
+      213: -1217983398228764051
+    second: Man2new_Hurt_6
   - first:
-      213: 1007656813936970757
-    second: Fall_7
+      213: -2553330553204204078
+    second: Man2new_Hurt_7
   - first:
-      213: 4325049100246099222
-    second: Fall_8
-  - first:
-      213: 823184671987604067
-    second: Fall_9
-  - first:
-      213: 1803439073425235549
-    second: Fall_10
-  - first:
-      213: 775507352212102624
-    second: Fall_11
+      213: -1836204043887743418
+    second: Man2new_Hurt_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fall_0
+      name: Man2new_Hurt_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,21 +132,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a81c98d660d423da0800000000000000
-      internalID: -5966621866309598838
+      spriteID: f756249ebb1d0a2d0800000000000000
+      internalID: -3269382724468447873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_1
+      name: Man2new_Hurt_1
       rect:
         serializedVersion: 2
         x: 72
@@ -163,21 +154,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47d561f1b60e843e0800000000000000
-      internalID: -2069157278089061004
+      spriteID: 129161bad918fde70800000000000000
+      internalID: 9142168282765596961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_2
+      name: Man2new_Hurt_2
       rect:
         serializedVersion: 2
         x: 144
@@ -185,43 +176,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7ed6a6fe05eb8b50800000000000000
-      internalID: 6596617931644657277
+      spriteID: 49687d683613c2f00800000000000000
+      internalID: 1093303113077982868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_3
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 102
-        width: 70
-        height: 48
-      alignment: 9
-      pivot: {x: 0.316, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b36093d546b274860800000000000000
-      internalID: 7514022213351704123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fall_4
+      name: Man2new_Hurt_3
       rect:
         serializedVersion: 2
         x: 0
@@ -229,21 +198,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63238fd3da8133f30800000000000000
-      internalID: 4554010780549788214
+      spriteID: fd88b396c7e08e690800000000000000
+      internalID: -7572786845919246113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_5
+      name: Man2new_Hurt_4
       rect:
         serializedVersion: 2
         x: 72
@@ -251,21 +220,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e33139ad52b413790800000000000000
-      internalID: -7552172474170666178
+      spriteID: 4e403a2a7fdb0c180800000000000000
+      internalID: -9097062376005237532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_6
+      name: Man2new_Hurt_5
       rect:
         serializedVersion: 2
         x: 144
@@ -273,43 +242,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64a6f13df9b7ca9d0800000000000000
-      internalID: -2761696545112888762
+      spriteID: 0fd90d662175262b0800000000000000
+      internalID: -5592812050694758928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_7
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 52
-        width: 70
-        height: 48
-      alignment: 9
-      pivot: {x: 0.316, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50c0732988aebfd00800000000000000
-      internalID: 1007656813936970757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fall_8
+      name: Man2new_Hurt_6
       rect:
         serializedVersion: 2
         x: 0
@@ -317,21 +264,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 615aa48dd39a50c30800000000000000
-      internalID: 4325049100246099222
+      spriteID: d6a504e6d8ad81fe0800000000000000
+      internalID: -1217983398228764051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_9
+      name: Man2new_Hurt_7
       rect:
         serializedVersion: 2
         x: 72
@@ -339,21 +286,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36a1e56091a8c6b00800000000000000
-      internalID: 823184671987604067
+      spriteID: 2dd9c16d36fb09cd0800000000000000
+      internalID: -2553330553204204078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_10
+      name: Man2new_Hurt_8
       rect:
         serializedVersion: 2
         x: 144
@@ -361,37 +308,15 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5e1291484a170910800000000000000
-      internalID: 1803439073425235549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fall_11
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 2
-        width: 70
-        height: 48
-      alignment: 9
-      pivot: {x: 0.316, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ed5e49f3d723ca00800000000000000
-      internalID: 775507352212102624
+      spriteID: 64e6fe4962e7486e0800000000000000
+      internalID: -1836204043887743418
       vertices: []
       indices: 
       edges: []
@@ -400,7 +325,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f351e8b6660d50e4585ac4f335bec74c
+    spriteID: 50dad5a3fca375844a8213caf6d5088d
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +335,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fall_0: -5966621866309598838
-      Fall_1: -2069157278089061004
-      Fall_10: 1803439073425235549
-      Fall_11: 775507352212102624
-      Fall_2: 6596617931644657277
-      Fall_3: 7514022213351704123
-      Fall_4: 4554010780549788214
-      Fall_5: -7552172474170666178
-      Fall_6: -2761696545112888762
-      Fall_7: 1007656813936970757
-      Fall_8: 4325049100246099222
-      Fall_9: 823184671987604067
+      Man2new_Hurt_0: -3269382724468447873
+      Man2new_Hurt_1: 9142168282765596961
+      Man2new_Hurt_2: 1093303113077982868
+      Man2new_Hurt_3: -7572786845919246113
+      Man2new_Hurt_4: -9097062376005237532
+      Man2new_Hurt_5: -5592812050694758928
+      Man2new_Hurt_6: -1217983398228764051
+      Man2new_Hurt_7: -2553330553204204078
+      Man2new_Hurt_8: -1836204043887743418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

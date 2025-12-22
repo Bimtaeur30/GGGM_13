@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: f9387a9cb96129544b086190f05dc71e
+guid: 4f31bbaa35053d743a381d44e2882b3d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5966621866309598838
-    second: Fall_0
+      213: -6691658216258669384
+    second: Man2new_Dead_0
   - first:
-      213: -2069157278089061004
-    second: Fall_1
+      213: -91628475167662914
+    second: Man2new_Dead_1
   - first:
-      213: 6596617931644657277
-    second: Fall_2
+      213: -2952584692053095811
+    second: Man2new_Dead_2
   - first:
-      213: 7514022213351704123
-    second: Fall_3
+      213: 8070617171772624300
+    second: Man2new_Dead_3
   - first:
-      213: 4554010780549788214
-    second: Fall_4
+      213: 4002951793530917939
+    second: Man2new_Dead_4
   - first:
-      213: -7552172474170666178
-    second: Fall_5
+      213: 5339483997377954289
+    second: Man2new_Dead_5
   - first:
-      213: -2761696545112888762
-    second: Fall_6
+      213: -2465155166762727472
+    second: Man2new_Dead_6
   - first:
-      213: 1007656813936970757
-    second: Fall_7
+      213: 7732190121360648491
+    second: Man2new_Dead_7
   - first:
-      213: 4325049100246099222
-    second: Fall_8
+      213: 1368830989160280568
+    second: Man2new_Dead_8
   - first:
-      213: 823184671987604067
-    second: Fall_9
+      213: 3540337763962303529
+    second: Man2new_Dead_9
   - first:
-      213: 1803439073425235549
-    second: Fall_10
+      213: 8143161797263454147
+    second: Man2new_Dead_10
   - first:
-      213: 775507352212102624
-    second: Fall_11
+      213: 5743000417790693795
+    second: Man2new_Dead_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -133,7 +133,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fall_0
+      name: Man2new_Dead_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,21 +141,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a81c98d660d423da0800000000000000
-      internalID: -5966621866309598838
+      spriteID: 8b4f3956e447223a0800000000000000
+      internalID: -6691658216258669384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_1
+      name: Man2new_Dead_1
       rect:
         serializedVersion: 2
         x: 72
@@ -163,21 +163,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47d561f1b60e843e0800000000000000
-      internalID: -2069157278089061004
+      spriteID: ebc125623687abef0800000000000000
+      internalID: -91628475167662914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_2
+      name: Man2new_Dead_2
       rect:
         serializedVersion: 2
         x: 144
@@ -185,21 +185,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7ed6a6fe05eb8b50800000000000000
-      internalID: 6596617931644657277
+      spriteID: d7a4be4bddf4607d0800000000000000
+      internalID: -2952584692053095811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_3
+      name: Man2new_Dead_3
       rect:
         serializedVersion: 2
         x: 216
@@ -207,21 +207,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b36093d546b274860800000000000000
-      internalID: 7514022213351704123
+      spriteID: cadcca9ce87900070800000000000000
+      internalID: 8070617171772624300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_4
+      name: Man2new_Dead_4
       rect:
         serializedVersion: 2
         x: 0
@@ -229,21 +229,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 63238fd3da8133f30800000000000000
-      internalID: 4554010780549788214
+      spriteID: 3345c6a92775d8730800000000000000
+      internalID: 4002951793530917939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_5
+      name: Man2new_Dead_5
       rect:
         serializedVersion: 2
         x: 72
@@ -251,21 +251,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e33139ad52b413790800000000000000
-      internalID: -7552172474170666178
+      spriteID: 1f18893e768a91a40800000000000000
+      internalID: 5339483997377954289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_6
+      name: Man2new_Dead_6
       rect:
         serializedVersion: 2
         x: 144
@@ -273,21 +273,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64a6f13df9b7ca9d0800000000000000
-      internalID: -2761696545112888762
+      spriteID: 0d783e0df620acdd0800000000000000
+      internalID: -2465155166762727472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_7
+      name: Man2new_Dead_7
       rect:
         serializedVersion: 2
         x: 216
@@ -295,21 +295,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50c0732988aebfd00800000000000000
-      internalID: 1007656813936970757
+      spriteID: b296c7fc2f14e4b60800000000000000
+      internalID: 7732190121360648491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_8
+      name: Man2new_Dead_8
       rect:
         serializedVersion: 2
         x: 0
@@ -317,21 +317,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 615aa48dd39a50c30800000000000000
-      internalID: 4325049100246099222
+      spriteID: 8f1f17248801ff210800000000000000
+      internalID: 1368830989160280568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_9
+      name: Man2new_Dead_9
       rect:
         serializedVersion: 2
         x: 72
@@ -339,21 +339,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36a1e56091a8c6b00800000000000000
-      internalID: 823184671987604067
+      spriteID: 924bfd5507ec12130800000000000000
+      internalID: 3540337763962303529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_10
+      name: Man2new_Dead_10
       rect:
         serializedVersion: 2
         x: 144
@@ -361,21 +361,21 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5e1291484a170910800000000000000
-      internalID: 1803439073425235549
+      spriteID: 3cf6b62a282520170800000000000000
+      internalID: 8143161797263454147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fall_11
+      name: Man2new_Dead_11
       rect:
         serializedVersion: 2
         x: 216
@@ -383,15 +383,15 @@ TextureImporter:
         width: 70
         height: 48
       alignment: 9
-      pivot: {x: 0.316, y: 0.3}
+      pivot: {x: 0.27, y: 0.29}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0ed5e49f3d723ca00800000000000000
-      internalID: 775507352212102624
+      spriteID: 3a19557c37c33bf40800000000000000
+      internalID: 5743000417790693795
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f351e8b6660d50e4585ac4f335bec74c
+    spriteID: 759330c5ba809184392ea301fc2841e2
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fall_0: -5966621866309598838
-      Fall_1: -2069157278089061004
-      Fall_10: 1803439073425235549
-      Fall_11: 775507352212102624
-      Fall_2: 6596617931644657277
-      Fall_3: 7514022213351704123
-      Fall_4: 4554010780549788214
-      Fall_5: -7552172474170666178
-      Fall_6: -2761696545112888762
-      Fall_7: 1007656813936970757
-      Fall_8: 4325049100246099222
-      Fall_9: 823184671987604067
+      Man2new_Dead_0: -6691658216258669384
+      Man2new_Dead_1: -91628475167662914
+      Man2new_Dead_10: 8143161797263454147
+      Man2new_Dead_11: 5743000417790693795
+      Man2new_Dead_2: -2952584692053095811
+      Man2new_Dead_3: 8070617171772624300
+      Man2new_Dead_4: 4002951793530917939
+      Man2new_Dead_5: 5339483997377954289
+      Man2new_Dead_6: -2465155166762727472
+      Man2new_Dead_7: 7732190121360648491
+      Man2new_Dead_8: 1368830989160280568
+      Man2new_Dead_9: 3540337763962303529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
