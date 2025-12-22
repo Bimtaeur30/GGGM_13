@@ -15,6 +15,7 @@ public class PlayerJump : MonoBehaviour
     [field:SerializeField] public int MaxJumpGauge { get; private set; }
     [Header("Particle")]
     [SerializeField] private ParticleSystem _landingParticle;
+    [SerializeField] private ParticleSystem _runParticle;
     private int _currentJumpGauge;
     private Rigidbody2D _rigid;
     private float _timer = 0;
@@ -33,6 +34,7 @@ public class PlayerJump : MonoBehaviour
     private void Start()
     {
         _currentJumpGauge = 1;
+        _runParticle.Play();
     }
 
     private void Update()
@@ -82,6 +84,7 @@ public class PlayerJump : MonoBehaviour
             _onDeleteJumpGauge?.Invoke();
             _currentJumpGauge -= 1;
             _timer = 0;
+            _runParticle.Stop();
             StartCoroutine(OnIsJumping());
         }
     }
@@ -103,6 +106,7 @@ public class PlayerJump : MonoBehaviour
         IsJumping = false;
         isFastLanding = false;
         _landingParticle.Play();
+        _runParticle.Play();
     }
 
     private void OnDrawGizmos()
