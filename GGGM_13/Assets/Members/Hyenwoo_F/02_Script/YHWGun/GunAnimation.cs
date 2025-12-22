@@ -14,7 +14,7 @@ public class GunAnimation : MonoBehaviour
     private void Awake()
     {
         _anim = GetComponent<Animator>();
-        gunFiring = GetComponent<GunFiring>();
+        gunFiring = GetComponentInParent<GunFiring>();
     }
 
     private void Start()
