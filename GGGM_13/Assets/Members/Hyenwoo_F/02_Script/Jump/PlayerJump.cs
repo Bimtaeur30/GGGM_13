@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,10 +13,13 @@ public class PlayerJump : MonoBehaviour
     [SerializeField] private float jumpPower;
     [SerializeField] private float jumpGaugeChargeTime;
     [field:SerializeField] public int MaxJumpGauge { get; private set; }
+    [Header("Particle")]
+    [SerializeField] private ParticleSystem _landingParticle;
     private int _currentJumpGauge;
     private Rigidbody2D _rigid;
     private float _timer = 0;
     private bool isGround;
+    private bool isJumping;
 
     public event Action _onChargeJumpGauge;
     public event Action _onDeleteJumpGauge;
@@ -47,6 +51,9 @@ public class PlayerJump : MonoBehaviour
         {
             Jump();
         }
+
+        if (isGround == true && isJumping == true)
+            Landing();
     }
 
     private void FixedUpdate()
@@ -69,7 +76,14 @@ public class PlayerJump : MonoBehaviour
             _onDeleteJumpGauge?.Invoke();
             _currentJumpGauge -= 1;
             _timer = 0;
+            StartCoroutine(OnIsJumping());
         }
+    }
+
+    private void Landing()
+    {
+        isJumping = false;
+        _landingParticle.Play();
     }
 
     private void OnDrawGizmos()
@@ -87,5 +101,11 @@ public class PlayerJump : MonoBehaviour
     public float GetTimeNormalize()
     {
         return _timer / jumpGaugeChargeTime;
+    }
+
+    private IEnumerator OnIsJumping()
+    {
+        yield return new WaitForSeconds(0.2f);
+        isJumping = true;
     }
 }
