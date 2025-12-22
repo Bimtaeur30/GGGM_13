@@ -1,29 +1,14 @@
 using System.Collections;
 using UnityEngine;
 
-public class Deer : MonoBehaviour
+public class Deer : Enemy
 {
-    private HealthSystem health = null;
-    private EnemyMovement enemyMovement = null;
-    void Awake()
+    protected override void OnDeath()
     {
-        health = GetComponent<HealthSystem>();
-        enemyMovement = GetComponent<EnemyMovement>();
+        base.enemyMovement.Speed += 2f;
     }
 
-    void Start()
-    {
-        health._onDie += Death;
-    }
-
-    private void Death()
-    {
-        //스프라이트 또는 애니메이션 변환
-        enemyMovement.Speed += 3f;
-        StartCoroutine(Remove());
-    }
-
-    private IEnumerator Remove()
+    protected override IEnumerator Remove()
     {
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);
