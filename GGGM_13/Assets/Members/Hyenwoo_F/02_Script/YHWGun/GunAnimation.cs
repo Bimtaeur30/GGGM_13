@@ -7,6 +7,7 @@ public class GunAnimation : MonoBehaviour
     private PlayerJump playerJump;
     private GunFiring gunFiring;
     public event Action _onAttackEnd;
+    private YHWPlayer player;
 
     private readonly int _isGround = Animator.StringToHash("IsGround");
     private readonly int _isAttacking = Animator.StringToHash("IsAttacking");
@@ -15,12 +16,14 @@ public class GunAnimation : MonoBehaviour
     {
         _anim = GetComponent<Animator>();
         gunFiring = GetComponentInParent<GunFiring>();
+        player = gunFiring.GetComponentInParent<YHWPlayer>();
     }
 
     private void Start()
     {
         playerJump = YHWGameManager.Instance.Player.GetComponent<PlayerJump>();
         gunFiring._onAttack += () => _anim.SetBool(_isAttacking, true);
+        player.HPCompo._onDie += () => _anim.speed = 0;
     }
 
     private void Update()

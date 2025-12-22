@@ -25,6 +25,7 @@ public class PlayerAnimation : MonoBehaviour
         _gunFiring._onAttack += StartAttackAnimation;
         _gunAnimation._onAttackEnd += EndAttackAnimation;
         _player.HPCompo._onDamage += StartHitAnimation;
+        _player.HPCompo._onDie += DeadAnimation;
     }
 
     private void Update()
@@ -58,6 +59,7 @@ public class PlayerAnimation : MonoBehaviour
     public void DeadAnimation()
     {
         AnimCompo.SetBool(_isDie, true);
+        AnimCompo.SetBool(_isHit, false);
     }
 
     public void AnimationSpeedUp(int speedValue)
