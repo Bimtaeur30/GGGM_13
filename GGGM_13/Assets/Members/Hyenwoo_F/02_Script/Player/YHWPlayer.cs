@@ -1,10 +1,12 @@
 using System.Collections;
+using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class YHWPlayer : MonoBehaviour
 {
-    [field: SerializeField] public GameObject BodyCollider { get; private set; }
     [field: SerializeField] public GameObject HeadCollider { get; private set; }
+    [field: SerializeField] public List<AnimatorController> AnimControllers;
     public PlayerJump JumpCompo { get; private set; }
     public PlayerHP HPCompo { get; private set; }
     public PlayerAnimation AnimCompo { get; private set; }
@@ -18,15 +20,7 @@ public class YHWPlayer : MonoBehaviour
         FiringCompo = GetComponentInChildren<GunFiring>();
     }
 
-    public void PlayerSizeDown(float downSize, float time)
+    private void ChangeAnimController()
     {
-        StartCoroutine(SizeDown(downSize, time));
-    }
-
-    private IEnumerator SizeDown(float downSize, float time)
-    {
-        gameObject.transform.localScale = new Vector3(downSize, downSize, 0);
-        yield return new WaitForSeconds(time);
-        gameObject.transform.localScale = new Vector3(1, 1, 0);
     }
 }

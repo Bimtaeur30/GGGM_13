@@ -1,11 +1,14 @@
+using System;
 using UnityEngine;
 
 public class PlayerHitBox : MonoBehaviour
 {
     private YHWPlayer player;
-    private bool leatherSet;
-    private bool ironset;
+    public bool LeatherSet { get; private set; }
+    public bool IronSet { get; private set; }
     private int count = 0;
+
+    public event Action _onChangeCos;
 
     private void Awake()
     {
@@ -17,9 +20,9 @@ public class PlayerHitBox : MonoBehaviour
         if (collision.gameObject.layer == 7)
         {
             collision.gameObject.SetActive(false);
-            if (leatherSet)
+            if (LeatherSet)
             {
-                if (Random.Range(0,4) == 0)
+                if (UnityEngine.Random.Range(0,4) == 0)
                 {
                     count++;
                     CalculateCount();
@@ -27,9 +30,9 @@ public class PlayerHitBox : MonoBehaviour
                 else
                     player.HPCompo.GetDamage(1);
             }
-            else if (ironset)
+            else if (IronSet)
             {
-                if (Random.Range(0,2) == 0)
+                if (UnityEngine.Random.Range(0,2) == 0)
                 {
                     count++;
                     CalculateCount();
@@ -44,19 +47,19 @@ public class PlayerHitBox : MonoBehaviour
 
     private void CalculateCount()
     {
-        if (leatherSet)
+        if (LeatherSet)
         {
             if (count >= 2)
             {
-                leatherSet = false;
+                LeatherSet = false;
                 count = 0;
             }
         }
-        else if (ironset)
+        else if (IronSet)
         {
             if (count >= 5)
             {
-                ironset = false;
+                IronSet = false;
                 count = 0;
             }
         }
@@ -64,21 +67,23 @@ public class PlayerHitBox : MonoBehaviour
 
     public void SetLeather()
     {
-        leatherSet = true;
-        if (ironset)
+        LeatherSet = true;
+        if (IronSet)
         {
-            ironset = false;
+            IronSet = false;
             count = 0;
         }
+        _onChangeCos?.Invoke();
     }
 
     public void SetIron()
     {
-        ironset = true;
-        if (leatherSet)
+        IronSet = true;
+        if (LeatherSet)
         {
-            leatherSet = false;
+            LeatherSet = false;
             count = 0;
         }
+        _onChangeCos?.Invoke();
     }
 }
