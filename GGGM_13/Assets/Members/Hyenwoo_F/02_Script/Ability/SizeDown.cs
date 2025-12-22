@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -6,9 +7,11 @@ public class SizeDown : CardAbilitySO
 {
     [SerializeField] private float downSize;
     [SerializeField] private float applicationTime;
+    public event Action<float, float> _onSizeDown;
 
     public override void Excute()
     {
-        YHWGameManager.Instance.Player.GetComponent<YHWPlayer>().PlayerSizeDown(downSize, applicationTime);
+        _onSizeDown?.Invoke(downSize, applicationTime);
     }
+
 }
