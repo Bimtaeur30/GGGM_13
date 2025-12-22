@@ -13,6 +13,7 @@ public class PlayerAnimation : MonoBehaviour
     private readonly int _isDie = Animator.StringToHash("IsDie");
     private GunFiring _gunFiring;
     private GunAnimation _gunAnimation;
+    private YHWPlayer _player;
 
     private void Awake()
     {
@@ -20,8 +21,10 @@ public class PlayerAnimation : MonoBehaviour
         playerJump = GetComponentInParent<PlayerJump>();
         _gunFiring = playerJump.GetComponentInChildren<GunFiring>();
         _gunAnimation = _gunFiring.GetComponentInChildren<GunAnimation>();
+        _player = GetComponentInParent<YHWPlayer>();
         _gunFiring._onAttack += StartAttackAnimation;
         _gunAnimation._onAttackEnd += EndAttackAnimation;
+        _player.HPCompo._onDamage += StartHitAnimation;
     }
 
     private void Update()
@@ -40,6 +43,21 @@ public class PlayerAnimation : MonoBehaviour
     {
         AnimCompo.SetBool(_isAttack, false);
         AnimCompo.SetInteger(_attackIndex, 3);
+    }
+
+    private void StartHitAnimation()
+    {
+        AnimCompo.SetBool(_isHit, true);
+    }
+
+    public void EndHitAnimation()
+    {
+        AnimCompo.SetBool(_isHit, false);
+    }
+
+    public void DeadAnimation()
+    {
+        AnimCompo.SetBool(_isDie, true);
     }
 
     public void AnimationSpeedUp(int speedValue)
