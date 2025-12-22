@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: a9e6e8ff6c4230e4eb9d08331e8eeff5
+guid: 277f477e54e507e47bc6187c375d2cdb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2474208454182098169
-    second: ManJump_Jump_001_0
+      213: 3271841766165904456
+    second: CardIdle_0
   - first:
-      213: -7648052541739563381
-    second: ManJump_Jump_001_1
+      213: 2490582618199431946
+    second: CardIdle_1
   - first:
-      213: -1568177002774842140
-    second: ManJump_Jump_001_2
+      213: -7452700414532941976
+    second: CardIdle_2
   - first:
-      213: -3574764748076059219
-    second: ManJump_Jump_001_3
+      213: -1701123699863888990
+    second: CardIdle_3
   - first:
-      213: 1395781979781442138
-    second: ManJump_Jump_001_4
+      213: -7117976695101721331
+    second: CardIdle_4
   - first:
-      213: 6036798605772653697
-    second: ManJump_Jump_001_5
+      213: -6425005271860715860
+    second: CardIdle_5
   - first:
-      213: 7126238706414509630
-    second: ManJump_Jump_001_6
+      213: -3355249453627046078
+    second: CardIdle_6
   - first:
-      213: 7284740365311490884
-    second: ManJump_Jump_001_7
+      213: -3374693900113512741
+    second: CardIdle_7
   - first:
-      213: -1059886363594281924
-    second: ManJump_Jump_001_8
+      213: 5504503748709728603
+    second: CardIdle_8
   - first:
-      213: 3367603092918077214
-    second: ManJump_Jump_001_9
+      213: 1790732741079635111
+    second: CardIdle_9
   - first:
-      213: -2039914031462827771
-    second: ManJump_Jump_001_10
+      213: -196325912318088768
+    second: CardIdle_10
   - first:
-      213: -6524708792041271653
-    second: ManJump_Jump_001_11
+      213: 1216125601739020620
+    second: CardIdle_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,10 +105,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -133,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ManJump_Jump_001_0
+      name: CardIdle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 119
-        width: 32
-        height: 39
+        y: 190
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9f4dacbea77265220800000000000000
-      internalID: 2474208454182098169
+      spriteID: 84cfa9950cae76d20800000000000000
+      internalID: 3271841766165904456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_1
+      name: CardIdle_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 119
-        width: 33
-        height: 39
+        x: 85
+        y: 190
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8607120cb8acd590800000000000000
-      internalID: -7648052541739563381
+      spriteID: a0b1a8112b3509220800000000000000
+      internalID: 2490582618199431946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_2
+      name: CardIdle_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 119
-        width: 34
-        height: 48
+        x: 170
+        y: 190
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e43ba41357bc3ae0800000000000000
-      internalID: -1568177002774842140
+      spriteID: 8678b568570b29890800000000000000
+      internalID: -7452700414532941976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_3
+      name: CardIdle_3
       rect:
         serializedVersion: 2
-        x: 108
-        y: 123
-        width: 34
-        height: 47
+        x: 255
+        y: 190
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da5765bc662e36ec0800000000000000
-      internalID: -3574764748076059219
+      spriteID: 2ab5d9602056468e0800000000000000
+      internalID: -1701123699863888990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_4
+      name: CardIdle_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 66
-        width: 31
-        height: 53
+        y: 96
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5aa3c0c050de5310800000000000000
-      internalID: 1395781979781442138
+      spriteID: d05f3f098edd73d90800000000000000
+      internalID: -7117976695101721331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_5
+      name: CardIdle_5
       rect:
         serializedVersion: 2
-        x: 35
-        y: 66
-        width: 33
-        height: 52
+        x: 85
+        y: 96
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18407adf85407c350800000000000000
-      internalID: 6036798605772653697
+      spriteID: caedab21fbbc5d6a0800000000000000
+      internalID: -6425005271860715860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_6
+      name: CardIdle_6
       rect:
         serializedVersion: 2
-        x: 72
-        y: 65
-        width: 32
-        height: 49
+        x: 170
+        y: 96
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3ed978d85c75e260800000000000000
-      internalID: 7126238706414509630
+      spriteID: 2478cb71662cf61d0800000000000000
+      internalID: -3355249453627046078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_7
+      name: CardIdle_7
       rect:
         serializedVersion: 2
-        x: 109
-        y: 61
-        width: 33
-        height: 46
+        x: 255
+        y: 96
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44b375b14c8981560800000000000000
-      internalID: 7284740365311490884
+      spriteID: bd67e0a17cdaa21d0800000000000000
+      internalID: -3374693900113512741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_8
+      name: CardIdle_8
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 29
-        height: 39
+        x: 0
+        y: 2
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3caea3c7f68a41f0800000000000000
-      internalID: -1059886363594281924
+      spriteID: b5146aecefce36c40800000000000000
+      internalID: 5504503748709728603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_9
+      name: CardIdle_9
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1
-        width: 33
-        height: 37
+        x: 85
+        y: 2
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1783e1bb212cbe20800000000000000
-      internalID: 3367603092918077214
+      spriteID: 7a496b7b0f5f9d810800000000000000
+      internalID: 1790732741079635111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_10
+      name: CardIdle_10
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1
-        width: 28
-        height: 40
+        x: 170
+        y: 2
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 509b25e0ff4c0b3e0800000000000000
-      internalID: -2039914031462827771
+      spriteID: 0c963187f92864df0800000000000000
+      internalID: -196325912318088768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ManJump_Jump_001_11
+      name: CardIdle_11
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1
-        width: 31
-        height: 41
+        x: 255
+        y: 2
+        width: 83
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9e038b4ce39375a0800000000000000
-      internalID: -6524708792041271653
+      spriteID: c4999ed9acb80e010800000000000000
+      internalID: 1216125601739020620
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 00baad21af28ab14889f825d1f292a02
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ManJump_Jump_001_0: 2474208454182098169
-      ManJump_Jump_001_1: -7648052541739563381
-      ManJump_Jump_001_10: -2039914031462827771
-      ManJump_Jump_001_11: -6524708792041271653
-      ManJump_Jump_001_2: -1568177002774842140
-      ManJump_Jump_001_3: -3574764748076059219
-      ManJump_Jump_001_4: 1395781979781442138
-      ManJump_Jump_001_5: 6036798605772653697
-      ManJump_Jump_001_6: 7126238706414509630
-      ManJump_Jump_001_7: 7284740365311490884
-      ManJump_Jump_001_8: -1059886363594281924
-      ManJump_Jump_001_9: 3367603092918077214
+      CardIdle_0: 3271841766165904456
+      CardIdle_1: 2490582618199431946
+      CardIdle_10: -196325912318088768
+      CardIdle_11: 1216125601739020620
+      CardIdle_2: -7452700414532941976
+      CardIdle_3: -1701123699863888990
+      CardIdle_4: -7117976695101721331
+      CardIdle_5: -6425005271860715860
+      CardIdle_6: -3355249453627046078
+      CardIdle_7: -3374693900113512741
+      CardIdle_8: 5504503748709728603
+      CardIdle_9: 1790732741079635111
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
