@@ -1,4 +1,6 @@
 using NUnit.Framework;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class CardShop : MonoBehaviour
@@ -7,18 +9,64 @@ public class CardShop : MonoBehaviour
     [SerializeField] private GameObject cardPref;
     [SerializeField] private CardData[] sellCards;
 
-    private void Start()
+    [Header("ShopAnim")]
+    [SerializeField] private CardShopAnimation cardShopAnim;
+
+    private List<GameObject> spawnedCards = new List<GameObject>();
+
+    private void Update()
     {
-        RollShop();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            RollShop();
+        }
+    }
+
+    private void PurchaseItem(CardData data, CardView view)
+    {
+        CardData card = sellCards.FirstOrDefault(c => c == data);
+        card.IsUsed = true;
+
+        view.animator.SetTrigger("OnClicked");
+        spawnedCards.ForEach((x) =>
+        {
+            CardInput ci = x.GetComponent<CardInput>();
+            ci.HandleExit();
+            ci.canSelect = false;
+        });
+
+        cardShopAnim.CardCloseDown();
     }
 
     public void RollShop()
     {
+        if (spawnedCards .Count > 0)
+        {
+            spawnedCards.ForEach((x) =>
+            {
+                Destroy(x);
+            });
+            spawnedCards.Clear();
+        }
+
         for (int i = 0; i < sellCards.Length; i++)
         {
             CardData card = sellCards[i];
             CardView cardView = Instantiate(cardPref, cardSpawnPos).GetComponent<CardView>();
             cardView.SetUI(sellCards[Random.Range(0, sellCards.Length)]);
+            cardView.button.onClick.AddListener(() =>
+            {
+                PurchaseItem(card, cardView);
+            });
+
+            spawnedCards.Add(cardView.gameObject);
+
+            if (card.IsUsed == true)
+            {
+
+            }
         }
+
+        cardShopAnim.CardPopsUp(spawnedCards.ToArray());
     }
 }
