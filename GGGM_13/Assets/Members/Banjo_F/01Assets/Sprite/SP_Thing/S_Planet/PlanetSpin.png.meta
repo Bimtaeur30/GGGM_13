@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 629a1e1d2dc252d4e8a9ea8ce79d0490
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4589458179535732128
+    second: PlanetSpin_0
+  - first:
+      213: -537090642771275873
+    second: PlanetSpin_1
+  - first:
+      213: 2756084639269826797
+    second: PlanetSpin_2
+  - first:
+      213: -3875028417609719532
+    second: PlanetSpin_3
+  - first:
+      213: 5264822053303583744
+    second: PlanetSpin_4
+  - first:
+      213: 1746072517209796661
+    second: PlanetSpin_5
+  - first:
+      213: -4556352174972604829
+    second: PlanetSpin_6
+  - first:
+      213: -6314070090981322317
+    second: PlanetSpin_7
+  - first:
+      213: 1206938186785672209
+    second: PlanetSpin_8
+  - first:
+      213: 8451369800323631597
+    second: PlanetSpin_9
+  - first:
+      213: -2950742226513168520
+    second: PlanetSpin_10
+  - first:
+      213: 3612018972986193822
+    second: PlanetSpin_11
+  - first:
+      213: 6217792454196372635
+    second: PlanetSpin_12
+  - first:
+      213: 5442285886669721941
+    second: PlanetSpin_13
+  - first:
+      213: -2770714916766178377
+    second: PlanetSpin_14
+  - first:
+      213: 886453712385484807
+    second: PlanetSpin_15
+  - first:
+      213: 4290938356985114315
+    second: PlanetSpin_16
+  - first:
+      213: 5398264124608645262
+    second: PlanetSpin_17
+  - first:
+      213: 800245382260766212
+    second: PlanetSpin_18
+  - first:
+      213: -3722604198730845840
+    second: PlanetSpin_19
+  - first:
+      213: 2964300950770829551
+    second: PlanetSpin_20
+  - first:
+      213: 7751078825548670668
+    second: PlanetSpin_21
+  - first:
+      213: 3777406570311047113
+    second: PlanetSpin_22
+  - first:
+      213: 303771133637442875
+    second: PlanetSpin_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlanetSpin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 418
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06203490a18fe40c0800000000000000
+      internalID: -4589458179535732128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 418
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f8e61f7eedb88f0800000000000000
+      internalID: -537090642771275873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 418
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0b69680649f3620800000000000000
+      internalID: 2756084639269826797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 418
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41124d95f22293ac0800000000000000
+      internalID: -3875028417609719532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 418
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0048dc463c7601940800000000000000
+      internalID: 5264822053303583744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530bc5c04bb4b3810800000000000000
+      internalID: 1746072517209796661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 314
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36eed2366d594c0c0800000000000000
+      internalID: -4556352174972604829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 314
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1d324a4baef58a0800000000000000
+      internalID: -6314070090981322317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_8
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 314
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cc631e2e7efb010800000000000000
+      internalID: 1206938186785672209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_9
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 314
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de901cd5e0c494570800000000000000
+      internalID: 8451369800323631597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877ffe4249bdc07d0800000000000000
+      internalID: -2950742226513168520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_11
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 210
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9730de5e18702230800000000000000
+      internalID: 3612018972986193822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 210
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94aa773b490a4650800000000000000
+      internalID: 6217792454196372635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_13
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 210
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5511211fd22e68b40800000000000000
+      internalID: 5442285886669721941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_14
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 210
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3a64c86717c89d0800000000000000
+      internalID: -2770714916766178377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708209c64f05d4c00800000000000000
+      internalID: 886453712385484807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 106
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce223983b97c8b30800000000000000
+      internalID: 4290938356985114315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 106
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88880fbe9c7aea40800000000000000
+      internalID: 5398264124608645262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_18
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 106
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406bcce6fea0b1b00800000000000000
+      internalID: 800245382260766212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_19
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 106
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07135475437a65cc0800000000000000
+      internalID: -3722604198730845840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe84c0a5200532920800000000000000
+      internalID: 2964300950770829551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc661e6ff1d519b60800000000000000
+      internalID: 7751078825548670668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_22
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7dd9b134b0c6430800000000000000
+      internalID: 3777406570311047113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlanetSpin_23
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d3a719c36373400800000000000000
+      internalID: 303771133637442875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 00e02978d96b67046808a9cfc3819c7e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlanetSpin_0: -4589458179535732128
+      PlanetSpin_1: -537090642771275873
+      PlanetSpin_10: -2950742226513168520
+      PlanetSpin_11: 3612018972986193822
+      PlanetSpin_12: 6217792454196372635
+      PlanetSpin_13: 5442285886669721941
+      PlanetSpin_14: -2770714916766178377
+      PlanetSpin_15: 886453712385484807
+      PlanetSpin_16: 4290938356985114315
+      PlanetSpin_17: 5398264124608645262
+      PlanetSpin_18: 800245382260766212
+      PlanetSpin_19: -3722604198730845840
+      PlanetSpin_2: 2756084639269826797
+      PlanetSpin_20: 2964300950770829551
+      PlanetSpin_21: 7751078825548670668
+      PlanetSpin_22: 3777406570311047113
+      PlanetSpin_23: 303771133637442875
+      PlanetSpin_3: -3875028417609719532
+      PlanetSpin_4: 5264822053303583744
+      PlanetSpin_5: 1746072517209796661
+      PlanetSpin_6: -4556352174972604829
+      PlanetSpin_7: -6314070090981322317
+      PlanetSpin_8: 1206938186785672209
+      PlanetSpin_9: 8451369800323631597
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

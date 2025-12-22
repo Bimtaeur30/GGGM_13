@@ -8,6 +8,7 @@ public class PlayerHP : MonoBehaviour
 
     public event Action _onDamage;
     public event Action _onDie;
+    public event Action _onHeal;
 
     private void Start()
     {
@@ -38,5 +39,6 @@ public class PlayerHP : MonoBehaviour
     {
         Hp += value;
         Hp = Mathf.Clamp(Hp, 0, MaxHp);
+        _onHeal?.Invoke();
     }
 }

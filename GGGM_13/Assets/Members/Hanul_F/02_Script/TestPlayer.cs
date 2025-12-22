@@ -8,7 +8,7 @@ public class TestPlayer : MonoBehaviour
     {
         if (Keyboard.current.qKey.wasPressedThisFrame)
         {
-            SpwanBullet.Instance.Ctrate(firePos.position);
+            SpwanBullet.Instance.Ctrate(firePos);
         }
     }
 }

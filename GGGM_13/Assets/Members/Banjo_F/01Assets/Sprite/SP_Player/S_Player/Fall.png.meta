@@ -103,12 +103,12 @@ TextureImporter:
       name: Fall_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 0
-        width: 35
-        height: 39
-      alignment: 9
-      pivot: {x: 0.45, y: 0.27}
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 511ea2f0b7d7de34cad30db11540618d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
