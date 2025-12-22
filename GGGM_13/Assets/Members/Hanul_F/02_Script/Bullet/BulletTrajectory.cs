@@ -12,11 +12,13 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 {
     public BulletTrajectoryDataSO BulletTrajectoryData = null;
 
-    
+
     public GameObject Center = null;
-    
+
     [SerializeField] private float lerpFollow = 12f;
     [SerializeField] private float bulletSpeed;
+    [SerializeField] private float radiusAdjustSpeed = 5f;
+    
     private float bulletMaxSpeed;
     private float decrease;
     private float radius;
@@ -26,7 +28,6 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
     private float minSpeed;
 
-    private float lerpTime = 3f;
     private float firstLerpTiem = 0.2f;
 
     private float timer = 0f;
@@ -35,17 +36,28 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
     private Vector3 straightMove;
 
-
+    private float targetRadius;
 
     void Update()
     {
         switch (nowState)
         {
             case state.Start:
-                FristCircleMove();
+                // FristCircleMove();
                 timer += Time.deltaTime;
+                StraightMoving();
                 if (timer >= firstLerpTiem)
                 {
+                    timer = 0f;
+
+                    Vector2 dir = (Vector2)transform.position - (Vector2)Center.transform.position;
+                    if (dir.sqrMagnitude < 0.000001f) dir = Vector2.right;
+
+                    angle = Mathf.Atan2(dir.y, dir.x);
+
+                    radius = dir.magnitude;   // ⭐ 현재 위치 기준 반지름으로!
+                    rotated = 0f;             // (풀링이면 특히 필수)
+
                     nowState = state.Circle;
                 }
                 break;
@@ -80,7 +92,7 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
     private void StraightMoving()
     {
-        transform.position += transform.right * bulletSpeed;
+        transform.position += transform.right * (bulletSpeed * radius) * Time.deltaTime;
     }
 
     private IEnumerator DeathCoroutine()
@@ -92,33 +104,28 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
     private void CircleMove()
     {
+        // float rotat = bulletSpeed * Time.deltaTime;
+        // angle -= rotat;
+        // rotated += rotat;
+
+        // float x = Center.transform.position.x + Mathf.Cos(angle) * radius;
+        // float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
+
+        // Vector2 nextPos = new Vector2(x, y);
+        // float t = 1f - Mathf.Clamp01(-lerpFollow * Time.deltaTime);
+        // transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, t);
+        // SlowSpeed();
+        // LookTangent();
         float rotat = bulletSpeed * Time.deltaTime;
         angle -= rotat;
         rotated += rotat;
 
-        float x = Center.transform.position.x + Mathf.Cos(angle) * radius;
-        float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
+        Vector2 nextPos = (Vector2)Center.transform.position
+                          + new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * radius;
 
-        Vector2 nextPos = new Vector2(x, y);
-        float t = 1f - Mathf.Exp(-lerpFollow * Time.deltaTime);
+        float t = 1f - Mathf.Exp(-lerpFollow * Time.deltaTime); // ✅ 올바른 t
         transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, t);
-        SlowSpeed();
-        LookTangent();
-    }
-
-    private void FristCircleMove()
-    {
-        float rotat = bulletSpeed * Time.deltaTime;
-        angle -= rotat;
-        rotated += rotat;
-
-        float x = Center.transform.position.x + Mathf.Cos(angle) * radius;
-        float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
-
-        Vector2 nextPos = new Vector2(x, y);
-
-        float t = Mathf.Clamp01(lerpTime * Time.deltaTime);
-        transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, t);
+        radius = Mathf.MoveTowards(radius, targetRadius, radiusAdjustSpeed * Time.deltaTime);
         SlowSpeed();
         LookTangent();
     }
@@ -154,7 +161,8 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         BulletTrajectoryData = data;
         radius = BulletTrajectoryData.radius;
         decrease = BulletTrajectoryData.Decrease;
-        maxCircleMove = Mathf.PI * 2f* BulletTrajectoryData.CircleMoveAngle;
+        targetRadius = BulletTrajectoryData.radius;
+        maxCircleMove = Mathf.PI * 2f * BulletTrajectoryData.CircleMoveAngle;
         nowState = state.Start;
         minSpeed = min;
         bulletMaxSpeed = max;
