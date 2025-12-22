@@ -4,13 +4,16 @@ using UnityEngine;
 public class PlayerHpUI : MonoBehaviour
 {
     [SerializeField] private GameObject heartUI;
+    [SerializeField] private GameObject blankHeartUI;
     private List<GameObject> heartPool;
+    private List<GameObject> blankHeartPool;
     private PlayerHP playerHp;
 
     private void Start()
     {
         playerHp = YHWGameManager.Instance.Player.GetComponent<PlayerHP>();
         HeartPool();
+        BlankHeartPool();
         playerHp._onDamage += DeleteHeart;
         playerHp._onHeal += HealHeart;
     }
@@ -34,6 +37,8 @@ public class PlayerHpUI : MonoBehaviour
                 break;
             }
         }
+
+        SetBlankHeart();
     }
 
     private void HealHeart()
@@ -43,6 +48,42 @@ public class PlayerHpUI : MonoBehaviour
             if (!item.activeSelf)
             {
                 item.SetActive(true);
+                break;
+            }
+        }
+
+        DeleteBlankHeart();
+    }
+
+    private void BlankHeartPool()
+    {
+        blankHeartPool = new List<GameObject>();
+        for (int i = 0; i < playerHp.MaxHp; i++)
+        {
+            blankHeartPool.Add(Instantiate(blankHeartUI, gameObject.transform));
+            blankHeartPool[i].SetActive(false);
+        }
+    }
+
+    private void SetBlankHeart()
+    {
+        for (int i = 0; i < blankHeartPool.Count; i++)
+        {
+            if (!blankHeartPool[i].activeSelf)
+            {
+                blankHeartPool[i].SetActive(true);
+                break;
+            }
+        }
+    }
+
+    private void DeleteBlankHeart()
+    {
+        for (int i = 0; i < blankHeartPool.Count; i++)
+        {
+            if (blankHeartPool[i].activeSelf)
+            {
+                blankHeartPool[i].SetActive(false);
                 break;
             }
         }
