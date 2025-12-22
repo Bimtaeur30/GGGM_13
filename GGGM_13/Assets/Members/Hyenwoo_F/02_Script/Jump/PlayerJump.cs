@@ -22,6 +22,7 @@ public class PlayerJump : MonoBehaviour
     public bool IsGround { get; private set; }
     public bool IsJumping { get; private set; }
     private bool isFastLanding = false;
+    private PlayerHP playerHP;
 
     public event Action _onChargeJumpGauge;
     public event Action _onDeleteJumpGauge;
@@ -29,12 +30,14 @@ public class PlayerJump : MonoBehaviour
     private void Awake()
     {
         RigidCompo = GetComponent<Rigidbody2D>();
+        playerHP = GetComponent<PlayerHP>();
     }
 
     private void Start()
     {
         _currentJumpGauge = 1;
         _runParticle.Play();
+        playerHP._onDie += () => _runParticle.Stop();
     }
 
     private void Update()
