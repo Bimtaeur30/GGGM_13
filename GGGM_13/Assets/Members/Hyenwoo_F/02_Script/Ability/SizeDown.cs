@@ -12,6 +12,6 @@ public class SizeDown : CardAbilitySO
     public override void Excute()
     {
         _onSizeDown?.Invoke(downSize, applicationTime);
+        YHWGameManager.Instance.sizeDownParticle.Play();
     }
-
 }

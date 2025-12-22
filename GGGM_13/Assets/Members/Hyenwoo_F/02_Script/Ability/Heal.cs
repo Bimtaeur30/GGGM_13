@@ -7,5 +7,6 @@ public class Heal : CardAbilitySO
     public override void Excute()
     {
         YHWGameManager.Instance.Player.GetComponent<PlayerHP>().GetHeal(healValue);
+        YHWGameManager.Instance.healParticle.Play();
     }
 }
