@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class BulletTrajectory : MonoBehaviour
@@ -5,20 +6,22 @@ public class BulletTrajectory : MonoBehaviour
     public BulletTrajectoryDataSO BulletTrajectoryData = null;
 
     public GameObject Center = null;
-    private float bulletSpeed;
+    [SerializeField]private float bulletSpeed;
+    private float bulletMaxSpeed;
+    private float decrease;
     private float bulletWiatTiem;
     private float radius;
-
     private float maxCircleMove;
-
-    private float rotated;
-    float angle;
+    private float rotated = 0f;
+    private float angle;
 
     void Awake()
     {
-        bulletSpeed = BulletTrajectoryData.bulletSpeed;
+        bulletMaxSpeed = BulletTrajectoryData.bulletSpeed;
+        bulletSpeed = bulletMaxSpeed;
         bulletWiatTiem = BulletTrajectoryData.bulletWiatTiem;
         radius = BulletTrajectoryData.radius;
+        decrease = BulletTrajectoryData.Decrease;
         maxCircleMove = Mathf.PI * 2f * BulletTrajectoryData.CircleMoveAngle;
     }
 
@@ -41,14 +44,19 @@ public class BulletTrajectory : MonoBehaviour
     {
         float rotat = bulletSpeed * Time.deltaTime;
         angle -= rotat;
-        bulletSpeed -= rotat/bulletSpeed;
-
         rotated += rotat;
 
         float x = Center.transform.position.x + Mathf.Cos(angle) * radius;
         float y = Center.transform.position.y + Mathf.Sin(angle) * radius;
 
         transform.position = new Vector2(x, y);
+        SlowSpeed();
+    }
+
+    private void SlowSpeed()
+    {
+        bulletSpeed -= Time.deltaTime * decrease;
+        bulletSpeed = Mathf.Clamp(bulletSpeed,0.5f,bulletMaxSpeed);
     }
 
     public void CenterSet(GameObject center)
