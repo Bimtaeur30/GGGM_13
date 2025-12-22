@@ -137,9 +137,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 119
-        width: 32
-        height: 39
+        y: 118
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,10 +158,10 @@ TextureImporter:
       name: ManJump_Jump_001_1
       rect:
         serializedVersion: 2
-        x: 35
-        y: 119
-        width: 33
-        height: 39
+        x: 36
+        y: 118
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,10 +180,10 @@ TextureImporter:
       name: ManJump_Jump_001_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 119
-        width: 34
-        height: 48
+        x: 72
+        y: 118
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,9 +203,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 123
-        width: 34
-        height: 47
+        y: 118
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,9 +225,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 66
-        width: 31
-        height: 53
+        y: 59
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +246,10 @@ TextureImporter:
       name: ManJump_Jump_001_5
       rect:
         serializedVersion: 2
-        x: 35
-        y: 66
-        width: 33
-        height: 52
+        x: 36
+        y: 59
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,9 +269,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 72
-        y: 65
-        width: 32
-        height: 49
+        y: 59
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +290,10 @@ TextureImporter:
       name: ManJump_Jump_001_7
       rect:
         serializedVersion: 2
-        x: 109
-        y: 61
-        width: 33
-        height: 46
+        x: 108
+        y: 59
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +312,10 @@ TextureImporter:
       name: ManJump_Jump_001_8
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 29
-        height: 39
+        x: 0
+        y: 0
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: ManJump_Jump_001_9
       rect:
         serializedVersion: 2
-        x: 38
-        y: 1
-        width: 33
-        height: 37
+        x: 36
+        y: 0
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +356,10 @@ TextureImporter:
       name: ManJump_Jump_001_10
       rect:
         serializedVersion: 2
-        x: 77
-        y: 1
-        width: 28
-        height: 40
+        x: 72
+        y: 0
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: ManJump_Jump_001_11
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1
-        width: 31
-        height: 41
+        x: 108
+        y: 0
+        width: 36
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9771fc57bc2f970429637e97e90b7de6
     internalID: 0
     vertices: []
     indices: 
