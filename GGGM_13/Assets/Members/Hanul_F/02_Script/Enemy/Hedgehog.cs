@@ -1,33 +1,10 @@
 using System.Collections;
 using UnityEngine;
 
-public class Hedgehog : MonoBehaviour
+public class Hhedgehog : Enemy
 {
-    private HealthSystem health = null;
-    private EnemyMovement enemyMovement = null;
-    void Awake()
+    protected override void OnDeath()
     {
-        health = GetComponent<HealthSystem>();
-        enemyMovement = GetComponent<EnemyMovement>();
+        base.enemyMovement.Speed += 3f;
     }
-
-    void Start()
-    {
-        health._onDie += Death;
-    }
-
-    private void Death()
-    {
-        //스프라이트 또는 애니메이션 변환
-        enemyMovement.Speed += 2f;
-        StartCoroutine(Remove());
-    }
-
-    private IEnumerator Remove()
-    {
-        yield return new WaitForSeconds(2f);
-        Destroy(gameObject);
-    }
-
-    
 }
