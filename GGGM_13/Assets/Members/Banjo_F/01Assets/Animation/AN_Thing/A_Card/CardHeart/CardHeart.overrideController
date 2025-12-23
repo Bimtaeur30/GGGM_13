@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CardHeart
+  m_Controller: {fileID: 9100000, guid: 9df33af525712cf40943e180b2a5c397, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 93a16b89b21b1cf4f815f72455976072, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: daa5d6fbe2831ea468a561ecb94b54f0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ba6a9e709bed72740a5ded671b05e271, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b6345f5709f6fd041ae3a57b15052650, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 4e2574850f169954db46771bca30f1da, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a4085af21007bca4a9629d9d019181d0, type: 2}

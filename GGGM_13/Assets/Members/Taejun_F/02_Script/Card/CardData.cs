@@ -1,3 +1,4 @@
+using UnityEditor.Animations;
 using UnityEngine;
 
 public enum CardEnum
@@ -17,4 +18,6 @@ public class CardData
     [TextArea]
     public string[] ItemDescriptions;
 
+    [Header("Animator")]
+    public AnimatorOverrideController ItemAnimator;
 }
