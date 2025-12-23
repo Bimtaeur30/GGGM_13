@@ -6,6 +6,7 @@ public abstract class Enemy : MonoBehaviour
 {
     protected HealthSystem health;
     protected EnemyMovement enemyMovement;
+    [SerializeField] private EventChannelSO onAnimalDied;
 
     protected virtual void Awake()
     {
@@ -30,6 +31,7 @@ public abstract class Enemy : MonoBehaviour
     private void HandleDie()
     {
         OnDeath();
+        onAnimalDied.OnRaiseEvent();
         StartCoroutine(Remove());
     }
     protected abstract void OnDeath();

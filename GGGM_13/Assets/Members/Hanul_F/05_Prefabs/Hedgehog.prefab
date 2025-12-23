@@ -233,4 +233,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efc55f6daf4e6fb459bc3e33ad8c629d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onAnimalDied: {fileID: 11400000, guid: 7dd53fff39a706545bec8b490c8f2879, type: 2}
   DamgeParticle: {fileID: 2197837509953950380, guid: 603ca578a528969469d4e0e1a8013af5, type: 3}
