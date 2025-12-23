@@ -209,7 +209,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.2, y: 1.36}
+  m_Size: {x: 1.54, y: 1.36}
   m_EdgeRadius: 0
 --- !u!114 &-5406098321388788603
 MonoBehaviour:
@@ -225,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onAnimalDied: {fileID: 11400000, guid: 7dd53fff39a706545bec8b490c8f2879, type: 2}
   DamgeParticle: {fileID: 2197837509953950380, guid: 603ca578a528969469d4e0e1a8013af5, type: 3}
+  deathMessage: {fileID: 1595675292934561400, guid: 1c8a5df9468029d40a9089a30c15c67e, type: 3}
   duration: 0.3
 --- !u!95 &6322794749456704902
 Animator:
