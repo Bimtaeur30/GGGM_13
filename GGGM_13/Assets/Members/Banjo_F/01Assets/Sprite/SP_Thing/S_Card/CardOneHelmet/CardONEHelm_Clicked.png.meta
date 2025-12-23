@@ -121,12 +121,12 @@ TextureImporter:
       name: CardONEHelm_Clicked_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 182
-        width: 82
-        height: 88
+        x: 13
+        y: 195
+        width: 53
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: CardONEHelm_Clicked_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 182
-        width: 82
-        height: 88
+        x: 97
+        y: 195
+        width: 53
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: CardONEHelm_Clicked_2
       rect:
         serializedVersion: 2
-        x: 168
-        y: 182
-        width: 82
-        height: 88
+        x: 181
+        y: 195
+        width: 53
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: CardONEHelm_Clicked_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 92
-        width: 82
-        height: 88
+        x: 13
+        y: 105
+        width: 53
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: CardONEHelm_Clicked_4
       rect:
         serializedVersion: 2
-        x: 84
-        y: 92
-        width: 82
-        height: 88
+        x: 97
+        y: 105
+        width: 53
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: CardONEHelm_Clicked_5
       rect:
         serializedVersion: 2
-        x: 168
-        y: 92
-        width: 82
-        height: 88
+        x: 181
+        y: 105
+        width: 53
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: CardONEHelm_Clicked_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 82
-        height: 88
+        x: 13
+        y: 15
+        width: 53
+        height: 72
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

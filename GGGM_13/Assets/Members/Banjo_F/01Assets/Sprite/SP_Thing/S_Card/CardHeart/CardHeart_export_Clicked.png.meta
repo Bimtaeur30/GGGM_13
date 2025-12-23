@@ -121,10 +121,10 @@ TextureImporter:
       name: CardHeart_export_Clicked_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 174
-        width: 78
-        height: 84
+        x: 14
+        y: 183
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,10 +143,10 @@ TextureImporter:
       name: CardHeart_export_Clicked_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 174
-        width: 78
-        height: 84
+        x: 95
+        y: 183
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: CardHeart_export_Clicked_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 174
-        width: 78
-        height: 84
+        x: 176
+        y: 183
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: CardHeart_export_Clicked_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 88
-        width: 78
-        height: 84
+        x: 14
+        y: 97
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: CardHeart_export_Clicked_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 88
-        width: 78
-        height: 84
+        x: 95
+        y: 97
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: CardHeart_export_Clicked_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 88
-        width: 78
-        height: 84
+        x: 176
+        y: 97
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: CardHeart_export_Clicked_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 78
-        height: 84
+        x: 14
+        y: 11
+        width: 54
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
