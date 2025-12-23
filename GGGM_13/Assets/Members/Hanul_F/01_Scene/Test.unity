@@ -1490,17 +1490,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eenmyspawner
       objectReference: {fileID: 0}
-    - target: {fileID: 4039425018824316002, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4696064774714808681, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.34
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 4696064774714808681, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.27
+      value: -2.76
       objectReference: {fileID: 0}
     - target: {fileID: 5755799254763042978, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7222,7 +7218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3111559092999285557, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5212745737497983168, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7284,6 +7280,10 @@ PrefabInstance:
       propertyPath: 'helmetController.Array.data[1]'
       value: 
       objectReference: {fileID: 22100000, guid: 0e1731c6fb036f14181d103152e7f1db, type: 2}
+    - target: {fileID: 7319228682019417634, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.55
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
