@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -6,6 +7,7 @@ public class ExpManager : MonoBehaviour
 {
     [SerializeField] private Slider slider;
     [SerializeField] private EventChannelSO onAnimalDied;
+    [SerializeField] private TextMeshProUGUI amountTxt;
     [SerializeField] private UnityEvent onCharged;
     private int _currentExp;
     public int CurrentExp
@@ -28,6 +30,7 @@ public class ExpManager : MonoBehaviour
     private void AddExp()
     {
         slider.value += 1;
+        amountTxt.text = slider.value + "/" + slider.maxValue.ToString();
         if (slider.value == slider.maxValue)
         {
             slider.value = 0;
