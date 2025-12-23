@@ -38,12 +38,12 @@ public class SoundManager : MonoBehaviour
             sfxDictionary[item] = sfxList[i];
             i++;
         }
-        i = 0;
+        /*i = 0;
         foreach (BGM item in Enum.GetValues(typeof(BGM)))
         {
             bgmDictionary[item] = bgmList[i];
             i++;
-        }
+        }*/
     }
 
     public void SetMusicVolume(float value)
@@ -71,19 +71,19 @@ public class SoundManager : MonoBehaviour
 
 public enum SFX
 { 
-    GameStart,
-    GameOver,
-    PlayerHit,
-    PlayerJump,
-    PlayerLanding,
-    PlayerRun,
-    JumpSloatCharge,
-    GunFiring,
-    GunExplosion,
-    CardUp,
-    CardSelect,
-    ButtonSelect,
-    ButtonClick
+    //GameStart,
+    //GameOver,
+    PlayerHit, //
+    PlayerJump, //
+    PlayerLanding, //
+    PlayerRun, //
+    //JumpSloatCharge,
+    GunFiring, //
+    GunExplosion, //
+    //CardUp,
+    //CardSelect,
+    //ButtonSelect,
+    //ButtonClick
 }
 
 public enum BGM

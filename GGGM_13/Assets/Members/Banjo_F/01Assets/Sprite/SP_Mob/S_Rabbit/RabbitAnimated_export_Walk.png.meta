@@ -105,7 +105,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 256
+    maxTextureSize: 128
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -137,11 +137,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 54
-        width: 28
-        height: 24
+        y: 50
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 54
-        width: 28
-        height: 24
+        x: 27
+        y: 50
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 54
-        width: 28
-        height: 24
+        x: 54
+        y: 50
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_3
       rect:
         serializedVersion: 2
-        x: 90
-        y: 54
-        width: 28
-        height: 24
+        x: 81
+        y: 50
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,11 +225,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 28
-        width: 28
-        height: 24
+        y: 26
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -246,12 +246,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_5
       rect:
         serializedVersion: 2
-        x: 30
-        y: 28
-        width: 28
-        height: 24
+        x: 27
+        y: 26
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -268,12 +268,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_6
       rect:
         serializedVersion: 2
-        x: 60
-        y: 28
-        width: 28
-        height: 24
+        x: 54
+        y: 26
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -290,12 +290,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_7
       rect:
         serializedVersion: 2
-        x: 90
-        y: 28
-        width: 28
-        height: 24
+        x: 81
+        y: 26
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,10 +314,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 2
-        width: 28
-        height: 24
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,12 +334,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_9
       rect:
         serializedVersion: 2
-        x: 30
+        x: 27
         y: 2
-        width: 28
-        height: 24
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_10
       rect:
         serializedVersion: 2
-        x: 60
+        x: 54
         y: 2
-        width: 28
-        height: 24
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -378,12 +378,12 @@ TextureImporter:
       name: RabbitAnimated_export_Walk_11
       rect:
         serializedVersion: 2
-        x: 90
+        x: 81
         y: 2
-        width: 28
-        height: 24
+        width: 25
+        height: 22
       alignment: 9
-      pivot: {x: 0.52, y: 0.33}
+      pivot: {x: 0.5, y: 0.316}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 53e6d5f639a5968489fb0a7305b74807
+    spriteID: da9f492cc7e96bb4196feeeedb361e29
     internalID: 0
     vertices: []
     indices: 

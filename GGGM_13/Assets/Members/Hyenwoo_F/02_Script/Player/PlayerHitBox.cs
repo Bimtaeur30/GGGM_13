@@ -14,6 +14,10 @@ public class PlayerHitBox : MonoBehaviour
     private void Awake()
     {
         player = GetComponentInParent<YHWPlayer>();
+    }
+
+    private void Start()
+    {
         effectManager = YHWGameManager.Instance.reflectionEffectManager;
     }
 
