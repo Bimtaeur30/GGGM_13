@@ -23,7 +23,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        size = Mathf.Clamp(size + 0.3f * Time.deltaTime, 0.2f, 1f);
+        size = Mathf.Clamp(size + 0.25f * Time.deltaTime, 0.2f, 0.9f);
         if (size <= 0.9f)
         {
             radius += 0.00001f;
@@ -60,8 +60,8 @@ public class EnemyMovement : MonoBehaviour
     private void LookTangent()
     {
         Vector2 tangent = new Vector2(
-            -Mathf.Sin(angle),
-             Mathf.Cos(angle)
+            Mathf.Sin(angle),
+            -Mathf.Cos(angle)
         );
 
         float rotZ = Mathf.Atan2(tangent.y, tangent.x) * Mathf.Rad2Deg;
