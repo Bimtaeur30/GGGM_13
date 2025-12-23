@@ -10,6 +10,7 @@ public class PlayerAbility : MonoBehaviour
 
     private void Start()
     {
+        player = YHWGameManager.Instance.Player.GetComponent<YHWPlayer>();
         sizeDown._onSizeDown += PlayerSizeDown;
         normalHelmet._onEquipHelmet += () => player.HeadCollider.GetComponent<PlayerHitBox>().SetLeather();
         ironHelmet._onEquipIronHelmet += () => player.HeadCollider.GetComponent<PlayerHitBox>().SetIron();
