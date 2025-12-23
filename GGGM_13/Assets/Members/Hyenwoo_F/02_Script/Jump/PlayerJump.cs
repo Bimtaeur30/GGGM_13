@@ -90,6 +90,7 @@ public class PlayerJump : MonoBehaviour
             _currentJumpGauge -= 1;
             _timer = 0;
             _runParticle.Stop();
+            SoundManager.Instance.PlaySound(SFX.PlayerJump);
             StartCoroutine(OnIsJumping());
         }
     }
@@ -112,6 +113,7 @@ public class PlayerJump : MonoBehaviour
         isFastLanding = false;
         _landingParticle.Play();
         _runParticle.Play();
+        SoundManager.Instance.PlaySound(SFX.PlayerLanding);
     }
 
     private void OnDrawGizmos()

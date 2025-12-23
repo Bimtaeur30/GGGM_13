@@ -1,16 +1,38 @@
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ReflectionEffectManager : MonoBehaviour
 {
     [SerializeField] private GameObject reflectionTxt;
+    private List<GameObject> reflectionTxtPool;
 
     private void Start()
     {
-        reflectionTxt.SetActive(false);
+        ReflectionTxtPool();
     }
 
     public void ShowEffect(int persent)
     {
-        reflectionTxt.GetComponent<ReflectionTxtAnim>().Show(persent);
+        foreach (var item in reflectionTxtPool)
+        {
+            if (!item.activeSelf)
+            {
+                item.transform.position = transform.position;
+                item.GetComponent<ReflectionTxtAnim>().Show(persent);
+                break;
+            }
+        }
+    }
+
+    private void ReflectionTxtPool()
+    {
+        reflectionTxtPool = new List<GameObject>();
+        for (int i = 0; i < 4; i++)
+        {
+            reflectionTxtPool.Add(Instantiate(reflectionTxt, gameObject.transform));
+            reflectionTxtPool[i].SetActive(false);
+        }
     }
 }

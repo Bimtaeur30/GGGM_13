@@ -13,7 +13,6 @@ public class ReflectionTxtAnim : MonoBehaviour
 
     private void OnEnable()
     {
-        gameObject.transform.position = Vector3.zero;
         text.color = new Color(1, 1, 1, 1);
     }
 
@@ -23,7 +22,7 @@ public class ReflectionTxtAnim : MonoBehaviour
         text.text = $"นÝป็! ({persent}%)";
         gameObject.SetActive(true);
 
-        sequence.Insert(0.2f, gameObject.transform.DOMoveY(2, 0.5f));
+        sequence.Insert(0.2f, gameObject.transform.DOMoveY(5, 0.5f));
         sequence.Insert(0.3f, text.DOFade(0f, 0.5f));
         sequence.AppendCallback(Hide);
     }
