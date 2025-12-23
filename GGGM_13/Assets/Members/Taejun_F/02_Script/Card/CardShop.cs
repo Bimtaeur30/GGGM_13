@@ -53,6 +53,7 @@ public class CardShop : MonoBehaviour
             CardData card = sellCards[i];
             CardView cardView = Instantiate(cardPref, cardSpawnPos).GetComponent<CardView>();
             cardView.SetUI(sellCards[Random.Range(0, sellCards.Length)]);
+            cardView.SetAnimator(card.ItemAnimator);
             cardView.button.onClick.AddListener(() =>
             {
                 PurchaseItem(card, cardView);
