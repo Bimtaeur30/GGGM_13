@@ -11,6 +11,7 @@ public class GunAnimation : MonoBehaviour
 
     private readonly int _isGround = Animator.StringToHash("IsGround");
     private readonly int _isAttacking = Animator.StringToHash("IsAttacking");
+    private readonly int _isDie = Animator.StringToHash("IsDie");
 
     private void Awake()
     {
@@ -23,7 +24,7 @@ public class GunAnimation : MonoBehaviour
     {
         playerJump = YHWGameManager.Instance.Player.GetComponent<PlayerJump>();
         gunFiring._onAttack += () => _anim.SetBool(_isAttacking, true);
-        player.HPCompo._onDie += () => _anim.speed = 0;
+        player.HPCompo._onDie += () => _anim.SetBool(_isDie, true);
     }
 
     private void Update()
