@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,12 +12,20 @@ public abstract class Enemy : MonoBehaviour
         health = GetComponent<HealthSystem>();
         enemyMovement = GetComponent<EnemyMovement>();
         health._onDie += HandleDie;
+        health._onDamage += HandleDamge;
+    }
+
+    private void HandleDamge()
+    {
+        OnDamge();
     }
 
     protected virtual void OnDisable()
     {
-        if (health != null) health._onDie -= HandleDie;
+        health._onDie -= HandleDie;
     }
+
+    protected abstract void OnDamge();
 
     private void HandleDie()
     {

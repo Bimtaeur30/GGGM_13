@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 793805636045305319}
   - component: {fileID: 6969853272164283599}
   - component: {fileID: 3246095009691679677}
-  - component: {fileID: 6405724802378086235}
   - component: {fileID: 4724004870752922441}
+  - component: {fileID: -5406098321388788603}
   m_Layer: 0
   m_Name: Hedgehog
   m_TagString: Untagged
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 0}
   radius: 2.25
-  speed: 0.44
+  speed: 1.2
 --- !u!114 &793805636045305319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,18 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b099f5783fe7ad4da2e97e7ae8bbe2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6405724802378086235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036581333776497029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cc4e4fa9f6bf17458d68146d1633a5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  attackParticle: {fileID: 894894300983755944, guid: 7cd343898e7cd804aa7ce5cf70dc8e5f, type: 3}
 --- !u!61 &4724004870752922441
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -232,3 +221,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.87, y: 0.5625}
   m_EdgeRadius: 0
+--- !u!114 &-5406098321388788603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036581333776497029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc55f6daf4e6fb459bc3e33ad8c629d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamgeParticle: {fileID: 2197837509953950380, guid: 603ca578a528969469d4e0e1a8013af5, type: 3}

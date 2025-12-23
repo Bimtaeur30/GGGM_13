@@ -6,6 +6,12 @@ using UnityEngine;
 public class Rabbit : Enemy
 {
     [SerializeField] private GameObject deathParticle;
+
+    protected override void OnDamge()
+    {
+        
+    }
+
     protected override void OnDeath()
     {
         GameObject particle  = Instantiate(deathParticle,gameObject.transform.position,Quaternion.identity);
