@@ -103,6 +103,7 @@ public class PlayerJump : MonoBehaviour
             _timer = 0;
             _runParticle.Stop();
             SoundManager.Instance.runSFX.StopRunSFX();
+            SoundManager.Instance.PlaySound(SFX.PlayerJump);
             StartCoroutine(OnIsJumping());
         }
     }

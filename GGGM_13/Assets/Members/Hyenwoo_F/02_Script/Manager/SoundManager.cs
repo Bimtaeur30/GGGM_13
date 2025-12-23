@@ -74,18 +74,16 @@ public class SoundManager : MonoBehaviour
 
 public enum SFX
 { 
-    //GameStart,
     GameOver,
     PlayerHit,
-    //PlayerJump,
+    PlayerJump,
     PlayerLanding, 
     PlayerRun,
     JumpSloatCharge,
     GunFiring, 
     GunExplosion,
     CardUp,
-    //CardSelect,
-    //ButtonSelect,
+    ButtonSelect,
     ButtonClick
 }
 
