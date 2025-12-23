@@ -39,6 +39,7 @@ public class PlayerHP : MonoBehaviour
         {
             _onDie?.Invoke();
         }
+        SoundManager.Instance.PlaySound(SFX.PlayerHit);
         _onDamage?.Invoke();
     }
 

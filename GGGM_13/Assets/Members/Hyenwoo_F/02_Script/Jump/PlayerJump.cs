@@ -16,9 +16,9 @@ public class PlayerJump : MonoBehaviour
     [Header("Particle")]
     [SerializeField] private ParticleSystem _landingParticle;
     [SerializeField] private ParticleSystem _runParticle;
-    [Header("Extra Setting")]
-    [SerializeField] private float _extraGravity = 30f;
-    [SerializeField] private float _gravityDelay = 0.15f;
+    [Header("Gravity")]
+    [SerializeField] float normalGravity = 1f;
+    [SerializeField] float jumpUpGravity = 3f;
     private int _currentJumpGauge;
     public Rigidbody2D RigidCompo { get; private set; }
     private float _timer = 0;
@@ -27,7 +27,6 @@ public class PlayerJump : MonoBehaviour
     private bool isFastLanding = false;
     private PlayerHP playerHP;
     private YHWPlayer player;
-    private float _timeInAir;
 
     public event Action _onChargeJumpGauge;
     public event Action _onDeleteJumpGauge;
@@ -72,21 +71,19 @@ public class PlayerJump : MonoBehaviour
         if (IsGround == true && IsJumping == true)
             Landing();
 
-        CalculateTimeInAir();
-    }
-
-    private void CalculateTimeInAir()
-    {
-        if (!IsGround)
-            _timeInAir += Time.deltaTime;
+        if (RigidCompo.linearVelocityY > 0f)
+        {
+            RigidCompo.gravityScale = jumpUpGravity;
+        }
         else
-            _timeInAir = 0f;
+        {
+            RigidCompo.gravityScale = normalGravity;
+        }
     }
 
     private void FixedUpdate()
     {
         IsGround = GroundCheck();
-        ApplyExtraGravity();
     }
 
     private void JumpGaugeCharge()
@@ -105,7 +102,7 @@ public class PlayerJump : MonoBehaviour
             _currentJumpGauge -= 1;
             _timer = 0;
             _runParticle.Stop();
-            SoundManager.Instance.PlaySound(SFX.PlayerJump);
+            SoundManager.Instance.runSFX.StopRunSFX();
             StartCoroutine(OnIsJumping());
         }
     }
@@ -129,6 +126,7 @@ public class PlayerJump : MonoBehaviour
         _landingParticle.Play();
         _runParticle.Play();
         SoundManager.Instance.PlaySound(SFX.PlayerLanding);
+        SoundManager.Instance.runSFX.PlayerRunSFX();
     }
 
     private void OnDrawGizmos()
@@ -152,13 +150,5 @@ public class PlayerJump : MonoBehaviour
     {
         yield return new WaitForSeconds(0.2f);
         IsJumping = true;
-    }
-
-    private void ApplyExtraGravity()
-    {
-        if (_timeInAir > _gravityDelay)
-        {
-            RigidCompo.AddForceY(-_extraGravity);
-        }
     }
 }
