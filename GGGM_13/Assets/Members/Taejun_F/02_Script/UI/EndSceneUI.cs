@@ -20,6 +20,7 @@ public class EndSceneUI : MonoBehaviour
 
     public void RunEndUI()
     {
+        SoundManager.Instance.PlaySound(SFX.GameOver);
         cg.gameObject.SetActive(true);
         cg.DOFade(1f, 1f);
         scoreTxt.text = "최고기록: " + StageManager.Instance.BestStage + "\n현재기록: " + StageManager.Instance.CurrentStage;
