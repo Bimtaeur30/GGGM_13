@@ -351,6 +351,7 @@ MonoBehaviour:
   <MainCamera>k__BackingField: {fileID: 1382674106}
   healParticle: {fileID: 1762427760}
   sizeDownParticle: {fileID: 675709148}
+  helmetBrokenParticle: {fileID: 0}
 --- !u!4 &120246828
 Transform:
   m_ObjectHideFlags: 0
@@ -1062,7 +1063,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletTrajectoryDataSOs:
-  - {fileID: 11400000, guid: 94fdbb66f5bea3540b6958c1555b9321, type: 2}
   - {fileID: 11400000, guid: 897e0a35a2d04b74394dbb457abb9a69, type: 2}
   BulletPreFab: {fileID: 1581982034508992498, guid: 50d0dd33c7a28b44baf00625a367a4f2, type: 3}
   center: {fileID: 49171581}
@@ -1492,15 +1492,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4039425018824316002, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4696064774714808681, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.24
+      value: -3.34
       objectReference: {fileID: 0}
     - target: {fileID: 4696064774714808681, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.63
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: 5755799254763042978, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
       propertyPath: m_LocalPosition.x

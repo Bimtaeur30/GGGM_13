@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
@@ -5,6 +6,8 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
+    public static SpawnEnemy Instance;
+
     [SerializeField] private GameObject center = null;
     [SerializeField] private Transform spawnPoint = null;
     [SerializeField] private List<GameObject> enemys = new List<GameObject>();
@@ -12,6 +15,16 @@ public class SpawnEnemy : MonoBehaviour
 
     private int MaxEenmy = 1;
     private int EnemyCount = 0;
+
+    public event Action enemySpawned;
+
+    void Awake()
+    {
+        if(Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
 
     void Start()
     {
@@ -54,6 +67,7 @@ public class SpawnEnemy : MonoBehaviour
 
         for (int i =  0;  i < oneCount;i++ )
         {
+            enemySpawned?.Invoke();
             EnemyCount++;
             if (currentStage <= 4)
             {
