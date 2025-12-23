@@ -128,9 +128,10 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         rotated += rotat;
 
         Vector2 nextPos = (Vector2)Center.transform.position
-                          + new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * radius;
-
-        float t = 1f - Mathf.Exp(-lerpFollow * Time.deltaTime);
+            + new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * radius;
+                          
+        float follow = lerpFollow * bulletSpeed;   
+        float t = 1f - Mathf.Exp(-follow * Time.deltaTime);
         transform.position = Vector3.Lerp(transform.position, (Vector3)nextPos, t);
         radius = Mathf.MoveTowards(radius, targetRadius, radiusAdjustSpeed * Time.deltaTime);
         SlowSpeed();
@@ -162,11 +163,11 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
     }
 
-    public void SetSpeed(float min, float max, BulletTrajectoryDataSO data)
+    public void SetSpeed(float min, float max,float decrease ,BulletTrajectoryDataSO data)
     {
         BulletTrajectoryData = data;
         radius = BulletTrajectoryData.radius;
-        decrease = BulletTrajectoryData.Decrease;
+        this.decrease = decrease;
         targetRadius = BulletTrajectoryData.radius;
         maxCircleMove = Mathf.PI * 2f * BulletTrajectoryData.CircleMoveAngle;
         nowState = state.Circle;

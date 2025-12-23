@@ -53,6 +53,7 @@ public class PlayerHitBox : MonoBehaviour
             {
                 LeatherSet = false;
                 count = 0;
+                YHWGameManager.Instance.helmetBrokenParticle.Play();
             }
         }
         else if (IronSet)
@@ -61,6 +62,7 @@ public class PlayerHitBox : MonoBehaviour
             {
                 IronSet = false;
                 count = 0;
+                YHWGameManager.Instance.helmetBrokenParticle.Play();
             }
         }
     }
