@@ -41,7 +41,7 @@ public abstract class Enemy : MonoBehaviour
 
     protected virtual IEnumerator Remove()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }
 }

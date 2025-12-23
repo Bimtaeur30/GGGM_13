@@ -15,7 +15,7 @@ public class StageUI : MonoBehaviour
 
     private void ChangeCurrentStage(int currentStage)
     {
-        _currentStageTxt.text = $"현재 스태이지: {currentStage}";
+        _currentStageTxt.text = $"{currentStage}";
     }
 
     private void ChangeBestStage(int currentStage)
