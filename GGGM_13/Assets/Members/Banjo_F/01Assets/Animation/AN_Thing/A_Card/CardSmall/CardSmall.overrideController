@@ -6,7 +6,7 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Animator Override Controller
+  m_Name: CardSmall
   m_Controller: {fileID: 9100000, guid: 9df33af525712cf40943e180b2a5c397, type: 2}
   m_Clips:
   - m_OriginalClip: {fileID: 7400000, guid: 93a16b89b21b1cf4f815f72455976072, type: 2}
