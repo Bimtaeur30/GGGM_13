@@ -13,6 +13,7 @@ public class StageManager : MonoBehaviour
 
     public event Action<int> _onNextStage;
     public event Action<int> _onChangeBestStage;
+    private YHWPlayer player;
 
     private void Awake()
     {
@@ -28,6 +29,7 @@ public class StageManager : MonoBehaviour
 
     private void Start()
     {
+        player = YHWGameManager.Instance.Player.GetComponent<YHWPlayer>();
         CurrentStage = 1;
         BestStage = PlayerPrefs.GetInt("BestStage", 0);
         currentNextTime = basicTime;
@@ -36,7 +38,8 @@ public class StageManager : MonoBehaviour
 
     private void Update()
     {
-        timer += Time.deltaTime;
+        if (!player.AnimCompo.AnimCompo.GetBool("IsDie"))
+            timer += Time.deltaTime;
 
         if (timer >= currentNextTime)
         {

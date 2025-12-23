@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class SoundManager : MonoBehaviour
@@ -40,5 +39,19 @@ public class SoundManager : MonoBehaviour
 }
 
 public enum SFX
-{ }
+{ 
+    GameStart,
+    GameOver,
+    PlayerHit,
+    PlayerJump,
+    PlayerLanding,
+    PlayerRun,
+    JumpSloatCharge,
+    GunFiring,
+    GunExplosion,
+    CardUp,
+    CardSelect,
+    ButtonSelect,
+    ButtonClick
+}
 
