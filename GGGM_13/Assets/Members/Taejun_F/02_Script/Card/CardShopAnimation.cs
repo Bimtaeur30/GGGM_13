@@ -2,7 +2,7 @@ using DG.Tweening;
 using System.Linq;
 using UnityEngine;
 
-public class CardShopAnimation : MonoBehaviour
+public class  CardShopAnimation : MonoBehaviour
 {
     [SerializeField] private Canvas canvas;
     [SerializeField] private RectTransform cardParent;
@@ -19,17 +19,23 @@ public class CardShopAnimation : MonoBehaviour
 
     public void CardCloseDown()
     {
+        PPManager.Instance.DisableBlur();
+
         cardPopParent.interactable = false;
 
         float startY = -screenHeight / 2f - cardParent.rect.height / 2f;
         cardParent.DOAnchorPosY(startY, 1f)
-          .SetEase(Ease.InBack).OnComplete(() =>
+          .SetEase(Ease.InBack).SetUpdate(true).OnComplete(() =>
           {
               cardPopParent.DOFade(0f, 0.7f);
           });
+
+        Time.timeScale = 1;
     }
     public void CardPopsUp(GameObject[] cards)
     {
+        Sequence seq = DOTween.Sequence();
+        PPManager.Instance.EnableBlur();
         cardPopParent.interactable = true;
 
         Debug.Log(screenHeight);
@@ -49,9 +55,13 @@ public class CardShopAnimation : MonoBehaviour
             }
         }
 
-        cardParent.DOAnchorPosY(0f, 1f).SetEase(Ease.OutBounce);
+        seq.Join(cardParent.DOAnchorPosY(0f, 1f).SetEase(Ease.OutBounce));
+        seq.Join(cardPopParent.DOFade(1f, 0.7f));
 
-        cardPopParent.DOFade(1f, 0.7f);
+        seq.SetUpdate(true);
+        seq.Play();
+
+        Time.timeScale = 0;
     }
 
 }
