@@ -12,7 +12,10 @@ public class KeyShow : MonoBehaviour
 
     private void Start()
     {
+        cg.alpha = 1.0f;
+        Sequence seq = DOTween.Sequence();
         gameObject.SetActive(true);
-        cg.DOFade(0f, 1f).OnComplete(() => gameObject.SetActive(false));
+        seq.AppendInterval(1.5f);
+        seq.Append(cg.DOFade(0f, 1f).OnComplete(() => gameObject.SetActive(false)));
     }
 }

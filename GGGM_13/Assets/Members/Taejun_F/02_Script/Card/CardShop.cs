@@ -66,5 +66,7 @@ public class CardShop : MonoBehaviour
         }
 
         cardShopAnim.CardPopsUp(spawnedCards.ToArray());
+
+        SoundManager.Instance.PlaySound(SFX.CardUp);
     }
 }
