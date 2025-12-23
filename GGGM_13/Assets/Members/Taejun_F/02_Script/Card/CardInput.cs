@@ -42,7 +42,7 @@ public class CardInput : MonoBehaviour,
                 new Vector2(700f, le.preferredHeight),
                 0.5f
             )
-            .SetEase(Ease.OutBounce);
+            .SetEase(Ease.OutBounce).SetUpdate(true);
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -59,7 +59,7 @@ public class CardInput : MonoBehaviour,
 
         DOTween.Kill(le); // 중복 Tween 방지
 
-        le.DOPreferredSize(new Vector2(250f, le.preferredHeight),0.2f).SetEase(Ease.OutQuad);
+        le.DOPreferredSize(new Vector2(250f, le.preferredHeight), 0.2f).SetEase(Ease.OutQuad).SetUpdate(true);
     }
 
     public void OnPointerClick(PointerEventData eventData)

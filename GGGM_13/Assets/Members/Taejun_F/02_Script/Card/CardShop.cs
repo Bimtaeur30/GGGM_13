@@ -60,7 +60,6 @@ public class CardShop : MonoBehaviour
             cardView.button.onClick.AddListener(() =>
             {
                 PurchaseItem(card, cardView);
-                Time.timeScale = 1f;
             });
 
             spawnedCards.Add(cardView.gameObject);
