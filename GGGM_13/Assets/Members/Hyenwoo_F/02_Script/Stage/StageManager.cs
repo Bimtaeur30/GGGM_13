@@ -6,11 +6,13 @@ public class StageManager : MonoBehaviour
     [SerializeField] private float basicTime;
     [SerializeField] private float multipleTime;
     public static StageManager Instance { get; private set; }
-    private int currentStage = 1;
+    public int CurrentStage { get; private set; }
+    public int BestStage { get; private set; }
     private float currentNextTime;
     private float timer = 0;
 
     public event Action<int> _onNextStage;
+    public event Action<int> _onChangeBestStage;
 
     private void Awake()
     {
@@ -26,8 +28,10 @@ public class StageManager : MonoBehaviour
 
     private void Start()
     {
+        CurrentStage = 1;
+        BestStage = PlayerPrefs.GetInt("BestStage", 0);
         currentNextTime = basicTime;
-        _onNextStage?.Invoke(currentStage);
+        _onNextStage?.Invoke(CurrentStage);
     }
 
     private void Update()
@@ -42,9 +46,15 @@ public class StageManager : MonoBehaviour
 
     private void NextStage()
     {
-        currentStage++;
+        CurrentStage++;
+        if (BestStage < CurrentStage)
+        {
+            BestStage = CurrentStage;
+            PlayerPrefs.SetInt("BestStage", CurrentStage);
+            _onChangeBestStage?.Invoke(BestStage);
+        }
         currentNextTime += multipleTime;
-        _onNextStage?.Invoke(currentStage);
+        _onNextStage?.Invoke(CurrentStage);
         timer = 0;
     }
 }

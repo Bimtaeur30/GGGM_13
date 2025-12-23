@@ -10,7 +10,7 @@ public class StageUI : MonoBehaviour
     {
         StartSetBestStage();
         StageManager.Instance._onNextStage += ChangeCurrentStage;
-        StageManager.Instance._onNextStage += ChangeBestStage;
+        StageManager.Instance._onChangeBestStage += ChangeBestStage;
     }
 
     private void ChangeCurrentStage(int currentStage)
@@ -20,11 +20,7 @@ public class StageUI : MonoBehaviour
 
     private void ChangeBestStage(int currentStage)
     {
-        if (currentStage > PlayerPrefs.GetInt("BestStage", 0))
-        {
-            PlayerPrefs.SetInt("BestStage", currentStage);
-            _bestStageTxt.text = $"최고 스태이지: {currentStage}";
-        }
+        _bestStageTxt.text = $"최고 스태이지: {currentStage}";
     }
 
     private void StartSetBestStage()
