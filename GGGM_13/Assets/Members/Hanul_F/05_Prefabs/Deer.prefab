@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6493585454775072436}
   - component: {fileID: 6722715331093517835}
   - component: {fileID: 6227930690398968230}
+  - component: {fileID: 1494371173679827084}
   m_Layer: 0
   m_Name: Deer
   m_TagString: Untagged
@@ -34,8 +35,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2208703988740019828, guid: 715a0af22c4c6c8458bdaa30b3bf1407, type: 3}
+  m_Sprite: {fileID: 7224506915501684435, guid: abe7a752b97163a4bbef856828ebb55b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,8 +120,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 0}
-  radius: 2.25
-  speed: 1.3
+  radius: 2.5
+  speed: 1.2
+  maxSize: 0.6
+  size: 0.05
 --- !u!114 &7057834297498253081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onAnimalDied: {fileID: 11400000, guid: 7dd53fff39a706545bec8b490c8f2879, type: 2}
   DamgeParticle: {fileID: 2197837509953950380, guid: 603ca578a528969469d4e0e1a8013af5, type: 3}
+  duration: 0.3
 --- !u!61 &6227930690398968230
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -223,15 +227,37 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.11, y: 0}
+  m_Offset: {x: -0.3, y: 0.38}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.1875, y: 0.5625}
+    pivot: {x: 0.7, y: 0.38}
+    oldSize: {x: 2.8125, y: 2.8125}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.87, y: 0.5625}
+  m_Size: {x: 1.65, y: 2.52}
   m_EdgeRadius: 0
+--- !u!95 &1494371173679827084
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4253340461305463753}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 6e0c23501efe9774f8e8be44c09b7e55, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
