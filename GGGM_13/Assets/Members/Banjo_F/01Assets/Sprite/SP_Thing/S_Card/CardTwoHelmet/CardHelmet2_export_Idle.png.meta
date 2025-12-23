@@ -38,24 +38,6 @@ TextureImporter:
   - first:
       213: -2189640970235260378
     second: CardHelmet2_export_Idle_11
-  - first:
-      213: 2044038701202636632
-    second: CardHelmet2_export_Idle_12
-  - first:
-      213: 6693854722547994196
-    second: CardHelmet2_export_Idle_13
-  - first:
-      213: -5768235271536409116
-    second: CardHelmet2_export_Idle_14
-  - first:
-      213: -1789123619047275546
-    second: CardHelmet2_export_Idle_15
-  - first:
-      213: -1761313609714216655
-    second: CardHelmet2_export_Idle_16
-  - first:
-      213: 8005153324715155932
-    second: CardHelmet2_export_Idle_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -154,10 +136,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 276
-        width: 53
-        height: 72
+        x: 0
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +158,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_1
       rect:
         serializedVersion: 2
-        x: 94
-        y: 276
-        width: 53
-        height: 72
+        x: 90
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +180,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_2
       rect:
         serializedVersion: 2
-        x: 174
-        y: 276
-        width: 53
-        height: 72
+        x: 180
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +202,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_3
       rect:
         serializedVersion: 2
-        x: 254
-        y: 276
-        width: 53
-        height: 72
+        x: 270
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +224,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_4
       rect:
         serializedVersion: 2
-        x: 334
-        y: 276
-        width: 53
-        height: 72
+        x: 0
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +246,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_5
       rect:
         serializedVersion: 2
-        x: 14
-        y: 188
-        width: 53
-        height: 72
+        x: 90
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +268,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_6
       rect:
         serializedVersion: 2
-        x: 94
-        y: 188
-        width: 53
-        height: 72
+        x: 180
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +290,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_7
       rect:
         serializedVersion: 2
-        x: 174
-        y: 188
-        width: 53
-        height: 72
+        x: 270
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +312,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_8
       rect:
         serializedVersion: 2
-        x: 254
-        y: 188
-        width: 53
-        height: 72
+        x: 0
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +334,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_9
       rect:
         serializedVersion: 2
-        x: 334
-        y: 188
-        width: 53
-        height: 72
+        x: 90
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +356,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_10
       rect:
         serializedVersion: 2
-        x: 14
-        y: 100
-        width: 53
-        height: 72
+        x: 180
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +378,10 @@ TextureImporter:
       name: CardHelmet2_export_Idle_11
       rect:
         serializedVersion: 2
-        x: 94
-        y: 100
-        width: 53
-        height: 72
+        x: 270
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,143 +396,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: CardHelmet2_export_Idle_12
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 100
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85f75547e52ed5c10800000000000000
-      internalID: 2044038701202636632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHelmet2_export_Idle_13
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 100
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45e4b83976955ec50800000000000000
-      internalID: 6693854722547994196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHelmet2_export_Idle_14
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 100
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e5813bf49c13ffa0800000000000000
-      internalID: -5768235271536409116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHelmet2_export_Idle_15
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 12
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e30d633c81cb27e0800000000000000
-      internalID: -1789123619047275546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHelmet2_export_Idle_16
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 12
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1315ce29a9e8e87e0800000000000000
-      internalID: -1761313609714216655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHelmet2_export_Idle_17
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 12
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd12f242984081f60800000000000000
-      internalID: 8005153324715155932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e0bb652cf720e94439bba299e2c4746e
+    spriteID: 771a483c4ed7fc448b8b290f53fd6f21
     internalID: 0
     vertices: []
     indices: 
@@ -564,12 +414,6 @@ TextureImporter:
       CardHelmet2_export_Idle_1: -3855834896124619556
       CardHelmet2_export_Idle_10: -1532847161815696438
       CardHelmet2_export_Idle_11: -2189640970235260378
-      CardHelmet2_export_Idle_12: 2044038701202636632
-      CardHelmet2_export_Idle_13: 6693854722547994196
-      CardHelmet2_export_Idle_14: -5768235271536409116
-      CardHelmet2_export_Idle_15: -1789123619047275546
-      CardHelmet2_export_Idle_16: -1761313609714216655
-      CardHelmet2_export_Idle_17: 8005153324715155932
       CardHelmet2_export_Idle_2: -8685815810678972088
       CardHelmet2_export_Idle_3: -2837882483590545919
       CardHelmet2_export_Idle_4: -8428325372931411072

@@ -38,24 +38,6 @@ TextureImporter:
   - first:
       213: 8349950984934855003
     second: CardSmall_export_Idle_11
-  - first:
-      213: -3931455530387443834
-    second: CardSmall_export_Idle_12
-  - first:
-      213: 8461898635313547762
-    second: CardSmall_export_Idle_13
-  - first:
-      213: 2009056658733328137
-    second: CardSmall_export_Idle_14
-  - first:
-      213: 7997988772157515634
-    second: CardSmall_export_Idle_15
-  - first:
-      213: -3133776772443878430
-    second: CardSmall_export_Idle_16
-  - first:
-      213: -5001584050201362653
-    second: CardSmall_export_Idle_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,9 +137,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 227
-        width: 53
-        height: 72
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +158,10 @@ TextureImporter:
       name: CardSmall_export_Idle_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 227
-        width: 53
-        height: 72
+        x: 90
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +180,10 @@ TextureImporter:
       name: CardSmall_export_Idle_2
       rect:
         serializedVersion: 2
-        x: 112
-        y: 227
-        width: 53
-        height: 72
+        x: 180
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +202,10 @@ TextureImporter:
       name: CardSmall_export_Idle_3
       rect:
         serializedVersion: 2
-        x: 168
-        y: 227
-        width: 53
-        height: 72
+        x: 270
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +224,10 @@ TextureImporter:
       name: CardSmall_export_Idle_4
       rect:
         serializedVersion: 2
-        x: 224
-        y: 227
-        width: 53
-        height: 72
+        x: 0
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +246,10 @@ TextureImporter:
       name: CardSmall_export_Idle_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 152
-        width: 53
-        height: 72
+        x: 90
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +268,10 @@ TextureImporter:
       name: CardSmall_export_Idle_6
       rect:
         serializedVersion: 2
-        x: 56
-        y: 152
-        width: 53
-        height: 72
+        x: 180
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +290,10 @@ TextureImporter:
       name: CardSmall_export_Idle_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 152
-        width: 53
-        height: 72
+        x: 270
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +312,10 @@ TextureImporter:
       name: CardSmall_export_Idle_8
       rect:
         serializedVersion: 2
-        x: 168
-        y: 152
-        width: 53
-        height: 72
+        x: 0
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +334,10 @@ TextureImporter:
       name: CardSmall_export_Idle_9
       rect:
         serializedVersion: 2
-        x: 224
-        y: 152
-        width: 53
-        height: 72
+        x: 90
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +356,10 @@ TextureImporter:
       name: CardSmall_export_Idle_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 77
-        width: 53
-        height: 72
+        x: 180
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +378,10 @@ TextureImporter:
       name: CardSmall_export_Idle_11
       rect:
         serializedVersion: 2
-        x: 56
-        y: 77
-        width: 53
-        height: 72
+        x: 270
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,143 +396,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: CardSmall_export_Idle_12
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 77
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 68fe20d560aa079c0800000000000000
-      internalID: -3931455530387443834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardSmall_export_Idle_13
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 77
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f90a3bc9f3be6570800000000000000
-      internalID: 8461898635313547762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardSmall_export_Idle_14
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 77
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 907ee6df26a91eb10800000000000000
-      internalID: 2009056658733328137
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardSmall_export_Idle_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 277e202c9609efe60800000000000000
-      internalID: 7997988772157515634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardSmall_export_Idle_16
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 2
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ebcc1101a69284d0800000000000000
-      internalID: -3133776772443878430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardSmall_export_Idle_17
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 2
-        width: 53
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32ffc7d4ecdc69ab0800000000000000
-      internalID: -5001584050201362653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c3c9336621d095d49825c05f434c931d
+    spriteID: 06322661d9772e04c8b5698bed3551bb
     internalID: 0
     vertices: []
     indices: 
@@ -564,12 +414,6 @@ TextureImporter:
       CardSmall_export_Idle_1: 153448847097754954
       CardSmall_export_Idle_10: -8202949860676619129
       CardSmall_export_Idle_11: 8349950984934855003
-      CardSmall_export_Idle_12: -3931455530387443834
-      CardSmall_export_Idle_13: 8461898635313547762
-      CardSmall_export_Idle_14: 2009056658733328137
-      CardSmall_export_Idle_15: 7997988772157515634
-      CardSmall_export_Idle_16: -3133776772443878430
-      CardSmall_export_Idle_17: -5001584050201362653
       CardSmall_export_Idle_2: 904923978749259566
       CardSmall_export_Idle_3: -6899949381682132509
       CardSmall_export_Idle_4: -1887945637221584639
