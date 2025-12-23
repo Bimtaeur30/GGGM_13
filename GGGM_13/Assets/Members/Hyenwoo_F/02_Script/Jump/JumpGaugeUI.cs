@@ -4,10 +4,9 @@ using UnityEngine.InputSystem;
 
 public class JumpGaugeUI : MonoBehaviour
 {
-    [SerializeField] private GameObject jumpGaugeBoxPre;
-    [SerializeField] private GameObject jumpGaugeBarPre;
-    private List<GameObject> jumpGaugeBoxPool;
-    private GameObject jumpGaugeBar;
+    [SerializeField] private List<GameObject> jumpGaugeBoxList;
+    //[SerializeField] private GameObject jumpGaugeBarPre;
+    //private GameObject jumpGaugeBar;
     private PlayerJump _playerjump;
     private PlayerHP _playerHP;
 
@@ -23,28 +22,20 @@ public class JumpGaugeUI : MonoBehaviour
 
     void JumpGaugeBoxPool()
     {
-        jumpGaugeBoxPool = new List<GameObject>();
-        for (int i = 0; i < _playerjump.MaxJumpGauge; i++)
+        foreach (var item in jumpGaugeBoxList)
         {
-            jumpGaugeBoxPool.Add(Instantiate(jumpGaugeBoxPre, gameObject.transform));
-            jumpGaugeBoxPool[i].SetActive(false);
+            item.SetActive(false);
         }
     }
 
     void JumpGaugeCharge()
     {
-        for (int i = 0; i < jumpGaugeBoxPool.Count; i++)
+        for (int i = 0; i < jumpGaugeBoxList.Count; i++)
         {
-            if (!jumpGaugeBoxPool[i].activeSelf)
+            if (!jumpGaugeBoxList[i].activeSelf)
             {
-                jumpGaugeBoxPool[i].SetActive(true);
-                Canvas.ForceUpdateCanvases();
-                RectTransform rect = jumpGaugeBoxPool[i].GetComponent<RectTransform>();
-                Vector2 screenPos = RectTransformUtility.WorldToScreenPoint(null, rect.position);
-                Camera cam = YHWGameManager.Instance.MainCamera;
-                float z = Mathf.Abs(cam.transform.position.z);
-                Vector3 worldPos = cam.ScreenToWorldPoint(new Vector3(screenPos.x, screenPos.y, z));
-                JumpGaugeEffectManager.Instance.ShowJumpGaugeEffect(worldPos);
+                jumpGaugeBoxList[i].SetActive(true);
+                JumpGaugeEffectManager.Instance.ShowJumpGaugeEffect(jumpGaugeBoxList[i].transform.position);
 
                 break;
             }
@@ -54,11 +45,11 @@ public class JumpGaugeUI : MonoBehaviour
 
     void JumpGaugeDelete()
     {
-        for (int i = jumpGaugeBoxPool.Count; i > 0; i--)
+        for (int i = jumpGaugeBoxList.Count; i > 0; i--)
         {
-            if (jumpGaugeBoxPool[i-1].activeSelf)
+            if (jumpGaugeBoxList[i-1].activeSelf)
             {
-                jumpGaugeBoxPool[i-1].SetActive(false);
+                jumpGaugeBoxList[i-1].SetActive(false);
                 break;
             }
         }
@@ -68,37 +59,37 @@ public class JumpGaugeUI : MonoBehaviour
     void StartJumpGauge()
     {
         JumpGaugeBoxPool();
-        jumpGaugeBoxPool[0].SetActive(true);
-        jumpGaugeBar = Instantiate(jumpGaugeBarPre, gameObject.transform);
+        jumpGaugeBoxList[0].SetActive(true);
+        //jumpGaugeBar = Instantiate(jumpGaugeBarPre, gameObject.transform);
     }
 
     void JumpGaugeBarOnOff()
     {
         int temp = 0;
-        for (int i = 0; i < jumpGaugeBoxPool.Count; i++)
+        for (int i = 0; i < jumpGaugeBoxList.Count; i++)
         {
-            if (jumpGaugeBoxPool[i].activeSelf)
+            if (jumpGaugeBoxList[i].activeSelf)
             {
                 temp += 1;
             }
         }
 
-        if (temp == jumpGaugeBoxPool.Count)
+        if (temp == jumpGaugeBoxList.Count)
         {
-            jumpGaugeBar.SetActive(false);
+            //jumpGaugeBar.SetActive(false);
         }
         else
         {
-            jumpGaugeBar.SetActive(true);
+            //jumpGaugeBar.SetActive(true);
         }
     }
 
     void AllGaugeOff()
     {
-        foreach (var item in jumpGaugeBoxPool)
+        foreach (var item in jumpGaugeBoxList)
         {
             item.SetActive(false);
         }
-        jumpGaugeBar.SetActive(false);
+        //jumpGaugeBar.SetActive(false);
     }
 }
