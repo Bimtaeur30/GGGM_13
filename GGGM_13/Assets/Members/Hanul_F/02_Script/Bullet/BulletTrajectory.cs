@@ -28,9 +28,7 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
     private float minSpeed;
 
-    private float firstLerpTiem = 0.075f;
 
-    private float timer = 0f;
 
     private state nowState;
 
