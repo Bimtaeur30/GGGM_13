@@ -48,11 +48,13 @@ public class CardShop : MonoBehaviour
             spawnedCards.Clear();
         }
 
-        for (int i = 0; i < sellCards.Length; i++)
+        for (int i = 0; i < 3; i++)
         {
-            CardData card = sellCards[i];
+            int randIdx = Random.Range(0, sellCards.Length);
+
+            CardData card = sellCards[randIdx];
             CardView cardView = Instantiate(cardPref, cardSpawnPos).GetComponent<CardView>();
-            cardView.SetUI(sellCards[Random.Range(0, sellCards.Length)]);
+            cardView.SetUI(sellCards[randIdx]);
             cardView.SetAnimator(card.ItemAnimator);
             cardView.button.onClick.AddListener(() =>
             {
