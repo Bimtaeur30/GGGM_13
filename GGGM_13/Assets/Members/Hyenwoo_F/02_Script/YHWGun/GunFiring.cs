@@ -25,6 +25,7 @@ public class GunFiring : MonoBehaviour
     private void Start()
     {
         player = YHWGameManager.Instance.Player.GetComponent<YHWPlayer>();
+        SpawnEnemy.Instance.enemySpawned += Fire;
     }
 
     private void Update()
@@ -34,7 +35,6 @@ public class GunFiring : MonoBehaviour
 
         if (timer >= _fireTime)
         {
-            Fire();
             timer = 0;
         }
 

@@ -187,6 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cc4e4fa9f6bf17458d68146d1633a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onAnimalDied: {fileID: 11400000, guid: 7dd53fff39a706545bec8b490c8f2879, type: 2}
   DamgeParticle: {fileID: 2197837509953950380, guid: 603ca578a528969469d4e0e1a8013af5, type: 3}
 --- !u!61 &6227930690398968230
 BoxCollider2D:

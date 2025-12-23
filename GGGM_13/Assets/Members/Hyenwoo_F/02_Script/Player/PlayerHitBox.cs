@@ -7,12 +7,18 @@ public class PlayerHitBox : MonoBehaviour
     public bool LeatherSet { get; private set; }
     public bool IronSet { get; private set; }
     private int count = 0;
+    ReflectionEffectManager effectManager;
 
     public event Action _onChangeCos;
 
     private void Awake()
     {
         player = GetComponentInParent<YHWPlayer>();
+    }
+
+    private void Start()
+    {
+        effectManager = YHWGameManager.Instance.reflectionEffectManager;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,6 +31,7 @@ public class PlayerHitBox : MonoBehaviour
                 if (UnityEngine.Random.Range(0,4) == 0)
                 {
                     count++;
+                    effectManager.ShowEffect(25);
                     CalculateCount();
                 }
                 else
@@ -35,6 +42,7 @@ public class PlayerHitBox : MonoBehaviour
                 if (UnityEngine.Random.Range(0,2) == 0)
                 {
                     count++;
+                    effectManager.ShowEffect(50);
                     CalculateCount();
                 }
                 else

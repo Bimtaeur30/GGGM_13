@@ -7,6 +7,7 @@ public class YHWGameManager : MonoBehaviour
     [SerializeField] public ParticleSystem healParticle;
     [SerializeField] public ParticleSystem sizeDownParticle;
     [SerializeField] public ParticleSystem helmetBrokenParticle;
+    [SerializeField] public ReflectionEffectManager reflectionEffectManager;
     public static YHWGameManager Instance { get; private set; }
 
     private void Awake()

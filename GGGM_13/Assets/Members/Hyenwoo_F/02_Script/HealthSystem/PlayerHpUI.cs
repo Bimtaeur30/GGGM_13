@@ -41,17 +41,18 @@ public class PlayerHpUI : MonoBehaviour
         SetBlankHeart();
     }
 
-    private void HealHeart(int healValue)
+    private void HealHeart()
     {
-        for (int i = 0; i < healValue; i++)
+        for (int i = 0; i < heartPool.Count; i++)
         {
             if (!heartPool[i].activeSelf)
             {
                 heartPool[i].SetActive(true);
+                break;
             }
         }
 
-        DeleteBlankHeart(healValue);
+        DeleteBlankHeart();
     }
 
     private void BlankHeartPool()
@@ -76,13 +77,14 @@ public class PlayerHpUI : MonoBehaviour
         }
     }
 
-    private void DeleteBlankHeart(int deleteValue)
+    private void DeleteBlankHeart()
     {
-        for (int i = 0; i < deleteValue; i++)
+        for (int i = 0; i < blankHeartPool.Count; i++)
         {
             if (blankHeartPool[i].activeSelf)
             {
                 blankHeartPool[i].SetActive(false);
+                break;
             }
         }
     }
