@@ -25,10 +25,10 @@ public class PlayerHitBox : MonoBehaviour
     {
         if (collision.gameObject.layer == 7)
         {
+            collision.gameObject.SetActive(false);
             if (player.HPCompo.IsInvincibility)
                 return;
 
-            collision.gameObject.SetActive(false);
             if (LeatherSet)
             {
                 if (UnityEngine.Random.Range(0, 4) == 0)
