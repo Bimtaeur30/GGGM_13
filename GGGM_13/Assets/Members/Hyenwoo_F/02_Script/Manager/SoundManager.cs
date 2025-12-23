@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
@@ -18,6 +19,7 @@ public class SoundManager : MonoBehaviour
     private Dictionary<SFX, AudioClip> sfxDictionary = new Dictionary<SFX, AudioClip>();
     private Dictionary<BGM, AudioClip> bgmDictionary = new Dictionary<BGM, AudioClip>();
     public RunSFX runSFX { get; private set; }
+    private YHWPlayer player;
     public static SoundManager Instance { get; private set; }
 
     private void Awake()
@@ -34,8 +36,15 @@ public class SoundManager : MonoBehaviour
         runSFX = GetComponentInChildren<RunSFX>();
     }
 
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += ChoiceBGM;
+    }
+
     private void Start()
     {
+        player = YHWGameManager.Instance.Player.GetComponent<YHWPlayer>();
+        player.HPCompo._onDie += () => musicManager.Stop();
         int i = 0;
         foreach (SFX item in Enum.GetValues(typeof(SFX)))
         {
@@ -71,6 +80,20 @@ public class SoundManager : MonoBehaviour
         musicManager.clip = bgmDictionary[bgm];
         musicManager.Play();
     }
+
+    void ChoiceBGM(Scene scene, LoadSceneMode mode)
+    {
+        int _scene = SceneManager.GetActiveScene().buildIndex;
+
+        if (_scene == 0)
+        {
+            PlayBGM(BGM.StartBGM);
+        }
+        else
+        {
+            PlayBGM(BGM.GameBGM);
+        }
+    }
 }
 
 public enum SFX
@@ -93,6 +116,6 @@ public enum BGM
 {
     StartBGM,
     GameBGM,
-    GameOverBGM
+    //GameOverBGM
 }
 
