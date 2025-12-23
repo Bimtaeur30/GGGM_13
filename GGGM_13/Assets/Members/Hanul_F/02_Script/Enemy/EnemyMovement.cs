@@ -1,3 +1,4 @@
+using System;
 using Unity.Mathematics;
 using UnityEngine;
 
@@ -8,11 +9,16 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private GameObject center;
     [SerializeField] private float radius = 2.25f;
     [SerializeField] private float speed = 0.3f;
+    [SerializeField] private float maxSize = 0.9f;
+
+    private bool isFire = true;
+
+    public event Action Firing;
 
     private float angle;
     private float rotated = 0f;
 
-    private float size = 0.2f;
+    [SerializeField] private float size = 0.2f;
 
     private SpriteRenderer spriteRenderer;
 
@@ -23,25 +29,38 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        size = Mathf.Clamp(size + 0.25f * Time.deltaTime, 0.2f, 0.9f);
-        if (size <= 0.9f)
+        size = Mathf.Clamp(size + 0.5f * Time.deltaTime, 0.2f, maxSize);
+        if (size <= maxSize)
         {
             radius += 0.00001f;
         }
 
         Vector3 target = Vector3.one * size;
-        transform.localScale = Vector3.Lerp(transform.localScale, target, 6f * Time.deltaTime);
+        transform.localScale = Vector3.Lerp(transform.localScale, target, 10f * Time.deltaTime);
 
         if (size >= 0.5f)
         {
             spriteRenderer.sortingOrder = 2;
+
         }
+
+        Fire();
 
         MoveMent();
     }
 
 
+    private void Fire()
+    {
+        if (size != maxSize || isFire == false)
+            return;
 
+        if (size == maxSize && isFire)
+        {
+            Firing?.Invoke();
+            isFire = false;
+        }
+    }
 
     public void MoveMent()
     {
@@ -68,8 +87,9 @@ public class EnemyMovement : MonoBehaviour
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
     }
 
-    public void Setting(GameObject center)
+    public void Setting(GameObject center, Action fire)
     {
+        Firing += fire;
         this.center = center;
         Vector2 dir = (Vector2)transform.position - (Vector2)center.transform.position;
         angle = Mathf.Atan2(dir.y, dir.x);
