@@ -6,6 +6,7 @@ using UnityEngine;
 public class Rabbit : Enemy
 {
     [SerializeField] private GameObject deathParticle;
+    [SerializeField] private GameObject deathMessage;
 
     protected override void OnDamge()
     {
@@ -15,6 +16,7 @@ public class Rabbit : Enemy
     protected override void OnDeath()
     {
         GameObject particle  = Instantiate(deathParticle,gameObject.transform.position,Quaternion.identity);
+        Instantiate(deathMessage,transform.position,Quaternion.identity);
         particle.GetComponent<ParticleSystem>().Play();
     }
 
