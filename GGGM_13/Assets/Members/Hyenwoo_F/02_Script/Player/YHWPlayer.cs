@@ -26,6 +26,7 @@ public class YHWPlayer : MonoBehaviour
     private void Start()
     {
         HeadCollider.GetComponent<PlayerHitBox>()._onChangeCos += ChangeAnimController;
+        HPCompo._onDie += DeleteCollider;
     }
 
     private void ChangeAnimController()
@@ -42,5 +43,10 @@ public class YHWPlayer : MonoBehaviour
         {
             AnimCompo.AnimCompo.runtimeAnimatorController = helmetController[1];
         }
+    }
+
+    private void DeleteCollider()
+    {
+        HeadCollider.SetActive(false);
     }
 }
