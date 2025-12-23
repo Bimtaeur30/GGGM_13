@@ -401,6 +401,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12196302d238a844aa73b28c22fcd31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &124081215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 124081217}
+  - component: {fileID: 124081216}
+  m_Layer: 0
+  m_Name: StageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &124081216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124081215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4f9fe29ea23864e88f0ede6e1ab1b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basicTime: 10
+  multipleTime: 2
+--- !u!4 &124081217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124081215}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &130322039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1281,7 @@ GameObject:
   - component: {fileID: 787500643}
   - component: {fileID: 787500645}
   - component: {fileID: 787500644}
+  - component: {fileID: 787500646}
   m_Layer: 5
   m_Name: GameOverUI
   m_TagString: Untagged
@@ -1303,6 +1350,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787500642}
   m_CullTransparentMesh: 1
+--- !u!225 &787500646
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787500642}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &893776586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,6 +1706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62222674500534147bf6bf8742045198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cg: {fileID: 787500646}
+  scoreTxt: {fileID: 1525654095}
 --- !u!4 &1352796087
 Transform:
   m_ObjectHideFlags: 0
@@ -7264,3 +7325,4 @@ SceneRoots:
   - {fileID: 893776590}
   - {fileID: 209206699}
   - {fileID: 1636827749}
+  - {fileID: 124081217}
