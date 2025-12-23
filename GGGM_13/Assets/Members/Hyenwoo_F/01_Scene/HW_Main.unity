@@ -1179,16 +1179,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66de6eb22f33cfe4ebefdd63ba1c386d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicMixer: {fileID: 0}
-  musicManager: {fileID: 0}
+  musicMixer: {fileID: 24100000, guid: e34925b6bc538584dac5b9bda0277a0d, type: 2}
+  musicManager: {fileID: 851252570}
   sfxMixer: {fileID: 24100000, guid: 41a6c2cbd97555f4d93c933c67fe196c, type: 2}
   sfxManager: {fileID: 1403046362}
   musicSlider: {fileID: 0}
   sfxSlider: {fileID: 0}
   sfxList:
   - {fileID: 8300000, guid: 5c9ab115169dce442ba3c0f0b4adff23, type: 3}
-  - {fileID: 8300000, guid: b5660e6853a74cf448b0088c0231d535, type: 3}
-  - {fileID: 8300000, guid: 9e570ed77cf3c1e459b98fabfdd0b7ef, type: 3}
+  - {fileID: 8300000, guid: 1bcc6d7ba53de7b4b8bab033136543d8, type: 3}
+  - {fileID: 8300000, guid: 0adfca22c84495b40b51b4f2d1b40b07, type: 3}
   - {fileID: 8300000, guid: 9b0c704bd05be184ea64aca30bf6693e, type: 3}
   - {fileID: 8300000, guid: 2f151494cea40a848b6bf7ad4db909fa, type: 3}
   - {fileID: 8300000, guid: 359f176478ba65648b58de89cb919cc0, type: 3}
