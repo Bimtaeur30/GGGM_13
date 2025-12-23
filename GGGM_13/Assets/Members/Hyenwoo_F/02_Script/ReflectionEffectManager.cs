@@ -13,14 +13,6 @@ public class ReflectionEffectManager : MonoBehaviour
         ReflectionTxtPool();
     }
 
-    private void Update()
-    {
-        if (Keyboard.current.spaceKey.wasPressedThisFrame)
-        {
-            ShowEffect(25);
-        }
-    }
-
     public void ShowEffect(int persent)
     {
         foreach (var item in reflectionTxtPool)
