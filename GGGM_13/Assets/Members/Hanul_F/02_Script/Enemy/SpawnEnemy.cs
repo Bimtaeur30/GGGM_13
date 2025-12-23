@@ -81,7 +81,7 @@ public class SpawnEnemy : MonoBehaviour
             }
             else
             {
-                enemy =  Instantiate(enemys[UnityEngine.Random.Range(0,enemys.Count)]);
+                enemy =  Instantiate(enemys[UnityEngine.Random.Range(0,enemys.Count)],spawnPoint.position,Quaternion.identity);
                 enemy.GetComponent<EnemyMovement>().Setting(center,Fire);
                 yield return new WaitForSeconds(2f);
             }

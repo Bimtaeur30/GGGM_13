@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   center: {fileID: 0}
   radius: 2.5
-  speed: 0.9
+  speed: 0.95
   maxSize: 0.7
   size: 0.25
 --- !u!114 &793805636045305319
@@ -199,11 +199,11 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.11, y: 0}
+  m_Offset: {x: 0.11, y: 0.25}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.75, y: 1.3125}
+    pivot: {x: 0.47, y: 0.35}
+    oldSize: {x: 1.875, y: 1.5}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
