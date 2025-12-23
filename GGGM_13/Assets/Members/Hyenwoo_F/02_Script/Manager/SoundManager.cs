@@ -39,7 +39,6 @@ public class SoundManager : MonoBehaviour
         foreach (SFX item in Enum.GetValues(typeof(SFX)))
         {
             sfxDictionary[item] = sfxList[i];
-            Debug.Log(i);
             i++;
         }
         /*i = 0;

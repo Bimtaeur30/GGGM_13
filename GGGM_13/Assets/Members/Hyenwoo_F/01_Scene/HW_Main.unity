@@ -734,7 +734,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1905739293}
   - {fileID: 1310688773}
   - {fileID: 40848956}
   - {fileID: 1557172394}
@@ -1451,6 +1450,7 @@ MonoBehaviour:
   bulletTrajectoryDataSOs:
   - {fileID: 11400000, guid: 94fdbb66f5bea3540b6958c1555b9321, type: 2}
   - {fileID: 11400000, guid: 897e0a35a2d04b74394dbb457abb9a69, type: 2}
+  fireParticle: {fileID: 0}
   BulletPreFab: {fileID: 1581982034508992498, guid: 50d0dd33c7a28b44baf00625a367a4f2, type: 3}
   center: {fileID: 49171581}
 --- !u!4 &1227079942
@@ -1663,6 +1663,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 5df6d6c60c29bbd4082e231ffd1e4767, type: 3}
   - {fileID: 8300000, guid: ceee8151fbb2c5946834f961ed898d8a, type: 3}
   - {fileID: 8300000, guid: 5f032506f68bc6e4c82744e758ee7ba1, type: 3}
+  - {fileID: 8300000, guid: fa89f65a292d2ca4ab88bc29f7ad04fc, type: 3}
   - {fileID: 8300000, guid: fdb552e4cafd6244f9b3d46c7a8978b1, type: 3}
   bgmList: []
 --- !u!4 &1320667993
@@ -2923,82 +2924,6 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5119420232236384104, guid: b3702be17c98bbd40a1dfcf5617d8004, type: 3}
   m_PrefabInstance: {fileID: 428108017}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1905739292
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1905739293}
-  - component: {fileID: 1905739295}
-  - component: {fileID: 1905739294}
-  m_Layer: 5
-  m_Name: JumpGauge
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1905739293
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905739292}
-  m_LocalRotation: {x: 0, y: 0, z: -0.29731646, w: 0.954779}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 270101685}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -34.593}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 103, y: 302.2}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1905739294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905739292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aacdb2266f34c064dac6cf388652c95c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jumpGaugeBoxList: []
---- !u!114 &1905739295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1905739292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: -60
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 0
-  m_ChildControlHeight: 0
-  m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 0
-  m_ReverseArrangement: 0
 --- !u!1 &1908220134
 GameObject:
   m_ObjectHideFlags: 0
@@ -8187,6 +8112,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1749851916969535997, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
+      propertyPath: <MaxHp>k__BackingField
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3111559092999285557, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
       propertyPath: m_Name
       value: Player
