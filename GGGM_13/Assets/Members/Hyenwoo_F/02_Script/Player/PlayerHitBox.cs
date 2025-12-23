@@ -25,13 +25,17 @@ public class PlayerHitBox : MonoBehaviour
     {
         if (collision.gameObject.layer == 7)
         {
+            if (player.HPCompo.IsInvincibility)
+                return;
+
             collision.gameObject.SetActive(false);
             if (LeatherSet)
             {
-                if (UnityEngine.Random.Range(0,4) == 0)
+                if (UnityEngine.Random.Range(0, 4) == 0)
                 {
                     count++;
                     effectManager.ShowEffect(25);
+                    SoundManager.Instance.PlaySound(SFX.MetalHit);
                     CalculateCount();
                 }
                 else
@@ -39,10 +43,11 @@ public class PlayerHitBox : MonoBehaviour
             }
             else if (IronSet)
             {
-                if (UnityEngine.Random.Range(0,2) == 0)
+                if (UnityEngine.Random.Range(0, 2) == 0)
                 {
                     count++;
                     effectManager.ShowEffect(50);
+                    SoundManager.Instance.PlaySound(SFX.MetalHit);
                     CalculateCount();
                 }
                 else

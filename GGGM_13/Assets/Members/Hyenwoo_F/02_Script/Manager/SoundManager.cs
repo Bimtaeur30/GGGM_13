@@ -85,7 +85,8 @@ public enum SFX
     GunExplosion,
     CardUp,
     ButtonSelect,
-    ButtonClick
+    ButtonClick,
+    MetalHit
 }
 
 public enum BGM
