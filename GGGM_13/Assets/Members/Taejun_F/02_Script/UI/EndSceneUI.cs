@@ -6,11 +6,18 @@ public class EndSceneUI : MonoBehaviour
 {
     [SerializeField] private CanvasGroup cg;
     [SerializeField] private TextMeshProUGUI scoreTxt;
+    [SerializeField] private PlayerHP hp;
 
-    private void Start()
+    private void OnEnable()
     {
-        RunEndUI();
+        hp._onDie += RunEndUI;
     }
+
+    private void OnDisable()
+    {
+        hp._onDie -= RunEndUI;
+    }
+
     public void RunEndUI()
     {
         cg.gameObject.SetActive(true);
