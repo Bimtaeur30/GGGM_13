@@ -28,7 +28,7 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
     private float minSpeed;
 
-    private float firstLerpTiem = 0.2f;
+    private float firstLerpTiem = 0.075f;
 
     private float timer = 0f;
 
@@ -42,25 +42,25 @@ public class BulletTrajectory : MonoBehaviour, IBullet
     {
         switch (nowState)
         {
-            case state.Start:
-                // FristCircleMove();
-                timer += Time.deltaTime;
-                StartMove();
-                if (timer >= firstLerpTiem)
-                {
-                    timer = 0f;
+            // case state.Start:
+            //     // FristCircleMove();
+            //     timer += Time.deltaTime;
+            //     StartMove();
+            //     if (timer >= firstLerpTiem)
+            //     {
+            //         timer = 0f;
 
-                    Vector2 dir = (Vector2)transform.position - (Vector2)Center.transform.position;
-                    if (dir.sqrMagnitude < 0.000001f) dir = Vector2.right;
+            //         Vector2 dir = (Vector2)transform.position - (Vector2)Center.transform.position;
+            //         if (dir.sqrMagnitude < 0.000001f) dir = Vector2.right;
 
-                    angle = Mathf.Atan2(dir.y, dir.x);
+            //         angle = Mathf.Atan2(dir.y, dir.x);
 
-                    radius = dir.magnitude;
-                    rotated = 0f;
+            //         radius = dir.magnitude;
+            //         rotated = 0f;
 
-                    nowState = state.Circle;
-                }
-                break;
+            //         nowState = state.Circle;
+            //     }
+            //     break;
 
             case state.Circle:
                 if (rotated <= maxCircleMove)
@@ -92,7 +92,8 @@ public class BulletTrajectory : MonoBehaviour, IBullet
 
     private void StartMove()
     {
-        transform.position += new Vector3(1,-1,0)* bulletSpeed * Time.deltaTime;
+        transform.position += new Vector3(0.2f,-0.2f).normalized* bulletSpeed * Time.deltaTime;
+        SlowSpeed();
         LookTangent();
     }
 
@@ -168,7 +169,7 @@ public class BulletTrajectory : MonoBehaviour, IBullet
         decrease = BulletTrajectoryData.Decrease;
         targetRadius = BulletTrajectoryData.radius;
         maxCircleMove = Mathf.PI * 2f * BulletTrajectoryData.CircleMoveAngle;
-        nowState = state.Start;
+        nowState = state.Circle;
         minSpeed = min;
         bulletMaxSpeed = max;
         bulletSpeed = bulletMaxSpeed;
