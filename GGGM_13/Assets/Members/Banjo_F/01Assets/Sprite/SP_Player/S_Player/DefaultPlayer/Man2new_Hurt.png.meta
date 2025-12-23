@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 0f6dc018d1bf74a42a6514cd6d488df6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3269382724468447873
+    second: Man2new_Hurt_0
+  - first:
+      213: 9142168282765596961
+    second: Man2new_Hurt_1
+  - first:
+      213: 1093303113077982868
+    second: Man2new_Hurt_2
+  - first:
+      213: -7572786845919246113
+    second: Man2new_Hurt_3
+  - first:
+      213: -9097062376005237532
+    second: Man2new_Hurt_4
+  - first:
+      213: -5592812050694758928
+    second: Man2new_Hurt_5
+  - first:
+      213: -1217983398228764051
+    second: Man2new_Hurt_6
+  - first:
+      213: -2553330553204204078
+    second: Man2new_Hurt_7
+  - first:
+      213: -1836204043887743418
+    second: Man2new_Hurt_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Man2new_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f756249ebb1d0a2d0800000000000000
+      internalID: -3269382724468447873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2new_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 102
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129161bad918fde70800000000000000
+      internalID: 9142168282765596961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2new_Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 102
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49687d683613c2f00800000000000000
+      internalID: 1093303113077982868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2new_Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd88b396c7e08e690800000000000000
+      internalID: -7572786845919246113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2new_Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 52
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e403a2a7fdb0c180800000000000000
+      internalID: -9097062376005237532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2new_Hurt_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 52
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd90d662175262b0800000000000000
+      internalID: -5592812050694758928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2new_Hurt_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a504e6d8ad81fe0800000000000000
+      internalID: -1217983398228764051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2new_Hurt_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd9c16d36fb09cd0800000000000000
+      internalID: -2553330553204204078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Man2new_Hurt_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2
+        width: 70
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e6fe4962e7486e0800000000000000
+      internalID: -1836204043887743418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 50dad5a3fca375844a8213caf6d5088d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Man2new_Hurt_0: -3269382724468447873
+      Man2new_Hurt_1: 9142168282765596961
+      Man2new_Hurt_2: 1093303113077982868
+      Man2new_Hurt_3: -7572786845919246113
+      Man2new_Hurt_4: -9097062376005237532
+      Man2new_Hurt_5: -5592812050694758928
+      Man2new_Hurt_6: -1217983398228764051
+      Man2new_Hurt_7: -2553330553204204078
+      Man2new_Hurt_8: -1836204043887743418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

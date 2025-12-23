@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: b6870e3a6fd178b468a934efb763550f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9078253824895681542
+    second: CardHeart_export_Idle_0
+  - first:
+      213: -8198996762931846134
+    second: CardHeart_export_Idle_1
+  - first:
+      213: 8372843320640295031
+    second: CardHeart_export_Idle_2
+  - first:
+      213: 5065888616498578044
+    second: CardHeart_export_Idle_3
+  - first:
+      213: 4427582283970941607
+    second: CardHeart_export_Idle_4
+  - first:
+      213: -6150353729527321140
+    second: CardHeart_export_Idle_5
+  - first:
+      213: 3229736395782223680
+    second: CardHeart_export_Idle_6
+  - first:
+      213: 5694658129029258112
+    second: CardHeart_export_Idle_7
+  - first:
+      213: -8352711836318724982
+    second: CardHeart_export_Idle_8
+  - first:
+      213: -1439666508157807284
+    second: CardHeart_export_Idle_9
+  - first:
+      213: -5493229290793652624
+    second: CardHeart_export_Idle_10
+  - first:
+      213: -4040898157532666594
+    second: CardHeart_export_Idle_11
+  - first:
+      213: 6062537718179966920
+    second: CardHeart_export_Idle_12
+  - first:
+      213: -1027090687229111422
+    second: CardHeart_export_Idle_13
+  - first:
+      213: -5624858100143220513
+    second: CardHeart_export_Idle_14
+  - first:
+      213: -4157090935323764803
+    second: CardHeart_export_Idle_15
+  - first:
+      213: 2516507831340059973
+    second: CardHeart_export_Idle_16
+  - first:
+      213: 1318478414896271912
+    second: CardHeart_export_Idle_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbf242be30930280800000000000000
+      internalID: -9078253824895681542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 260
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04aede52ef473e80800000000000000
+      internalID: -8198996762931846134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 260
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77054ce83a0523470800000000000000
+      internalID: 8372843320640295031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 260
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72c7124bd6ad4640800000000000000
+      internalID: 5065888616498578044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 260
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a296e101aee17d30800000000000000
+      internalID: 4427582283970941607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd66847edd85aaa0800000000000000
+      internalID: -6150353729527321140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 174
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047ffbcd32452dc20800000000000000
+      internalID: 3229736395782223680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 174
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b5412956d770f40800000000000000
+      internalID: 5694658129029258112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 174
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c8505e6d4351c80800000000000000
+      internalID: -8352711836318724982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 174
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c451a3240f6450ce0800000000000000
+      internalID: -1439666508157807284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e297c701124c3b0800000000000000
+      internalID: -5493229290793652624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 88
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e152cba0988dbe7c0800000000000000
+      internalID: -4040898157532666594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 88
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf26891fe5722450800000000000000
+      internalID: 6062537718179966920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 88
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283d893367a0fb1f0800000000000000
+      internalID: -1027090687229111422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 88
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd81cf41c5d70f1b0800000000000000
+      internalID: -5624858100143220513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7d70dc1db0f46c0800000000000000
+      internalID: -4157090935323764803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d43812a8e6ce220800000000000000
+      internalID: 2516507831340059973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2
+        width: 78
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82299ebf12d2c4210800000000000000
+      internalID: 1318478414896271912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8d93483a09c2e314485a52d788243276
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CardHeart_export_Idle_0: -9078253824895681542
+      CardHeart_export_Idle_1: -8198996762931846134
+      CardHeart_export_Idle_10: -5493229290793652624
+      CardHeart_export_Idle_11: -4040898157532666594
+      CardHeart_export_Idle_12: 6062537718179966920
+      CardHeart_export_Idle_13: -1027090687229111422
+      CardHeart_export_Idle_14: -5624858100143220513
+      CardHeart_export_Idle_15: -4157090935323764803
+      CardHeart_export_Idle_16: 2516507831340059973
+      CardHeart_export_Idle_17: 1318478414896271912
+      CardHeart_export_Idle_2: 8372843320640295031
+      CardHeart_export_Idle_3: 5065888616498578044
+      CardHeart_export_Idle_4: 4427582283970941607
+      CardHeart_export_Idle_5: -6150353729527321140
+      CardHeart_export_Idle_6: 3229736395782223680
+      CardHeart_export_Idle_7: 5694658129029258112
+      CardHeart_export_Idle_8: -8352711836318724982
+      CardHeart_export_Idle_9: -1439666508157807284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

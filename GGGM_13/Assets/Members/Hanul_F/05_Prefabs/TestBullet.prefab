@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3527571673593631652}
   - component: {fileID: 8873885701214648910}
   - component: {fileID: 1525533560852149186}
+  - component: {fileID: 7426047392443160774}
+  - component: {fileID: 2840779094021897155}
   m_Layer: 0
   m_Name: TestBullet
   m_TagString: Untagged
@@ -27,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1581982034508992498}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.4, y: 2.29, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.47, y: 0.42, z: 0.25906667}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -102,4 +104,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BulletTrajectoryData: {fileID: 11400000, guid: 94fdbb66f5bea3540b6958c1555b9321, type: 2}
   Center: {fileID: 0}
+  lerpFollow: 12
   bulletSpeed: 0
+  radiusAdjustSpeed: 5
+--- !u!114 &7426047392443160774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581982034508992498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8935b8cfe7de8bc4394c2f9cb829a3ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!58 &2840779094021897155
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581982034508992498}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.25, y: 0}
+  m_Radius: 0.29

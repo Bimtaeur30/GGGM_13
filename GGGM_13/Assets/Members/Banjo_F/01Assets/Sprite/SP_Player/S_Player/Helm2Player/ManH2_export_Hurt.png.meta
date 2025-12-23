@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 65508c5b73ab4154b9e877db7c69c138
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8171416580019083065
+    second: ManH2_export_Hurt_0
+  - first:
+      213: -7207930303715869380
+    second: ManH2_export_Hurt_1
+  - first:
+      213: 5753748156885372348
+    second: ManH2_export_Hurt_2
+  - first:
+      213: -3260285516043921687
+    second: ManH2_export_Hurt_3
+  - first:
+      213: -2366217621172757272
+    second: ManH2_export_Hurt_4
+  - first:
+      213: -8376073763276672337
+    second: ManH2_export_Hurt_5
+  - first:
+      213: 1999206249412335952
+    second: ManH2_export_Hurt_6
+  - first:
+      213: 4424927602466779776
+    second: ManH2_export_Hurt_7
+  - first:
+      213: 507919797409497085
+    second: ManH2_export_Hurt_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8a93c1aeb499e80800000000000000
+      internalID: -8171416580019083065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 140
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dfd39f39948fb90800000000000000
+      internalID: -7207930303715869380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 140
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd063ac67b69df40800000000000000
+      internalID: 5753748156885372348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6d9ddc89321c2d0800000000000000
+      internalID: -3260285516043921687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 71
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec5abc3c91892fd0800000000000000
+      internalID: -2366217621172757272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 71
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2bc676a4532cb80800000000000000
+      internalID: -8376073763276672337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05996f8dd7b9ebb10800000000000000
+      internalID: 1999206249412335952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0827addc530886d30800000000000000
+      internalID: 4424927602466779776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ManH2_export_Hurt_8
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 72
+        height: 67
+      alignment: 9
+      pivot: {x: 0.287, y: 0.287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff3bfa5d5e7c0700800000000000000
+      internalID: 507919797409497085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3f6fe59f9904c1043aaebbbff60ef2c0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ManH2_export_Hurt_0: -8171416580019083065
+      ManH2_export_Hurt_1: -7207930303715869380
+      ManH2_export_Hurt_2: 5753748156885372348
+      ManH2_export_Hurt_3: -3260285516043921687
+      ManH2_export_Hurt_4: -2366217621172757272
+      ManH2_export_Hurt_5: -8376073763276672337
+      ManH2_export_Hurt_6: 1999206249412335952
+      ManH2_export_Hurt_7: 4424927602466779776
+      ManH2_export_Hurt_8: 507919797409497085
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

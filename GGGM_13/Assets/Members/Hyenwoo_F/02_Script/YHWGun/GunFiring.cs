@@ -20,10 +20,17 @@ public class GunFiring : MonoBehaviour
     private GameObject currentTarget;
     private float timer = 0;
     public event Action _onAttack;
+    private YHWPlayer player;
+
+    private void Start()
+    {
+        player = YHWGameManager.Instance.Player.GetComponent<YHWPlayer>();
+    }
 
     private void Update()
     {
-        timer += Time.deltaTime;
+        if (!player.AnimCompo.AnimCompo.GetBool("IsHit"))
+            timer += Time.deltaTime;
 
         if (timer >= _fireTime)
         {
@@ -33,7 +40,7 @@ public class GunFiring : MonoBehaviour
 
         currentTarget = LockForTarget();
         if (currentTarget == null)
-            ShotAnim(Vector2.zero);
+            _gun.rotation = Quaternion.Euler(0, 0, 0);
         else
             ShotAnim(currentTarget.transform.position);
     }

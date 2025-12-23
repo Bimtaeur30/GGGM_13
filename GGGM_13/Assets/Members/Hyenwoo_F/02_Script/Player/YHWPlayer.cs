@@ -1,12 +1,18 @@
 using System.Collections;
+using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class YHWPlayer : MonoBehaviour
 {
+    [field: SerializeField] public GameObject HeadCollider { get; private set; }
+    [SerializeField] public AnimatorController basicController;
+    [SerializeField] public List<AnimatorOverrideController> helmetController;
     public PlayerJump JumpCompo { get; private set; }
     public PlayerHP HPCompo { get; private set; }
     public PlayerAnimation AnimCompo { get; private set; }
     public GunFiring FiringCompo { get; private set; }
+    public PlayerAbility AbilityCompo { get; private set; }
 
     private void Awake()
     {
@@ -14,17 +20,27 @@ public class YHWPlayer : MonoBehaviour
         HPCompo = GetComponent<PlayerHP>();
         AnimCompo = GetComponentInChildren<PlayerAnimation>();
         FiringCompo = GetComponentInChildren<GunFiring>();
+        AbilityCompo = GetComponent<PlayerAbility>();
     }
 
-    public void PlayerSizeDown(float downSize, float time)
+    private void Start()
     {
-        StartCoroutine(SizeDown(downSize, time));
+        HeadCollider.GetComponent<PlayerHitBox>()._onChangeCos += ChangeAnimController;
     }
 
-    private IEnumerator SizeDown(float downSize, float time)
+    private void ChangeAnimController()
     {
-        gameObject.transform.localScale = new Vector3(downSize, downSize, 0);
-        yield return new WaitForSeconds(time);
-        gameObject.transform.localScale = new Vector3(1, 1, 0);
+        if (!HeadCollider.GetComponent<PlayerHitBox>().LeatherSet && !HeadCollider.GetComponent<PlayerHitBox>().IronSet)
+        {
+            AnimCompo.AnimCompo.runtimeAnimatorController = basicController;
+        }
+        else if (HeadCollider.GetComponent<PlayerHitBox>().LeatherSet && !HeadCollider.GetComponent<PlayerHitBox>().IronSet)
+        {
+            AnimCompo.AnimCompo.runtimeAnimatorController = helmetController[0];
+        }
+        else if (!HeadCollider.GetComponent<PlayerHitBox>().LeatherSet && HeadCollider.GetComponent<PlayerHitBox>().IronSet)
+        {
+            AnimCompo.AnimCompo.runtimeAnimatorController = helmetController[1];
+        }
     }
 }
