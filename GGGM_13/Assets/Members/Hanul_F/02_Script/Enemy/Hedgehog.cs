@@ -36,7 +36,7 @@ public class Hhedgehog : Enemy
     {
         if (firstDeath)
         {
-            base.enemyMovement.Speed += 0.8f;
+            base.enemyMovement.Speed += 0.59f;
             Instantiate(deathMessage,transform.position,Quaternion.identity);
             DeadAniamtion();
             firstDeath = false;

@@ -1,6 +1,7 @@
 using System.Collections;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Deer : Enemy
 {
@@ -16,9 +17,12 @@ public class Deer : Enemy
 
     private SpriteRenderer sr;
 
+    private BoxCollider2D boxCollider;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
 
@@ -33,9 +37,11 @@ public class Deer : Enemy
     {
         if (firstDeath)
         {
-            base.enemyMovement.Speed += 0.8f;
+            base.enemyMovement.Speed += 0.34f;
             Instantiate(deathMessage,transform.position,Quaternion.identity);
             DeadAniamtion();
+            boxCollider.offset = new Vector2(boxCollider.offset.x, -0.22f);
+            boxCollider.size = new Vector2(boxCollider.size.x, 1.83f);
             firstDeath = false;
         }
     }
