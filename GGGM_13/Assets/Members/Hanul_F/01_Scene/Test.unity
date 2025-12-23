@@ -1490,6 +1490,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Eenmyspawner
       objectReference: {fileID: 0}
+    - target: {fileID: 4039425018824316002, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4696064774714808681, guid: 8cacf1d6cb1af154088ebdcd932f78a2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.24
