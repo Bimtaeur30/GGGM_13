@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class PlayerAbility : MonoBehaviour
 {
@@ -39,7 +40,9 @@ public class PlayerAbility : MonoBehaviour
     private IEnumerator Invincibility(float time)
     {
         player.HPCompo.SetInvincibility(true);
+        player.GetComponentInChildren<SpriteRenderer>().color = new Color(1, 1, 1, 0.5f);
         yield return new WaitForSeconds(time);
+        player.GetComponentInChildren<SpriteRenderer>().color = new Color(1, 1, 1, 1);
         player.HPCompo.SetInvincibility(false);
     }
 }
