@@ -810,6 +810,55 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 3198715709318666677, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
   m_PrefabInstance: {fileID: 8537374809505695185}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &643268819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 643268821}
+  - component: {fileID: 643268820}
+  m_Layer: 0
+  m_Name: BulletManager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &643268820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643268819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576f3c58738fb694386c9d91988c8413, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletTrajectoryDataSOs:
+  - {fileID: 11400000, guid: 94fdbb66f5bea3540b6958c1555b9321, type: 2}
+  fireParticle: {fileID: 0}
+  BulletPreFab: {fileID: 1581982034508992498, guid: 50d0dd33c7a28b44baf00625a367a4f2, type: 3}
+  center: {fileID: 49171581}
+--- !u!4 &643268821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643268819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9691405, y: 0.15349804, z: -0.05425082}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &675709148 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 8686486153400731959, guid: 3535bab724450c949bee12d9c24197a2, type: 3}
@@ -8316,3 +8365,4 @@ SceneRoots:
   - {fileID: 8537374809505695185}
   - {fileID: 704727957}
   - {fileID: 6894000088021967548}
+  - {fileID: 643268821}
