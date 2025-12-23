@@ -36,7 +36,7 @@ public class JumpGaugeUI : MonoBehaviour
             {
                 jumpGaugeBoxList[i].SetActive(true);
                 JumpGaugeEffectManager.Instance.ShowJumpGaugeEffect(jumpGaugeBoxList[i].transform.position);
-
+                SoundManager.Instance.PlaySound(SFX.JumpSloatCharge);
                 break;
             }
         }

@@ -16,6 +16,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private List<AudioClip> bgmList;
     private Dictionary<SFX, AudioClip> sfxDictionary = new Dictionary<SFX, AudioClip>();
     private Dictionary<BGM, AudioClip> bgmDictionary = new Dictionary<BGM, AudioClip>();
+    public RunSFX runSFX { get; private set; }
     public static SoundManager Instance { get; private set; }
 
     private void Awake()
@@ -28,6 +29,8 @@ public class SoundManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        runSFX = GetComponentInChildren<RunSFX>();
     }
 
     private void Start()
@@ -36,6 +39,7 @@ public class SoundManager : MonoBehaviour
         foreach (SFX item in Enum.GetValues(typeof(SFX)))
         {
             sfxDictionary[item] = sfxList[i];
+            Debug.Log(i);
             i++;
         }
         /*i = 0;
@@ -72,18 +76,18 @@ public class SoundManager : MonoBehaviour
 public enum SFX
 { 
     //GameStart,
-    //GameOver,
-    PlayerHit, //
-    PlayerJump, //
-    PlayerLanding, //
-    PlayerRun, //
-    //JumpSloatCharge,
-    GunFiring, //
-    GunExplosion, //
-    //CardUp,
+    GameOver,
+    PlayerHit,
+    //PlayerJump,
+    PlayerLanding, 
+    PlayerRun,
+    JumpSloatCharge,
+    GunFiring, 
+    GunExplosion,
+    CardUp,
     //CardSelect,
     //ButtonSelect,
-    //ButtonClick
+    ButtonClick
 }
 
 public enum BGM
