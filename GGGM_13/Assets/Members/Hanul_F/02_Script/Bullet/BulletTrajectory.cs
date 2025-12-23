@@ -1,4 +1,5 @@
 using System.Collections;
+using DG.Tweening;
 using UnityEngine;
 
 public enum state
@@ -35,6 +36,18 @@ public class BulletTrajectory : MonoBehaviour, IBullet
     private Vector3 straightMove;
 
     private float targetRadius;
+
+    private SpriteRenderer sr;
+
+    void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
+    }
+
+    void Start()
+    {
+        FadeIn();
+    }
 
     void Update()
     {
@@ -78,6 +91,12 @@ public class BulletTrajectory : MonoBehaviour, IBullet
                 break;
         }
     }
+
+    private void FadeIn()
+    {
+        sr.DOFade(1f, 3f);
+    }
+
     private void StartStraight()
     {
         straightMove =
