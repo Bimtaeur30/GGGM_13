@@ -7,7 +7,7 @@ public class PlayerHP : MonoBehaviour
     [field:SerializeField] public int MaxHp { get; private set; }
     [field:SerializeField] public int Hp { get; private set; }
     private CinemachineImpulseSource impulseSource;
-    private bool _isInvincibility;
+    public bool IsInvincibility { get; private set; }
 
     public event Action _onDamage;
     public event Action _onDie;
@@ -34,7 +34,7 @@ public class PlayerHP : MonoBehaviour
 
     public void GetDamage(int value)
     {
-        if (_isInvincibility)
+        if (IsInvincibility)
             return;
 
         Hp -= value;
@@ -56,6 +56,6 @@ public class PlayerHP : MonoBehaviour
 
     public void SetInvincibility(bool value)
     {
-        _isInvincibility = value;
+        IsInvincibility = value;
     }
 }
