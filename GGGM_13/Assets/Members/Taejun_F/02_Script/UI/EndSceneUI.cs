@@ -8,6 +8,8 @@ public class EndSceneUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI scoreTxt;
     [SerializeField] private PlayerHP hp;
 
+    private bool _isEnded = false;
+
     private void OnEnable()
     {
         hp._onDie += RunEndUI;
@@ -20,6 +22,8 @@ public class EndSceneUI : MonoBehaviour
 
     public void RunEndUI()
     {
+        if (_isEnded) return;
+        _isEnded = true;
         SoundManager.Instance.PlaySound(SFX.GameOver);
         cg.gameObject.SetActive(true);
         cg.DOFade(1f, 1f);
