@@ -22,6 +22,7 @@ public class HealthSystem : MonoBehaviour, IDamageable
         {
             // gameObject.SetActive(false);
             _onDie?.Invoke();
+            SoundManager.Instance.PlaySound(SFX.GunExplosion);
         }
     }
 
