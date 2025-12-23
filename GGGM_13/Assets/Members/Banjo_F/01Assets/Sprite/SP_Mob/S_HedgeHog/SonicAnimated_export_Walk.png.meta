@@ -136,12 +136,12 @@ TextureImporter:
       name: SonicAnimated_export_Walk_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 54
-        width: 27
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -158,12 +158,12 @@ TextureImporter:
       name: SonicAnimated_export_Walk_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 54
-        width: 27
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,12 +180,12 @@ TextureImporter:
       name: SonicAnimated_export_Walk_2
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 54
-        width: 28
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,10 +204,10 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 54
-        width: 28
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,11 +225,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 29
-        width: 28
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 28
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,10 +248,10 @@ TextureImporter:
         serializedVersion: 2
         x: 32
         y: 28
-        width: 28
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,10 +270,10 @@ TextureImporter:
         serializedVersion: 2
         x: 64
         y: 28
-        width: 27
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,10 +292,10 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 28
-        width: 28
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,10 +314,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 2
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -334,12 +334,12 @@ TextureImporter:
       name: SonicAnimated_export_Walk_9
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 2
-        width: 27
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -356,12 +356,12 @@ TextureImporter:
       name: SonicAnimated_export_Walk_10
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 2
-        width: 27
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -380,10 +380,10 @@ TextureImporter:
         serializedVersion: 2
         x: 96
         y: 2
-        width: 28
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 67e607c4f98085e40b68898864f246e8
     internalID: 0
     vertices: []
     indices: 
