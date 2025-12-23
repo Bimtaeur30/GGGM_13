@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef02628534285940af11adef58cca0c, type: 3}
   m_Name: BulletTrajectoryData
   m_EditorClassIdentifier: 
-  bulletSpeed: 4
-  radius: 2.8
+  bulletSpeed: 6
+  radius: 2.6
   CircleMoveAngle: 0.925
-  Decrease: 1.5
-  MinSpeed: 1
+  Decrease: 2
+  MinSpeed: 3
