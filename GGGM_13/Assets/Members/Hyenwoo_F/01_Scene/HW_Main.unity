@@ -351,6 +351,7 @@ MonoBehaviour:
   <MainCamera>k__BackingField: {fileID: 1382674106}
   healParticle: {fileID: 1762427760}
   sizeDownParticle: {fileID: 675709148}
+  helmetBrokenParticle: {fileID: 0}
 --- !u!4 &120246828
 Transform:
   m_ObjectHideFlags: 0
@@ -1000,7 +1001,7 @@ AudioSource:
   m_GameObject: {fileID: 851252569}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e34925b6bc538584dac5b9bda0277a0d, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -1108,59 +1109,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3111559092999285557, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
   m_PrefabInstance: {fileID: 343958346544942733}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1175762614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1175762613}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ImpulseDefinition:
-    ImpulseChannel: 1
-    ImpulseShape: 2
-    CustomImpulseShape:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    ImpulseDuration: 0.2
-    ImpulseType: 0
-    DissipationRate: 0.25
-    RawSignal: {fileID: 0}
-    AmplitudeGain: 1
-    FrequencyGain: 1
-    RepeatMode: 0
-    Randomize: 1
-    TimeEnvelope:
-      AttackShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      DecayShape:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      AttackTime: 0
-      SustainTime: 0.2
-      DecayTime: 0.7
-      ScaleWithImpact: 1
-      HoldForever: 0
-    ImpactRadius: 100
-    DirectionMode: 0
-    DissipationMode: 2
-    DissipationDistance: 100
-    PropagationSpeed: 343
-  DefaultVelocity: {x: -1, y: -1, z: 0}
 --- !u!1 &1227079940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1316,9 +1264,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66de6eb22f33cfe4ebefdd63ba1c386d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicManager: {fileID: 851252570}
+  musicMixer: {fileID: 0}
+  musicManager: {fileID: 0}
+  sfxMixer: {fileID: 24100000, guid: 41a6c2cbd97555f4d93c933c67fe196c, type: 2}
   sfxManager: {fileID: 1403046362}
-  audioClipList: []
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
+  sfxList: []
+  bgmList: []
 --- !u!4 &1320667993
 Transform:
   m_ObjectHideFlags: 0
@@ -7442,10 +7395,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1621362733585756199, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: beb373feefef02e469474a2db2ccd54f, type: 2}
     - target: {fileID: 3111559092999285557, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
       propertyPath: m_Name
       value: Player
@@ -7494,30 +7443,68 @@ PrefabInstance:
       propertyPath: _runParticle
       value: 
       objectReference: {fileID: 1908220136}
-    - target: {fileID: 7161845144031531598, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
-      propertyPath: basicController
-      value: 
-      objectReference: {fileID: 9100000, guid: beb373feefef02e469474a2db2ccd54f, type: 2}
-    - target: {fileID: 7161845144031531598, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
-      propertyPath: helmetController.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7161845144031531598, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
-      propertyPath: 'helmetController.Array.data[0]'
-      value: 
-      objectReference: {fileID: 22100000, guid: fd92ffea114558a408f40ca709575fe2, type: 2}
-    - target: {fileID: 7161845144031531598, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
-      propertyPath: 'helmetController.Array.data[1]'
-      value: 
-      objectReference: {fileID: 22100000, guid: 0e1731c6fb036f14181d103152e7f1db, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3111559092999285557, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1175762614}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bbe36483294aa841a17ebccc1cb0306, type: 3}
+--- !u!1001 &8537374809505695185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6221103741286818591, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_Name
+      value: BrokenHelmetParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.062550604
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237650956203772528, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7539,4 +7526,5 @@ SceneRoots:
   - {fileID: 1526465924}
   - {fileID: 428108017}
   - {fileID: 1645941747}
+  - {fileID: 8537374809505695185}
   - {fileID: 1412326442}

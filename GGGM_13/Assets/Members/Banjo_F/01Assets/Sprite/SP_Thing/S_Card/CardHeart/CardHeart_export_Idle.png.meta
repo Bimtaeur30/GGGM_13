@@ -38,24 +38,6 @@ TextureImporter:
   - first:
       213: -4040898157532666594
     second: CardHeart_export_Idle_11
-  - first:
-      213: 6062537718179966920
-    second: CardHeart_export_Idle_12
-  - first:
-      213: -1027090687229111422
-    second: CardHeart_export_Idle_13
-  - first:
-      213: -5624858100143220513
-    second: CardHeart_export_Idle_14
-  - first:
-      213: -4157090935323764803
-    second: CardHeart_export_Idle_15
-  - first:
-      213: 2516507831340059973
-    second: CardHeart_export_Idle_16
-  - first:
-      213: 1318478414896271912
-    second: CardHeart_export_Idle_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,9 +137,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 260
-        width: 78
-        height: 84
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +158,10 @@ TextureImporter:
       name: CardHeart_export_Idle_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 260
-        width: 78
-        height: 84
+        x: 90
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +180,10 @@ TextureImporter:
       name: CardHeart_export_Idle_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 260
-        width: 78
-        height: 84
+        x: 180
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +202,10 @@ TextureImporter:
       name: CardHeart_export_Idle_3
       rect:
         serializedVersion: 2
-        x: 240
-        y: 260
-        width: 78
-        height: 84
+        x: 270
+        y: 170
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +224,10 @@ TextureImporter:
       name: CardHeart_export_Idle_4
       rect:
         serializedVersion: 2
-        x: 320
-        y: 260
-        width: 78
-        height: 84
+        x: 0
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +246,10 @@ TextureImporter:
       name: CardHeart_export_Idle_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 174
-        width: 78
-        height: 84
+        x: 90
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +268,10 @@ TextureImporter:
       name: CardHeart_export_Idle_6
       rect:
         serializedVersion: 2
-        x: 80
-        y: 174
-        width: 78
-        height: 84
+        x: 180
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +290,10 @@ TextureImporter:
       name: CardHeart_export_Idle_7
       rect:
         serializedVersion: 2
-        x: 160
-        y: 174
-        width: 78
-        height: 84
+        x: 270
+        y: 86
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +312,10 @@ TextureImporter:
       name: CardHeart_export_Idle_8
       rect:
         serializedVersion: 2
-        x: 240
-        y: 174
-        width: 78
-        height: 84
+        x: 0
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +334,10 @@ TextureImporter:
       name: CardHeart_export_Idle_9
       rect:
         serializedVersion: 2
-        x: 320
-        y: 174
-        width: 78
-        height: 84
+        x: 90
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +356,10 @@ TextureImporter:
       name: CardHeart_export_Idle_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 88
-        width: 78
-        height: 84
+        x: 180
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +378,10 @@ TextureImporter:
       name: CardHeart_export_Idle_11
       rect:
         serializedVersion: 2
-        x: 80
-        y: 88
-        width: 78
-        height: 84
+        x: 270
+        y: 2
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,143 +396,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: CardHeart_export_Idle_12
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 88
-        width: 78
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cf26891fe5722450800000000000000
-      internalID: 6062537718179966920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHeart_export_Idle_13
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 88
-        width: 78
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 283d893367a0fb1f0800000000000000
-      internalID: -1027090687229111422
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHeart_export_Idle_14
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 88
-        width: 78
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd81cf41c5d70f1b0800000000000000
-      internalID: -5624858100143220513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHeart_export_Idle_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2
-        width: 78
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db7d70dc1db0f46c0800000000000000
-      internalID: -4157090935323764803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHeart_export_Idle_16
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 2
-        width: 78
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54d43812a8e6ce220800000000000000
-      internalID: 2516507831340059973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CardHeart_export_Idle_17
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 2
-        width: 78
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82299ebf12d2c4210800000000000000
-      internalID: 1318478414896271912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8d93483a09c2e314485a52d788243276
+    spriteID: 0ac2cf831b5243b4a978b1284626d2ce
     internalID: 0
     vertices: []
     indices: 
@@ -564,12 +414,6 @@ TextureImporter:
       CardHeart_export_Idle_1: -8198996762931846134
       CardHeart_export_Idle_10: -5493229290793652624
       CardHeart_export_Idle_11: -4040898157532666594
-      CardHeart_export_Idle_12: 6062537718179966920
-      CardHeart_export_Idle_13: -1027090687229111422
-      CardHeart_export_Idle_14: -5624858100143220513
-      CardHeart_export_Idle_15: -4157090935323764803
-      CardHeart_export_Idle_16: 2516507831340059973
-      CardHeart_export_Idle_17: 1318478414896271912
       CardHeart_export_Idle_2: 8372843320640295031
       CardHeart_export_Idle_3: 5065888616498578044
       CardHeart_export_Idle_4: 4427582283970941607

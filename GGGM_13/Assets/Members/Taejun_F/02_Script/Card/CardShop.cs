@@ -35,6 +35,7 @@ public class CardShop : MonoBehaviour
         });
 
         cardShopAnim.CardCloseDown();
+        data.AbilitySO.Excute();
     }
 
     public void RollShop()
@@ -59,6 +60,7 @@ public class CardShop : MonoBehaviour
             cardView.button.onClick.AddListener(() =>
             {
                 PurchaseItem(card, cardView);
+                Time.timeScale = 1f;
             });
 
             spawnedCards.Add(cardView.gameObject);

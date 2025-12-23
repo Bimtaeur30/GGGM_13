@@ -4,9 +4,9 @@ using UnityEngine;
 public class PlayerAbility : MonoBehaviour
 {
     private YHWPlayer player;
-    private SizeDown sizeDown;
-    private EquipNormalHelmet normalHelmet;
-    private EquipIronHelmet ironHelmet;
+    [SerializeField] private SizeDown sizeDown;
+    [SerializeField] EquipNormalHelmet normalHelmet;
+    [SerializeField] private EquipIronHelmet ironHelmet;
 
     private void Start()
     {

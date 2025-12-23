@@ -34,6 +34,9 @@ public class CardAnimator : MonoBehaviour
         seq.Join(infoGroup.DOFade(1f, fadeDuration));
         seq.Join(transform.DORotate(Vector3.forward * rotateZ, fadeDuration));
 
+        seq.SetUpdate(true);
+        seq.Play();
+
         seq.OnComplete(() =>
         {
             _onComplete.Invoke();
@@ -48,6 +51,9 @@ public class CardAnimator : MonoBehaviour
 
         seq.Join(infoGroup.DOFade(0f, fadeDuration));
         seq.Join(transform.DORotate(Vector3.zero, fadeDuration));
+
+        seq.SetUpdate(true);
+        seq.Play();
 
         ResetTextPos();
     }
@@ -70,6 +76,9 @@ public class CardAnimator : MonoBehaviour
             );
             _textSequence.AppendInterval(-0.05f); // »ìÂ¦ °ãÄ¡±â
         }
+
+        _textSequence.SetUpdate(true);
+        _textSequence.Play();
     }
 
     private void ResetTextPos()
