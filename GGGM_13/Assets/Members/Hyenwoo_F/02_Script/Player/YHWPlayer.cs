@@ -48,6 +48,5 @@ public class YHWPlayer : MonoBehaviour
     private void DeleteCollider()
     {
         HeadCollider.SetActive(false);
-        gameObject.GetComponent<BoxCollider2D>().enabled = false;
     }
 }
