@@ -351,7 +351,7 @@ MonoBehaviour:
   <MainCamera>k__BackingField: {fileID: 1382674106}
   healParticle: {fileID: 1762427760}
   sizeDownParticle: {fileID: 675709148}
-  helmetBrokenParticle: {fileID: 0}
+  helmetBrokenParticle: {fileID: 532541860}
 --- !u!4 &120246828
 Transform:
   m_ObjectHideFlags: 0
@@ -833,6 +833,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3702be17c98bbd40a1dfcf5617d8004, type: 3}
+--- !u!198 &532541860 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3198715709318666677, guid: 2f22fedc290b78e45986e0cb57d15fa1, type: 3}
+  m_PrefabInstance: {fileID: 8537374809505695185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &584003138
 GameObject:
   m_ObjectHideFlags: 0
