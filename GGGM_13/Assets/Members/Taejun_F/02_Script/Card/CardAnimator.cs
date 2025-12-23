@@ -34,13 +34,13 @@ public class CardAnimator : MonoBehaviour
         seq.Join(infoGroup.DOFade(1f, fadeDuration));
         seq.Join(transform.DORotate(Vector3.forward * rotateZ, fadeDuration));
 
-        seq.SetUpdate(true);
-        seq.Play();
-
         seq.OnComplete(() =>
         {
             _onComplete.Invoke();
         });
+
+        seq.SetUpdate(true);
+        seq.Play();
 
         PlayTextPopUp();
     }
