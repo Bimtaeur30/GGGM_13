@@ -1185,7 +1185,13 @@ MonoBehaviour:
   sfxManager: {fileID: 1403046362}
   musicSlider: {fileID: 0}
   sfxSlider: {fileID: 0}
-  sfxList: []
+  sfxList:
+  - {fileID: 8300000, guid: 5c9ab115169dce442ba3c0f0b4adff23, type: 3}
+  - {fileID: 8300000, guid: b5660e6853a74cf448b0088c0231d535, type: 3}
+  - {fileID: 8300000, guid: 9e570ed77cf3c1e459b98fabfdd0b7ef, type: 3}
+  - {fileID: 8300000, guid: 9b0c704bd05be184ea64aca30bf6693e, type: 3}
+  - {fileID: 8300000, guid: 2f151494cea40a848b6bf7ad4db909fa, type: 3}
+  - {fileID: 8300000, guid: 359f176478ba65648b58de89cb919cc0, type: 3}
   bgmList: []
 --- !u!4 &1320667993
 Transform:

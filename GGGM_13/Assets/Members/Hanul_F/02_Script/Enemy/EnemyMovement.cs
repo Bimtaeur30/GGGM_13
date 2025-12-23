@@ -29,7 +29,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Update()
     {
-        size = Mathf.Clamp(size + 0.5f * Time.deltaTime, 0.2f, maxSize);
+        size = Mathf.Clamp(size + 0.2f * Time.deltaTime, 0.2f, maxSize);
         if (size <= maxSize)
         {
             radius += 0.00001f;

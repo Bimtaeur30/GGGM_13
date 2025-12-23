@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: e09956b2422bcd741aec7f2588bf4195
+guid: abe7a752b97163a4bbef856828ebb55b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3468989671756823658
-    second: RabbitAnimated_export_Walk_0
+      213: 2586459460819754528
+    second: DeerAnimated_export_Walk_0
   - first:
-      213: 3085303892072377252
-    second: RabbitAnimated_export_Walk_1
+      213: 8916624058487302420
+    second: DeerAnimated_export_Walk_1
   - first:
-      213: -8684176605626816441
-    second: RabbitAnimated_export_Walk_2
+      213: -3606369679022919477
+    second: DeerAnimated_export_Walk_2
   - first:
-      213: -1203678565967815042
-    second: RabbitAnimated_export_Walk_3
+      213: 4448649601521875612
+    second: DeerAnimated_export_Walk_3
   - first:
-      213: 1436519956038977445
-    second: RabbitAnimated_export_Walk_4
+      213: 8351003077024937680
+    second: DeerAnimated_export_Walk_4
   - first:
-      213: -4241449357891381217
-    second: RabbitAnimated_export_Walk_5
+      213: 7224506915501684435
+    second: DeerAnimated_export_Walk_5
   - first:
-      213: -7790338133453746547
-    second: RabbitAnimated_export_Walk_6
+      213: 5569791109850017524
+    second: DeerAnimated_export_Walk_6
   - first:
-      213: 419593996900071385
-    second: RabbitAnimated_export_Walk_7
+      213: 8239443221236393975
+    second: DeerAnimated_export_Walk_7
   - first:
-      213: 1500772621636762213
-    second: RabbitAnimated_export_Walk_8
+      213: -8718653756215479909
+    second: DeerAnimated_export_Walk_8
   - first:
-      213: 2450446848712719251
-    second: RabbitAnimated_export_Walk_9
+      213: 4469831337327998936
+    second: DeerAnimated_export_Walk_9
   - first:
-      213: -2770305658854855047
-    second: RabbitAnimated_export_Walk_10
+      213: 1990537655976575270
+    second: DeerAnimated_export_Walk_10
   - first:
-      213: 212288849777973397
-    second: RabbitAnimated_export_Walk_11
+      213: -8967929439526696376
+    second: DeerAnimated_export_Walk_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,7 +105,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 128
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -133,265 +133,265 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_0
+      name: DeerAnimated_export_Walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 50
-        width: 25
-        height: 22
+        y: 96
+        width: 45
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.316}
+      pivot: {x: 0.7, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6c709a1ab3542030800000000000000
-      internalID: 3468989671756823658
+      spriteID: 02e1c1c0d23f4e320800000000000000
+      internalID: 2586459460819754528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_1
+      name: DeerAnimated_export_Walk_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 50
-        width: 25
-        height: 22
+        x: 47
+        y: 96
+        width: 45
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.316}
+      pivot: {x: 0.7, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4abaa1f0b8331da20800000000000000
-      internalID: 3085303892072377252
+      spriteID: 41966d1c6563ebb70800000000000000
+      internalID: 8916624058487302420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_2
+      name: DeerAnimated_export_Walk_2
       rect:
         serializedVersion: 2
-        x: 54
-        y: 50
-        width: 25
-        height: 22
+        x: 94
+        y: 96
+        width: 45
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.316}
+      pivot: {x: 0.7, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7482bde436b9b7780800000000000000
-      internalID: -8684176605626816441
+      spriteID: bc0791162e993fdc0800000000000000
+      internalID: -3606369679022919477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_3
+      name: DeerAnimated_export_Walk_3
       rect:
         serializedVersion: 2
-        x: 81
-        y: 50
-        width: 25
-        height: 22
+        x: 141
+        y: 96
+        width: 45
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.316}
+      pivot: {x: 0.7, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7e9cbbb8bcab4fe0800000000000000
-      internalID: -1203678565967815042
+      spriteID: c9af4ec1e37ccbd30800000000000000
+      internalID: 4448649601521875612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 26
-        width: 25
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.316}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a7867cf94b8fe310800000000000000
-      internalID: 1436519956038977445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_5
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 26
-        width: 25
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.316}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f18531af7485325c0800000000000000
-      internalID: -4241449357891381217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_6
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 26
-        width: 25
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.316}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8e4f4b1eb823e390800000000000000
-      internalID: -7790338133453746547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_7
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 26
-        width: 25
-        height: 22
-      alignment: 9
-      pivot: {x: 0.5, y: 0.316}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d77d1f5482b2d500800000000000000
-      internalID: 419593996900071385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_8
+      name: DeerAnimated_export_Walk_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 2
-        width: 25
-        height: 22
+        y: 49
+        width: 45
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.316}
+      pivot: {x: 0.7, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56a7a497fb0d3d410800000000000000
-      internalID: 1500772621636762213
+      spriteID: 0d6f3449d09b4e370800000000000000
+      internalID: 8351003077024937680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_9
+      name: DeerAnimated_export_Walk_5
       rect:
         serializedVersion: 2
-        x: 27
-        y: 2
-        width: 25
-        height: 22
+        x: 47
+        y: 49
+        width: 45
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.316}
+      pivot: {x: 0.7, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39b3f760d6cb10220800000000000000
-      internalID: 2450446848712719251
+      spriteID: 3d6b4d733ca924460800000000000000
+      internalID: 7224506915501684435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_10
+      name: DeerAnimated_export_Walk_6
       rect:
         serializedVersion: 2
-        x: 54
-        y: 2
-        width: 25
-        height: 22
+        x: 94
+        y: 49
+        width: 45
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.316}
+      pivot: {x: 0.7, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97ea3b45ea5ed89d0800000000000000
-      internalID: -2770305658854855047
+      spriteID: 4fe2dbf118fdb4d40800000000000000
+      internalID: 5569791109850017524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RabbitAnimated_export_Walk_11
+      name: DeerAnimated_export_Walk_7
       rect:
         serializedVersion: 2
-        x: 81
-        y: 2
-        width: 25
-        height: 22
+        x: 141
+        y: 49
+        width: 45
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.316}
+      pivot: {x: 0.7, y: 0.38}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 598dac8859332f200800000000000000
-      internalID: 212288849777973397
+      spriteID: 7f7abcc84f1685270800000000000000
+      internalID: 8239443221236393975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeerAnimated_export_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91b6252a9e110780800000000000000
+      internalID: -8718653756215479909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeerAnimated_export_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7385b4be7080e30800000000000000
+      internalID: 4469831337327998936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeerAnimated_export_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 2
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621c588a37fcf9b10800000000000000
+      internalID: 1990537655976575270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeerAnimated_export_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2
+        width: 45
+        height: 45
+      alignment: 9
+      pivot: {x: 0.7, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a4e3a50b38b8380800000000000000
+      internalID: -8967929439526696376
       vertices: []
       indices: 
       edges: []
@@ -400,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: da9f492cc7e96bb4196feeeedb361e29
+    spriteID: e540faed2ed13834ea578095de836407
     internalID: 0
     vertices: []
     indices: 
@@ -410,18 +410,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      RabbitAnimated_export_Walk_0: 3468989671756823658
-      RabbitAnimated_export_Walk_1: 3085303892072377252
-      RabbitAnimated_export_Walk_10: -2770305658854855047
-      RabbitAnimated_export_Walk_11: 212288849777973397
-      RabbitAnimated_export_Walk_2: -8684176605626816441
-      RabbitAnimated_export_Walk_3: -1203678565967815042
-      RabbitAnimated_export_Walk_4: 1436519956038977445
-      RabbitAnimated_export_Walk_5: -4241449357891381217
-      RabbitAnimated_export_Walk_6: -7790338133453746547
-      RabbitAnimated_export_Walk_7: 419593996900071385
-      RabbitAnimated_export_Walk_8: 1500772621636762213
-      RabbitAnimated_export_Walk_9: 2450446848712719251
+      DeerAnimated_export_Walk_0: 2586459460819754528
+      DeerAnimated_export_Walk_1: 8916624058487302420
+      DeerAnimated_export_Walk_10: 1990537655976575270
+      DeerAnimated_export_Walk_11: -8967929439526696376
+      DeerAnimated_export_Walk_2: -3606369679022919477
+      DeerAnimated_export_Walk_3: 4448649601521875612
+      DeerAnimated_export_Walk_4: 8351003077024937680
+      DeerAnimated_export_Walk_5: 7224506915501684435
+      DeerAnimated_export_Walk_6: 5569791109850017524
+      DeerAnimated_export_Walk_7: 8239443221236393975
+      DeerAnimated_export_Walk_8: -8718653756215479909
+      DeerAnimated_export_Walk_9: 4469831337327998936
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
