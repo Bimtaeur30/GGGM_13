@@ -284,15 +284,15 @@ RectTransform:
   m_GameObject: {fileID: 98255109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 2, y: 2, z: 0.6666667}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1074148711}
   m_Father: {fileID: 893776590}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -455}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &98255111
@@ -650,23 +650,32 @@ MonoBehaviour:
   cardPref: {fileID: 5966700372406148780, guid: aee43c6ed6125284594f86593a2efcf6, type: 3}
   sellCards:
   - AbilitySO: {fileID: 11400000, guid: 7243b3a2df69ecc4782530f75e472d8d, type: 2}
-    ItemName: "\uD5EC\uBA67\uB760"
+    ItemName: "\uD5EC\uBA67"
     CardEnum: 1
     ItemDescriptions:
-    - "\uB9E4\uC6B0 \uC88B\uC740 \uC131\uB2A5\uD5A5\uC0C1"
-    - "\uB300\uAC08\uBE61 \uAE68\uC9C8\uD655\uB960 -30%"
+    - "\uAC00\uC8FD \uBAA8\uC790\uBCF4\uB2E8 \uB0AB\uC8E0"
+    - "\uACF5\uACA9 \uD68C\uD53C\uC728 20%"
+    ItemAnimator: {fileID: 22100000, guid: c6131b1d20eea264d9815ef6d6418f5d, type: 2}
   - AbilitySO: {fileID: 11400000, guid: 2a40ee570a309f14091f8d80a12e37b4, type: 2}
-    ItemName: "\uB760\uB760\uB760"
+    ItemName: "\uAC15\uCCA0\uBAA8"
+    CardEnum: 1
+    ItemDescriptions:
+    - "\uC774\uBCF4\uB2E4 \uB354 \uAC15\uD560\uC21C \uC5C5\uB530"
+    - "\uACF5\uACA9 \uD68C\uD53C\uC728 50%"
+    ItemAnimator: {fileID: 22100000, guid: aed3d767d559b4c4caf421b8bc731a0e, type: 2}
+  - AbilitySO: {fileID: 11400000, guid: 2a40ee570a309f14091f8d80a12e37b4, type: 2}
+    ItemName: "\uD790\uB9C1"
     CardEnum: 0
     ItemDescriptions:
-    - "10% \uD30C\uACA9\uC138\uC77C"
-    - "\uBAA8\uB450\uAC00 \uC6D0\uD55C\uB2E4 \uBB34\uB824"
+    - "\uD558\uD2B8 1\uAC1C\uB97C \uB354\uD574\uC90C"
+    ItemAnimator: {fileID: 22100000, guid: e47ef89cd23e03948879936f7b350ece, type: 2}
   - AbilitySO: {fileID: 11400000, guid: 2a40ee570a309f14091f8d80a12e37b4, type: 2}
-    ItemName: "\uD5C8\uAC70\uB369"
-    CardEnum: 1
+    ItemName: "\uC18C\uC778\uAD6D"
+    CardEnum: 0
     ItemDescriptions:
-    - "10% \uD30C\uACA9\uC138\uC77C"
-    - "\uB9E4\uC6B0 \uD5C8\uAC70\uB369\uC774\uB2E4;;"
+    - "\uB2F9\uC2E0\uC758 \uD06C\uAE30\uB97C \uC904\uC5EC\uC90D\uB2C8\uB2E4"
+    - "10\uCD08\uAC04 \uC9C0\uC18D\uB429\uB2C8\uB2E4"
+    ItemAnimator: {fileID: 22100000, guid: b55c06717f315434c9541b491c6c1602, type: 2}
   cardShopAnim: {fileID: 690611391}
 --- !u!4 &690611390
 Transform:

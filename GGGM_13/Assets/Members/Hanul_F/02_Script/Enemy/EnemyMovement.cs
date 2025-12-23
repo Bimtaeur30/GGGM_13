@@ -21,15 +21,6 @@ public class EnemyMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    void Start()
-    {
-        Vector2 dir = (Vector2)transform.position - (Vector2)center.transform.position;
-        angle = Mathf.Atan2(dir.y, dir.x);
-
-        transform.localScale = new Vector3(size, size, size);
-        spriteRenderer.sortingOrder = -1;
-    }
-
     void Update()
     {
         size = Mathf.Clamp(size + 0.3f * Time.deltaTime, 0.2f, 1f);
@@ -75,5 +66,15 @@ public class EnemyMovement : MonoBehaviour
 
         float rotZ = Mathf.Atan2(tangent.y, tangent.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
+    }
+
+    public void Setting(GameObject center)
+    {
+        this.center = center;
+        Vector2 dir = (Vector2)transform.position - (Vector2)center.transform.position;
+        angle = Mathf.Atan2(dir.y, dir.x);
+
+        transform.localScale = new Vector3(size, size, size);
+        spriteRenderer.sortingOrder = -1;
     }
 }
