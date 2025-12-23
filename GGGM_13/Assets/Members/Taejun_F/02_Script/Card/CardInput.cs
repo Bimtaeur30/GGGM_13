@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System;
+using System.Net.NetworkInformation;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -14,6 +15,7 @@ public class CardInput : MonoBehaviour,
     private LayoutElement le;
 
     private bool _isPlaying = false;
+
     public bool canSelect = true;
 
     private void Awake()
@@ -51,21 +53,13 @@ public class CardInput : MonoBehaviour,
     public void HandleExit()
     {
         if (canSelect == false) return;
-        //_isPlaying = true;
-        //Action onPlayComplete = () => _isPlaying = false;
 
         onMouseImage.SetActive(false);
         animator.StopHover();
 
         DOTween.Kill(le); // 중복 Tween 방지
 
-        le
-            .DOPreferredSize(
-                new Vector2(250f, le.preferredHeight),
-                0.2f
-            )
-            .SetEase(Ease.OutQuad);
-
+        le.DOPreferredSize(new Vector2(250f, le.preferredHeight),0.2f).SetEase(Ease.OutQuad);
     }
 
     public void OnPointerClick(PointerEventData eventData)

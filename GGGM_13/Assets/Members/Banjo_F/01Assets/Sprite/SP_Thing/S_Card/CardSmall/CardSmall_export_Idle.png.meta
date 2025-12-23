@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 1f714abe2c227b2419e652807f7f2556
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6035243434663787770
+    second: CardSmall_export_Idle_0
+  - first:
+      213: 153448847097754954
+    second: CardSmall_export_Idle_1
+  - first:
+      213: 904923978749259566
+    second: CardSmall_export_Idle_2
+  - first:
+      213: -6899949381682132509
+    second: CardSmall_export_Idle_3
+  - first:
+      213: -1887945637221584639
+    second: CardSmall_export_Idle_4
+  - first:
+      213: 231612464208243874
+    second: CardSmall_export_Idle_5
+  - first:
+      213: 7956203079159392659
+    second: CardSmall_export_Idle_6
+  - first:
+      213: -3170925707265432792
+    second: CardSmall_export_Idle_7
+  - first:
+      213: -515540417526483351
+    second: CardSmall_export_Idle_8
+  - first:
+      213: -4803993992529718720
+    second: CardSmall_export_Idle_9
+  - first:
+      213: -8202949860676619129
+    second: CardSmall_export_Idle_10
+  - first:
+      213: 8349950984934855003
+    second: CardSmall_export_Idle_11
+  - first:
+      213: -3931455530387443834
+    second: CardSmall_export_Idle_12
+  - first:
+      213: 8461898635313547762
+    second: CardSmall_export_Idle_13
+  - first:
+      213: 2009056658733328137
+    second: CardSmall_export_Idle_14
+  - first:
+      213: 7997988772157515634
+    second: CardSmall_export_Idle_15
+  - first:
+      213: -3133776772443878430
+    second: CardSmall_export_Idle_16
+  - first:
+      213: -5001584050201362653
+    second: CardSmall_export_Idle_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcb4208ded71c350800000000000000
+      internalID: 6035243434663787770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 227
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a457476d9e8212200800000000000000
+      internalID: 153448847097754954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 227
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f251e609fee8c00800000000000000
+      internalID: 904923978749259566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 227
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e909a848947e30a0800000000000000
+      internalID: -6899949381682132509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 227
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101b82a127bacc5e0800000000000000
+      internalID: -1887945637221584639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac6fae1f4ad63300800000000000000
+      internalID: 231612464208243874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 152
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3992a26fb8c1a6e60800000000000000
+      internalID: 7956203079159392659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 152
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8232a499edb9ef3d0800000000000000
+      internalID: -3170925707265432792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 152
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9663af1c8be68d8f0800000000000000
+      internalID: -515540417526483351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 152
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042d72c9ae8c45db0800000000000000
+      internalID: -4803993992529718720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784b7041094492e80800000000000000
+      internalID: -8202949860676619129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 77
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5117fc4e2cf0e370800000000000000
+      internalID: 8349950984934855003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 77
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fe20d560aa079c0800000000000000
+      internalID: -3931455530387443834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 77
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f90a3bc9f3be6570800000000000000
+      internalID: 8461898635313547762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 77
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907ee6df26a91eb10800000000000000
+      internalID: 2009056658733328137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277e202c9609efe60800000000000000
+      internalID: 7997988772157515634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebcc1101a69284d0800000000000000
+      internalID: -3133776772443878430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardSmall_export_Idle_17
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ffc7d4ecdc69ab0800000000000000
+      internalID: -5001584050201362653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c3c9336621d095d49825c05f434c931d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CardSmall_export_Idle_0: 6035243434663787770
+      CardSmall_export_Idle_1: 153448847097754954
+      CardSmall_export_Idle_10: -8202949860676619129
+      CardSmall_export_Idle_11: 8349950984934855003
+      CardSmall_export_Idle_12: -3931455530387443834
+      CardSmall_export_Idle_13: 8461898635313547762
+      CardSmall_export_Idle_14: 2009056658733328137
+      CardSmall_export_Idle_15: 7997988772157515634
+      CardSmall_export_Idle_16: -3133776772443878430
+      CardSmall_export_Idle_17: -5001584050201362653
+      CardSmall_export_Idle_2: 904923978749259566
+      CardSmall_export_Idle_3: -6899949381682132509
+      CardSmall_export_Idle_4: -1887945637221584639
+      CardSmall_export_Idle_5: 231612464208243874
+      CardSmall_export_Idle_6: 7956203079159392659
+      CardSmall_export_Idle_7: -3170925707265432792
+      CardSmall_export_Idle_8: -515540417526483351
+      CardSmall_export_Idle_9: -4803993992529718720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

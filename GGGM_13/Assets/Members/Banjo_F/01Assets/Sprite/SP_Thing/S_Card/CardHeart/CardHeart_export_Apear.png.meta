@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 31640c62460d78b4d9b810e1f2a80678
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5809651656605708531
+    second: CardHeart_export_Apear_0
+  - first:
+      213: 1215375740808887359
+    second: CardHeart_export_Apear_1
+  - first:
+      213: -4867016464600746649
+    second: CardHeart_export_Apear_2
+  - first:
+      213: -5977553631657854025
+    second: CardHeart_export_Apear_3
+  - first:
+      213: 8546872359425991074
+    second: CardHeart_export_Apear_4
+  - first:
+      213: 4288716937175245826
+    second: CardHeart_export_Apear_5
+  - first:
+      213: -4094700391834619792
+    second: CardHeart_export_Apear_6
+  - first:
+      213: -2235603531198878199
+    second: CardHeart_export_Apear_7
+  - first:
+      213: 1375498142747920164
+    second: CardHeart_export_Apear_8
+  - first:
+      213: 4611973267550402146
+    second: CardHeart_export_Apear_9
+  - first:
+      213: -2446416390326602604
+    second: CardHeart_export_Apear_10
+  - first:
+      213: -4783817997422022042
+    second: CardHeart_export_Apear_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f03ebc966700a050800000000000000
+      internalID: 5809651656605708531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 178
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c7a830cc1edd010800000000000000
+      internalID: 1215375740808887359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 178
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765be7fdf42e47cb0800000000000000
+      internalID: -4867016464600746649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 178
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbff2774a67b0da0800000000000000
+      internalID: -5977553631657854025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1e03ca0279c9670800000000000000
+      internalID: 8546872359425991074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 90
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204288ee455948b30800000000000000
+      internalID: 4288716937175245826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 90
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0707b0330b3bc27c0800000000000000
+      internalID: -4094700391834619792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 90
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e2840ee6a89f0e0800000000000000
+      internalID: -2235603531198878199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42703bbe540c61310800000000000000
+      internalID: 1375498142747920164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26670f56045010040800000000000000
+      internalID: 4611973267550402146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_10
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494b3e131459c0ed0800000000000000
+      internalID: -2446416390326602604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CardHeart_export_Apear_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 2
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6623a8980e67c9db0800000000000000
+      internalID: -4783817997422022042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 688f29290f259924cb6b5b0ba6522d6f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CardHeart_export_Apear_0: 5809651656605708531
+      CardHeart_export_Apear_1: 1215375740808887359
+      CardHeart_export_Apear_10: -2446416390326602604
+      CardHeart_export_Apear_11: -4783817997422022042
+      CardHeart_export_Apear_2: -4867016464600746649
+      CardHeart_export_Apear_3: -5977553631657854025
+      CardHeart_export_Apear_4: 8546872359425991074
+      CardHeart_export_Apear_5: 4288716937175245826
+      CardHeart_export_Apear_6: -4094700391834619792
+      CardHeart_export_Apear_7: -2235603531198878199
+      CardHeart_export_Apear_8: 1375498142747920164
+      CardHeart_export_Apear_9: 4611973267550402146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

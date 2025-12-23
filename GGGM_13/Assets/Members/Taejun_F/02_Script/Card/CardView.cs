@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using System.Text;
 using UnityEngine.UI;
+using UnityEditor.Animations;
 
 public class CardView : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class CardView : MonoBehaviour
     {
         RectTransform[] aaa = new RectTransform[3] {itemPriceTxt.rectTransform, itemNameTxt.rectTransform, itemDescTxt.rectTransform };
         cardAnimatorCs.Init(aaa);
+    }
+
+    public void SetAnimator(AnimatorOverrideController ani)
+    {
+        animator.runtimeAnimatorController = ani;
     }
 
     public void SetUI(CardData data)
