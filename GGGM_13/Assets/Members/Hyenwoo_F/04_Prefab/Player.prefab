@@ -263,11 +263,13 @@ MonoBehaviour:
   _groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  jumpPower: 6
+  jumpPower: 10
   jumpGaugeChargeTime: 0.2
   <MaxJumpGauge>k__BackingField: 4
   _landingParticle: {fileID: 3018568131087155384}
   _runParticle: {fileID: 0}
+  normalGravity: 1
+  jumpUpGravity: 3
 --- !u!114 &1749851916969535997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,7 +282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 041d4e1a6914dac43b449087c336d7fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MaxHp>k__BackingField: 3
+  <MaxHp>k__BackingField: 20
   <Hp>k__BackingField: 0
 --- !u!114 &7161845144031531598
 MonoBehaviour:
@@ -360,6 +362,7 @@ MonoBehaviour:
   sizeDown: {fileID: 11400000, guid: 731456591203ee84bb05d9ea4d8efa8d, type: 2}
   normalHelmet: {fileID: 11400000, guid: f283805334170264c84e3d3f8f6ad489, type: 2}
   ironHelmet: {fileID: 11400000, guid: 6e9d3f1d4761fa74684a1130b68bf654, type: 2}
+  invincibility: {fileID: 11400000, guid: 0b2f13c9049bf6942b07439d647f10e2, type: 2}
 --- !u!114 &5231513629272540130
 MonoBehaviour:
   m_ObjectHideFlags: 0
