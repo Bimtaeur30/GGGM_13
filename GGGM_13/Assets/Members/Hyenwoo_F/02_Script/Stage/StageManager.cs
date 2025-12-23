@@ -11,6 +11,20 @@ public class StageManager : MonoBehaviour
     private float currentNextTime;
     private float timer = 0;
 
+    private float addMax = 0.5f;
+    private float addmin = 0.3f;
+    private float adddecrase = 0.1f;
+
+    //추가되는 최고 속도
+    public float AddMax => addMax;
+    
+    //추가되는 최소 속도
+
+    public float AddMin => addmin;
+
+    // 추가되는 감소치
+    public float AddDecrase => adddecrase;
+
     public event Action<int> _onNextStage;
     public event Action<int> _onChangeBestStage;
     private YHWPlayer player;
@@ -50,6 +64,7 @@ public class StageManager : MonoBehaviour
     private void NextStage()
     {
         CurrentStage++;
+        SpwanBullet.Instance.AddSpeed(addMax,addmin,adddecrase);
         if (BestStage < CurrentStage)
         {
             BestStage = CurrentStage;

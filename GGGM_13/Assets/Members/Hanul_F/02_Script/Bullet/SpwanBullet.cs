@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SpwanBullet : MonoBehaviour
@@ -9,21 +10,24 @@ public class SpwanBullet : MonoBehaviour
 
     [SerializeField] private GameObject BulletPreFab;
     [SerializeField] private GameObject center;
-    private float addSpeed = 0f;
+    private float addMaxSpeed = 0f;
+    private float addminSpeed = 0f;
+    private float adddecrase = 0f;
 
-    public float AddSpeed
+    /// <summary>
+    /// AddSpeed 함수는 SO에 있는 데이터 대신하여 작동하는 것이 아닌 SO + 지금 까지의 AddSpeed한 값을 정산하여 추가하는 값입니다.
+    /// 예 AddSpeed(1,2,3), AddSpeed(1,2,3) 총 값은 2,4,6입니다. 
+    /// </summary>
+    /// <param name="추가할 최대속도값"></param>
+    /// <param name="추가할 최소속도값"></param>
+    /// <param name="추가할 감소값"></param>
+    public void AddSpeed(float addMaxSpeed, float addminSpeed, float adddecrase)
     {
-        get
-        {
-            return addSpeed;
-        }
+        this.adddecrase += adddecrase;
+        this.addMaxSpeed += addMaxSpeed;
+        this.addminSpeed += addminSpeed;
+    }
 
-        set
-        {
-            addSpeed += value;
-            addSpeed = Mathf.Clamp(addSpeed,0,100f);
-        }
-    } 
 
     private void Awake()
     {
@@ -38,7 +42,11 @@ public class SpwanBullet : MonoBehaviour
     {
         BulletTrajectoryDataSO ran = bulletTrajectoryDataSOs[Random.Range(0,bulletTrajectoryDataSOs.Count)];
         IBullet bullet = Instantiate(BulletPreFab, firePos.position,firePos.rotation , gameObject.transform).GetComponent<IBullet>();
+        float min = Mathf.Clamp(ran.MinSpeed + addminSpeed,ran.MinSpeed,6f);
+        float max = Mathf.Clamp(ran.bulletSpeed + addMaxSpeed,ran.bulletSpeed,8f);
+        float decrease = Mathf.Clamp(ran.Decrease +  adddecrase,ran.Decrease,3.5f);
+
         bullet.SetCenter(center);
-        bullet.SetSpeed(ran.MinSpeed,ran.bulletSpeed + addSpeed,ran);
+        bullet.SetSpeed(min,max,decrease,ran);
     }
 }

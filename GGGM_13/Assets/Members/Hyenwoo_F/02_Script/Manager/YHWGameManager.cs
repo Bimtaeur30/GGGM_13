@@ -6,6 +6,7 @@ public class YHWGameManager : MonoBehaviour
     [field:SerializeField] public Camera MainCamera { get; private set; }
     [SerializeField] public ParticleSystem healParticle;
     [SerializeField] public ParticleSystem sizeDownParticle;
+    [SerializeField] public ParticleSystem helmetBrokenParticle;
     public static YHWGameManager Instance { get; private set; }
 
     private void Awake()

@@ -4,12 +4,13 @@ using UnityEngine;
 public class PlayerAbility : MonoBehaviour
 {
     private YHWPlayer player;
-    private SizeDown sizeDown;
-    private EquipNormalHelmet normalHelmet;
-    private EquipIronHelmet ironHelmet;
+    [SerializeField] private SizeDown sizeDown;
+    [SerializeField] EquipNormalHelmet normalHelmet;
+    [SerializeField] private EquipIronHelmet ironHelmet;
 
     private void Start()
     {
+        player = YHWGameManager.Instance.Player.GetComponent<YHWPlayer>();
         sizeDown._onSizeDown += PlayerSizeDown;
         normalHelmet._onEquipHelmet += () => player.HeadCollider.GetComponent<PlayerHitBox>().SetLeather();
         ironHelmet._onEquipIronHelmet += () => player.HeadCollider.GetComponent<PlayerHitBox>().SetIron();

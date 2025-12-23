@@ -35,6 +35,7 @@ public class CardShop : MonoBehaviour
         });
 
         cardShopAnim.CardCloseDown();
+        data.AbilitySO.Excute();
     }
 
     public void RollShop()
