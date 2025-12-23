@@ -123,7 +123,7 @@ MonoBehaviour:
   radius: 2.5
   speed: 1.2
   maxSize: 0.6
-  size: 0.05
+  size: 0.25
 --- !u!114 &7057834297498253081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,7 +238,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.65, y: 2.52}
+  m_Size: {x: 1.65, y: 1.81}
   m_EdgeRadius: 0
 --- !u!95 &1494371173679827084
 Animator:

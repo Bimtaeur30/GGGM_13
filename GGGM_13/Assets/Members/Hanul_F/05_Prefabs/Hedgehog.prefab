@@ -123,7 +123,7 @@ MonoBehaviour:
   radius: 2.5
   speed: 0.95
   maxSize: 0.7
-  size: 0.25
+  size: 0.26
 --- !u!114 &793805636045305319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,7 +199,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.11, y: 0.25}
+  m_Offset: {x: -0.07, y: 0.25}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.47, y: 0.35}
@@ -209,7 +209,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.54, y: 1.36}
+  m_Size: {x: 1.52, y: 0.98}
   m_EdgeRadius: 0
 --- !u!114 &-5406098321388788603
 MonoBehaviour:
