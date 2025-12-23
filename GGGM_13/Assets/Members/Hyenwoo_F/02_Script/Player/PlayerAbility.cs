@@ -7,6 +7,7 @@ public class PlayerAbility : MonoBehaviour
     [SerializeField] private SizeDown sizeDown;
     [SerializeField] EquipNormalHelmet normalHelmet;
     [SerializeField] private EquipIronHelmet ironHelmet;
+    [SerializeField] private Invincibility invincibility;
 
     private void Start()
     {
@@ -14,6 +15,7 @@ public class PlayerAbility : MonoBehaviour
         sizeDown._onSizeDown += PlayerSizeDown;
         normalHelmet._onEquipHelmet += () => player.HeadCollider.GetComponent<PlayerHitBox>().SetLeather();
         ironHelmet._onEquipIronHelmet += () => player.HeadCollider.GetComponent<PlayerHitBox>().SetIron();
+        invincibility._onInvincibility += PlayerInvibility;
     }
 
     public void PlayerSizeDown(float downSize, float time)
@@ -27,5 +29,17 @@ public class PlayerAbility : MonoBehaviour
         yield return new WaitForSeconds(time);
         gameObject.transform.localScale = new Vector3(1, 1, 0);
 
+    }
+
+    public void PlayerInvibility(float time)
+    {
+        StartCoroutine(Invincibility(time));
+    }
+
+    private IEnumerator Invincibility(float time)
+    {
+        player.HPCompo.SetInvincibility(true);
+        yield return new WaitForSeconds(time);
+        player.HPCompo.SetInvincibility(false);
     }
 }

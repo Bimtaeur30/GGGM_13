@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf1ba24b0953e7a448cee80a74e3943e, type: 3}
-  m_Name: SizeDown
+  m_Script: {fileID: 11500000, guid: bf2d1836581535d459bb3215d3125e71, type: 3}
+  m_Name: Invincibility
   m_EditorClassIdentifier: 
-  downSize: 0.5
-  applicationTime: 10
+  _applicationTime: 5
