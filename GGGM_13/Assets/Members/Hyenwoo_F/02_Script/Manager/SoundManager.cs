@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
@@ -39,7 +40,6 @@ public class SoundManager : MonoBehaviour
         foreach (SFX item in Enum.GetValues(typeof(SFX)))
         {
             sfxDictionary[item] = sfxList[i];
-            Debug.Log(i);
             i++;
         }
         /*i = 0;
@@ -75,18 +75,16 @@ public class SoundManager : MonoBehaviour
 
 public enum SFX
 { 
-    //GameStart,
     GameOver,
     PlayerHit,
-    //PlayerJump,
+    PlayerJump,
     PlayerLanding, 
     PlayerRun,
     JumpSloatCharge,
     GunFiring, 
     GunExplosion,
     CardUp,
-    //CardSelect,
-    //ButtonSelect,
+    ButtonSelect,
     ButtonClick
 }
 

@@ -83,6 +83,7 @@ public class GunFiring : MonoBehaviour
     private void Fire()
     {
         _onAttack?.Invoke();
+        SoundManager.Instance.PlaySound(SFX.GunFiring);
         SpwanBullet.Instance.Ctrate(_firePos);
     }
 

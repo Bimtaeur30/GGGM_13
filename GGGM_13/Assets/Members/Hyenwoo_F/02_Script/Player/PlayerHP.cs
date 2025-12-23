@@ -7,6 +7,7 @@ public class PlayerHP : MonoBehaviour
     [field:SerializeField] public int MaxHp { get; private set; }
     [field:SerializeField] public int Hp { get; private set; }
     private CinemachineImpulseSource impulseSource;
+    private bool _isInvincibility;
 
     public event Action _onDamage;
     public event Action _onDie;
@@ -33,6 +34,9 @@ public class PlayerHP : MonoBehaviour
 
     public void GetDamage(int value)
     {
+        if (_isInvincibility)
+            return;
+
         Hp -= value;
         impulseSource.GenerateImpulse();
         if (Hp <= 0)
@@ -48,5 +52,10 @@ public class PlayerHP : MonoBehaviour
         Hp += 1;
         Hp = Mathf.Clamp(Hp, 0, MaxHp);
         _onHeal?.Invoke();
+    }
+
+    public void SetInvincibility(bool value)
+    {
+        _isInvincibility = value;
     }
 }
