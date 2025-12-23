@@ -10,7 +10,7 @@ public class PlayerHP : MonoBehaviour
 
     public event Action _onDamage;
     public event Action _onDie;
-    public event Action<int> _onHeal;
+    public event Action _onHeal;
 
     private void Awake()
     {
@@ -42,10 +42,10 @@ public class PlayerHP : MonoBehaviour
         _onDamage?.Invoke();
     }
 
-    public void GetHeal(int value)
+    public void GetHeal()
     {
-        Hp += value;
+        Hp += 1;
         Hp = Mathf.Clamp(Hp, 0, MaxHp);
-        _onHeal?.Invoke(value);
+        _onHeal?.Invoke();
     }
 }
