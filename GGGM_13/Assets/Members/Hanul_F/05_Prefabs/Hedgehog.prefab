@@ -35,8 +35,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -120,10 +120,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   center: {fileID: 0}
-  radius: 2.25
-  speed: 1.2
+  radius: 2.5
+  speed: 0.9
   maxSize: 0.7
-  size: 0.2
+  size: 0.25
 --- !u!114 &793805636045305319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -202,14 +202,14 @@ BoxCollider2D:
   m_Offset: {x: 0.11, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.34}
-    oldSize: {x: 2.625, y: 2.125}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.75, y: 1.3125}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.2, y: 3.23}
+  m_Size: {x: 2.2, y: 1.36}
   m_EdgeRadius: 0
 --- !u!114 &-5406098321388788603
 MonoBehaviour:
@@ -225,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onAnimalDied: {fileID: 11400000, guid: 7dd53fff39a706545bec8b490c8f2879, type: 2}
   DamgeParticle: {fileID: 2197837509953950380, guid: 603ca578a528969469d4e0e1a8013af5, type: 3}
+  duration: 0.3
 --- !u!95 &6322794749456704902
 Animator:
   serializedVersion: 7
