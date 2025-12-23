@@ -6,12 +6,15 @@ public abstract class Enemy : MonoBehaviour
 {
     protected HealthSystem health;
     protected EnemyMovement enemyMovement;
+
+    protected Animator animator;
     [SerializeField] private EventChannelSO onAnimalDied;
 
     protected virtual void Awake()
     {
         health = GetComponent<HealthSystem>();
         enemyMovement = GetComponent<EnemyMovement>();
+        animator = GetComponent<Animator>();
         health._onDie += HandleDie;
         health._onDamage += HandleDamge;
     }
