@@ -1707,12 +1707,14 @@ MonoBehaviour:
   sfxList:
   - {fileID: 8300000, guid: bb83c6776ffe6534db7715b824b7f9d6, type: 3}
   - {fileID: 8300000, guid: c3b34ee89c8256d4fa2ea18391c92ae9, type: 3}
+  - {fileID: 8300000, guid: b5660e6853a74cf448b0088c0231d535, type: 3}
   - {fileID: 8300000, guid: 0adfca22c84495b40b51b4f2d1b40b07, type: 3}
   - {fileID: 8300000, guid: 9b0c704bd05be184ea64aca30bf6693e, type: 3}
   - {fileID: 8300000, guid: 5df6d6c60c29bbd4082e231ffd1e4767, type: 3}
   - {fileID: 8300000, guid: ceee8151fbb2c5946834f961ed898d8a, type: 3}
   - {fileID: 8300000, guid: 5f032506f68bc6e4c82744e758ee7ba1, type: 3}
   - {fileID: 8300000, guid: fa89f65a292d2ca4ab88bc29f7ad04fc, type: 3}
+  - {fileID: 8300000, guid: 970e35f214da0104fba6778bf35d3406, type: 3}
   - {fileID: 8300000, guid: fdb552e4cafd6244f9b3d46c7a8978b1, type: 3}
   bgmList: []
 --- !u!4 &1320667993
